@@ -41,5 +41,5 @@ Este curso desarrollará los conocimientos necesarios para el tratamiento de se�
 - Moisés Meza
 - José Alonso Cáceres
 - Julissa Venancio
-
-
+### Lenguaje de programacion y colaboradores:
+-Python , gib
