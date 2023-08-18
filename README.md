@@ -7,6 +7,7 @@ Bienvenidos al repositorio  del Grupo 3 del curso Introducción a señales biom�
 
 - [Objetivo del curso](#Objetivo_del_curso).
 - [Integrantes del proyecto](#Integrantes_del_proyecto).
+- [Foto grupal](#Foto_grupal).
 - [Temática del proyecto](#Temática_del_proyecto).
 - [Docentes del curso](#Docentes_del_curso).
 
@@ -24,17 +25,11 @@ Este curso desarrollará los conocimientos necesarios para el tratamiento de se�
 
 ### Foto grupal
 
-<image src ='fotogrupal.jpeg'> 
+<image src ="Imagen/fotogrupal.jpeg"> 
 
 ### Temática del proyecto
 
-```plain
-
-- Esto es viñeta 1.
-  - Viñeta 1.1 con sangria.
-  - Viñeta N.
-  
-```
+Realizar un proyecto  que realice una  medición  y/o análisis de señales eléctricas  de Electromiografía  obtenidas en una persona para fines médicos (tratamiento,diagnóstico , seguimiento) . 
 
 ### Docentes del curso
 - Umbert Lewis De La Cruz
