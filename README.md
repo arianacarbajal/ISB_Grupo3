@@ -1,2 +1,2 @@
 # ISB_Grupo3
-Bienvenidos al repositorio  del Grupo 3 de curso Introducción a señales biomédicas
+Bienvenidos al repositorio  del Grupo 3 del curso Introducción a señales biomédicas
