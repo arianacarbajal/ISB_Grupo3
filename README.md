@@ -32,15 +32,16 @@ El curso consta de 3 unidades principales
  - Unidad 3: Introducción a la informática biomédica
 
 ### Materiales del curso
-| Material  | Descripción |
-| ------------- | ------------- |
-| Arduino Nano 33 IoT  | Es una placa específicamente diseñada para aplicaciones IoT y se basa en un potente procesador SAMD21 a 48Mhz con 256 Kb de memoria Flash para el programa y 32 Kb de memoria SRAM.  |
-| Fluke ProSim 4  | Es un simulador de paciente que imita los signos vitales del paciente como la presion arterial , frecuencia cardiáca y la respiración , para ayudar en el entrenamiento y prueba de equipos medicos   |
-| BITalino  |  Este es el kit de herramientas para  crear prototipos y aplicaciones utilizando sensores fisiológicos para obtener señales biomédicos como ECG y EMG   |
+| Material  | Descripción | Imagen |
+| ------------- | ------------- |------------- |
+| Arduino Nano 33 IoT  | Es una placa específicamente diseñada para aplicaciones IoT y se basa en un potente procesador SAMD21 a 48Mhz con 256 Kb de memoria Flash para el programa y 32 Kb de memoria SRAM.  |<image src ="Imagen/arduino-nano-33-iot.webp">  |
+| Fluke ProSim 4  | Es un simulador de paciente que imita los signos vitales del paciente como la presion arterial , frecuencia cardiáca y la respiración , para ayudar en el entrenamiento y prueba de equipos medicos   |<image src ="Imagen/descarga.jfif"> |
+| BITalino  |  Este es el kit de herramientas para  crear prototipos y aplicaciones utilizando sensores fisiológicos para obtener señales biomédicos como ECG y EMG   |<image src ="Imagen/prosim.jpeg"> |
 
 ### Temática del proyecto
 
 Realizar un proyecto  que realice una  medición  y/o análisis de señales eléctricas  de Electromiografía  obtenidas en una persona para fines médicos (tratamiento,diagnóstico , seguimiento) . 
+
 
 ### Metodología del proyecto
 1. Adquisición de la señal electromiográfica obtenida .
@@ -54,7 +55,7 @@ Realizar un proyecto  que realice una  medición  y/o análisis de señales elé
 - Ariana Carbajal (colaborador) - ariana.carbajal@upch.pe 
 - Natalia Galindo Concha (colaborador) - natalia.galindo@upch.pe 
 - Gianfranco Fabian Feria Maquera (colaborador) - gianfranco.feria@upch.pe 
-- Eduardo André Cuti Riveros (colaborador) ,  eduardo.cuti@upch.pe 
+- Eduardo André Cuti Riveros (colaborador) -  eduardo.cuti@upch.pe 
 
 ### Foto grupal
 
