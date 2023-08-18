@@ -42,7 +42,6 @@ El curso consta de 3 unidades principales
 
 Realizar un proyecto  que realice una  medición  y/o análisis de señales eléctricas  de Electromiografía  obtenidas en una persona para fines médicos (tratamiento,diagnóstico , seguimiento) . 
 
-![2011-7531-sun-34-03-753-gf1](https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/6c8c4787-de52-4fc6-af87-a7dd40ecfcd5)
 
 ### Metodología del proyecto
 1. Adquisición de la señal electromiográfica obtenida .
