@@ -24,7 +24,7 @@ Este curso desarrollará los conocimientos necesarios para el tratamiento de se�
 
 ### Foto grupal
 
-<image src ='fotogrupal'> 
+<image src ='fotogrupal.jpeg'> 
 
 ### Temática del proyecto
 
