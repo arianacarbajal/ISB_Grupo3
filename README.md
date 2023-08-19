@@ -82,7 +82,7 @@ Por ello  la importancia del proyecto ya que busca lograr una captura precisa de
 [1] Procesamiento y Clasificación de Bioseñales con Inteligencia Computacional. (s.f.). SMIA. http://smia.mx/comia/2017/index.php?option=com_content&amp;view=article&amp;id=12&amp;Itemid=127
 
 [2] Resolución directoral, 132-2021-SA-DG-INR, Ministerio de Salud - Instituto Nacional de Rehabilitación, Lima, 2021. Accedido el 18 de agosto de 2023. [En línea]. Disponible: https://www.inr.gob.pe/transparencia/transparencia%20inr/resoluciones/2021/RD%20132-2021-SA-DG-INR.pdf
-
+ 
 [3] Unanyan, N. N., & Belov, A. A. (2021). “Design of upper limb prosthesis using real-time motion detection method based on EMG signal processing”. Biomedical Signal Processing and Control, 70, 103062. doi:10.1016/j.bspc.2021.103062 
 
 [4] Bi, L., Feleke, A. >Genetu, & Guan, C. (2019). A review on EMG-based motor intention prediction of continuous human upper limb motion for human-robot collaboration. Biomedical Signal Processing and Control, 51, 113–127. doi:10.1016/j.bspc.2019.02.011 
