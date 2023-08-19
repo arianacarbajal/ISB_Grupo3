@@ -13,13 +13,14 @@ Proyecto: Analizando señales de un electromiograma (EMG)
 - [Integrantes del proyecto](#Integrantes_del_proyecto).
 - [Foto grupal](#Foto_grupal).
 - [Temática del proyecto](#Temática_del_proyecto).
+- [Justificación del proyecto](#Justificación_del_proyecto).
 - [Metodología del proyecto](#Metodología).
 - [Docentes del curso](#Docentes_del_curso).
 - [Bibliografía](#Bibliografía).
 
 ### ¿Qué es una bioseñal?
 
-El término Bioseñal se aplica a todos los tipos de señales que pueden ser medidas y controladas continuamente en los seres biológicos y se refiere tanto a bioseñales eléctricas como no eléctricas. Entre las  bioseñales eléctricas más conocidas se tienen a los electroencefalogramas (EEG), magnetoencefalogramas (MEG) y electrocardiogramas. [1]
+El término Bioseñal se aplica a todos los tipos de señales que pueden ser medidas y controladas continuamente en los seres biológicos y se refiere tanto a bioseñales eléctricas como no eléctricas. Entre las  bioseñales eléctricas más conocidas se tienen a los electroencefalogramas (EEG), magnetoencefalogramas (MEG) y electrocardiogramas(ECG). [1]
 
 ### Objetivo del curso
 
@@ -40,21 +41,24 @@ El curso consta de 3 unidades principales
 
 ### Temática del proyecto
 
-Realizar un proyecto  que realice una  medición  y/o análisis de señales eléctricas  de Electromiografía  obtenidas en una persona para fines médicos (tratamiento,diagnóstico , seguimiento) . 
+El proyecto tiene como objetivo adquirir, procesar y analizar  señales EMG de antebrazo para simular movimientos en una  prótesis  electrónica y funcional de bajo costo para un paciente con amputación transradial debido a accidentes mayoritariamente laborales
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-![2011-7531-sun-34-03-753-gf1](https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/6c8c4787-de52-4fc6-af87-a7dd40ecfcd5)
->>>>>>> b5c09a382017fd54ada1e18b1ee29fea424db833
-=======
->>>>>>> 69d94537c61c7f27fb1fa4313d301897143e4991
+### Justificación del proyecto
+
+La OMS declara  que al año se realizan más de 1 millón de amputaciones, a su vez, según el INR, las amputaciones de miembros superiores representan el 14% de los casos, con mayor incidencia en países de medios a bajos ingresos y en personas jóvenes de alrededor  de 34 años.[2]
+
+Se han identificado obstáculos en el avance de las prótesis controladas por señales EMG para amputaciones como en los casos presentados . La optimización de la usabilidad y la funcionalidad, el aseguramiento de una alta fiabilidad de la señal  y la obtención de una respuesta rápida de la prótesis son desafíos fundamentales que podrían abordarse mediante posibles soluciones. Enfocarse en estos aspectos permitirá el desarrollo de prótesis más eficaces y accesibles, con el potencial de mejorar significativamente la calidad de vida de los usuarios. [3]
+Por ello  la importancia del proyecto ya que busca lograr una captura precisa de las señales EMG el cual es un aspecto esencial para crear prótesis eficientes y funcionales que marquen una diferencia en el desarrollo de soluciones innovadoras. [4]
+
+
 
 ### Metodología del proyecto
-1. Adquisición de la señal electromiográfica obtenida .
-2. Filtrado del ruido de la señal
-3. Análisis de la señal para la investigación .
-4. Resultados preliminares.
+1. Adquisición de la señal electromiográfica del antebrazo
+2. Procesamiento de señal en Phyton
+3. Aplicación de filtros digitales a la señal
+4. Análisis de la señal para simular movimientos en la prótesis. 
+5.  Obtención de resultados preliminares.
+6.  Documentación de la investigación.
 
 
 ### Integrantes del proyecto
@@ -68,8 +72,6 @@ Realizar un proyecto  que realice una  medición  y/o análisis de señales elé
 
 <image src ="Imagen/fotogrupal.jpeg"> 
 
-
-
 ### Docentes del curso
 - Umbert Lewis De La Cruz
 - Moisés Meza
@@ -78,3 +80,9 @@ Realizar un proyecto  que realice una  medición  y/o análisis de señales elé
 
 ### Bibliografía
 [1] Procesamiento y Clasificación de Bioseñales con Inteligencia Computacional. (s.f.). SMIA. http://smia.mx/comia/2017/index.php?option=com_content&amp;view=article&amp;id=12&amp;Itemid=127
+
+[2] Resolución directoral, 132-2021-SA-DG-INR, Ministerio de Salud - Instituto Nacional de Rehabilitación, Lima, 2021. Accedido el 18 de agosto de 2023. [En línea]. Disponible: https://www.inr.gob.pe/transparencia/transparencia%20inr/resoluciones/2021/RD%20132-2021-SA-DG-INR.pdf
+
+[3] Unanyan, N. N., & Belov, A. A. (2021). “Design of upper limb prosthesis using real-time motion detection method based on EMG signal processing”. Biomedical Signal Processing and Control, 70, 103062. doi:10.1016/j.bspc.2021.103062 
+
+[4] Bi, L., Feleke, A. >Genetu, & Guan, C. (2019). A review on EMG-based motor intention prediction of continuous human upper limb motion for human-robot collaboration. Biomedical Signal Processing and Control, 51, 113–127. doi:10.1016/j.bspc.2019.02.011 
