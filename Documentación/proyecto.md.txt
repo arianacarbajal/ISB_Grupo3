@@ -50,6 +50,14 @@ Por lo que se concluyó la siguiente propuesta de solución:
  
 “Adquisición, procesamiento, filtrado  y evaluación de señal EMG para analizar la gravedad de la atrofia muscular y verificar si la señal es apta para control de una prótesis mioeléctrica transradial”.
 
+Metodología del proyecto
+1.Elección del sensor : 
+Se utilizará el sensor  muscular MyoWare . El sensor amplifica y procesa la compleja actividad eléctrica de un músculo y la convierte en una señal analógica simple que puede ser leída fácilmente por cualquier microcontrolador con un convertidor de analógico a digital (ADC).
+La señal registrada  puede ser utilizada para controlar diversos dispositivos como prótesis, sillas de ruedas, automatismos, etc. 
+2. Adquisición de la señal electromiográfica :
+ Se realizará mediante la colocación de electrodos superficiales .Luego de la obtención se realizará el filtrado , amplificado y  rectificación  de onda completa.Se utilizará el lenguaje de programación Python.
+4.Procesamiento de la señal EMG: 
+Una vez, obtenidas las señales EMG de un músculo en específico,  movimientos característicos se procederá a  extraer sus características para su posterior clasificación. Se evaluará la amplitud y la claridad de los picos obtenidos para determinar si el sensor está posicionado en una zona  del músculo que no presenta daños significativos como para alterar la lectura del patrón de movimiento que se quiso realizar. Para ello se utilizarán diferentes técnicas de procesamiento a fin de extraer los patrones de movimientos entre ellos se podria utilizar la Transformada de Fourier y la Transformada de Wavelet.  
 
 
 
