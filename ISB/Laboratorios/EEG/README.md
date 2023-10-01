@@ -564,6 +564,19 @@ Se ve que los picos más prominentes están en frecuencias cercanas a 0 y que no
 
 Obtuvimos la señal durante el ejercicio del parpadeo con el bitalino. Si bien se puede observar mayores amplitudes en los momentos de parpadeo, estas no son tan marcadas como idealmente se hubiera querido obtener, principalmente por el posicionamiento de los electrodos, ya que la mayor actividad se da en la región occipital debido a la cercanía de los músculos y movimientos oculares[b], sin embargo si es posible detectar picos de mayor amplitud cada aproximadamente 5 segundos y se puede comparar con las señales obtenidas en otro estudio[c] donde se realizó un filtrado más complejo y en la zona occipital pero se muestra que los mayores picos son los indicadores de actividad y que esta mayor amplitud es el indicador utilizado pues no hay características propias del parpadeo.
 
+![Imagen5](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/3d8a796d-0bdd-423c-adc4-a1d3e2bde0ab)
+
+Señal EEG referencial de parpadeo [c]
+
+
+<table>
+  <tr>
+    <td><img src="https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/e30fc67a-4fc4-4b80-af1f-cb76ee5060bb" alt="Image 1"></td>
+    <td><img src="https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/ca9f1625-129c-493f-8e1c-c5040ccf14ee" alt="Image 2"></td>
+  </tr>
+</table>
+
+Para el análisis en frecuencia, si bien pueden haber cambios en las ondas beta(13-30Hz), los cambios más significativos son en las ondas alfa, (8-13Hz) y los vemos en ambas gráficas aunque más pronunciados en Voluntario 2. Vemos que esos picos se presentan de forma simétrica. Poder distinguir estos cambios es complicado debido a los distintos estímulos a los cuales el voluntario esté sometido pues dependiendo de la imagen o sonidos al que se esté sometiendo, las gráficas variarán significativamente[d].
 
 
 
