@@ -546,16 +546,22 @@ Filtro pasa baja en 20Hz (orden 2):
 Se aplicó un filtro pasa baja con una frecuencia de corte de 20 Hz y un bajo orden de 2. La elección de este filtro se basa en la necesidad de atenuar gradualmente las frecuencias más altas presentes en la señal del ECG. Al utilizar un filtro de orden 2, se logra un decaimiento suave de las componentes de alta frecuencia, permitiendo así que se reduzca el ruido de alta frecuencia sin eliminar abruptamente información relevante en la señal. Este enfoque es beneficioso para preservar la forma de onda característica del ECG mientras se elimina el ruido de alta frecuencia, lo que facilita la identificación precisa de los eventos cardíacos.[7]
 
 ### Explicación de las señales
-[SEÑALES ANTES DEL EJERCICIO]
 
-En las imágenes de reposos podemos ver los segmentos distintivos de un ecg.
-Primero el pico P de la despolarización auricular, cuyo eje forma un ángulo de aproximadamente 45°, por lo que tenemos una señal normal. Después, el segmento PR, del comienzo de despolarización auricular y ventricular,  en esta señal, aunque no es muy clara debido a ruido de la señal el cual se mezcla con la señal P y R que tienen una baja amplitud, se tiene una duración de aproximadamente 0.18s, lo cual demuestra una paso auriculoventricular adecuado[4]. También vemos el complejo QRS de la despolarización ventricular, donde vemos primero la onda Q, con una duración de 0.04s, valor normal en la primera derivación. el pico más grande el cual es conocido como onda R(despolarización ventricular). El cual es más prominente debido a la mayor cantidad de masa muscular en los ventrículos[8]. La amplitud en esta primera derivación es alrededor de 0.52mV y tiene una duración de 0.09s, lo cual indica un valor normal en las derivaciones y por lo cual se puede descartar la hipertrofia auricular[9]. Después la onda S que representa la despolarización de la parte alta del tabique y siempre es una onda negativa. Después se tiene el segmento ST, que se encuentra en la línea basal. Si bien, el ruido no permite una correcta visualización de este segmento, se puede observar una ligera depresión, lo cual podría indicar hipopotasemia o arritmia ligera, entre otros. Por último, podemos ver la onda T, que refleja la repolarización ventricular, la cual no parece tener una forma de pico muy pronunciada, buen síntoma[4]. También tenemos la onda U, aunque de por si la amplitud es muy pequeña y sumando el ruido, su distinción es complicada.
+![Imagen3](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/c2bfb3b1-38e5-462d-9917-ee99ed8799d5)
 
-[SEÑALES DESPUÉS DEL EJERCICIO]
+Tenemos las dos señales en reposo de los voluntarios. Se puede observar que el primero, tiene una mayor amplitud en el reposo, por lo que vemos que tuvo una mayor actividad ya que le costaba mantenerse en reposo absoluto. Sin embargo, en ambas señales vemos una amplitud pequeña propia de las ondas de baja amplitud alfa y theta, las cuales son propias de un estado de reposo[a].
 
-Ahora tenemos la onda captada después de la actividad física, para poder captar algún efecto funcional debido a la demanda metabólica del ejercicio.
-Lo primero que podemos notar es un acortamiento característico entre los intervalos debido al aumento de la frecuencia cardiaca, el ligero aumento de la onda P y R y la disminución de la amplitud en la onda T, también la desviación a la derecha de QRS debido al movimiento realizado. También, algo importante a notar es que no existe una elevación del segmento ST en reposo, ni una depresión después del ejercicio, por lo que no se tiene una repolarización temprana. Esto es importante ya que según Gallo-Villegas et al.[10], depresiones mayores a 0.1mV, se tiene una probabilidad de alrededor de 60% de presentar una enfermedad coronaria, y es un mayor indicador si se tiene una depresión con descenso constante, a una llana.
- Algo poco usual en nuestros resultados son los bpm. Nosotros registramos valores de 100 y 96bpm en los sujetos, obteniendo un valor ligeramente más pequeño en una persona más acostumbrada al ejercicio, sin embargo ambos valores, si bien dentro de lo normal, están al límite superior de lo normal[11], a lo que podríamos atribuir estrés en los participantes o talvez algún error en el escalamiento de la señal. Después de eso, como ya se mencionó, los resultados encontrados son bastante normales. Podemos comparar los resultados obtenidos con los de un estudio similar en donde se recolectó las señales ECG pre o post ejercicio de 40 burpees[12]. En este, la frecuencia cardiaca promedio de los participantes fue menor(70.83bpm) en reposo pero los valores después de ejercicio son de 143bpm, valor bastante cercano a los encontrados por nosotros(156, 144 bpm), sobretodo a una persona con mayor entrenamiento, debido a que el corazón está acostumbrado a mayor esfuerzo por lo que la variación de bpm es menor que los registrados en la bibliografía. Finalmente vemos que, con el estudio mencionado, verificamos que las variaciones obtenidas están dentro de lo normal, disminución del segmento ST, Q
+![Imagen4](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/d82f7a80-90c9-4770-825a-757ca0453690)
+
+Se ve que los picos más prominentes están en frecuencias cercanas a 0 y que no existe una actividad superior a los 30Hz[c], lo cual indicaría que el paciente ya no está en reposo, que siente algún dolor, está realizando algún esfuerzo o algún suceso inesperado.
+
+![download (3)](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/900d3844-85d4-46a0-a9bb-21eb4e68453f)
+![download (4)](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/0e83a43a-0ba5-4f75-89b4-47fff416cb55)
+
+Obtuvimos la señal durante el ejercicio del parpadeo con el bitalino. Si bien se puede observar mayores amplitudes en los momentos de parpadeo, estas no son tan marcadas como idealmente se hubiera querido obtener, principalmente por el posicionamiento de los electrodos, ya que la mayor actividad se da en la región occipital debido a la cercanía de los músculos y movimientos oculares[b], sin embargo si es posible detectar picos de mayor amplitud cada aproximadamente 5 segundos y se puede comparar con las señales obtenidas en otro estudio[c] donde se realizó un filtrado más complejo y en la zona occipital pero se muestra que los mayores picos son los indicadores de actividad y que esta mayor amplitud es el indicador utilizado pues no hay características propias del parpadeo.
+
+
+
 
 ### Artefactos que pueden afectar la señal ECG 
 Según ese análisis en este paper [13], se demuestra que una mala ubicación de los electrodos en el torso puede provocar la modificación de las señales adquiridas, errores de diagnóstico y una mala interpretación de la información de la señal. 
@@ -650,12 +656,5 @@ Se visualiza que la señal obtenida de los participantes comparada   con la enco
 [14] . MEASUREMENT SCIENCE REVIEW. https://www.measurement.sk/2013/Buczkowski.pdf(2013)
 
 [15]An Investigation on the Effect of Extremely Low Frequency Pulsed Electromagnetic Fields on Human Electrocardiograms (ECGs). (s.f.). MDPI. https://www.mdpi.com/1660-4601/13/11/1171
-Análisis de las señales obtenidas
 
-![Imagen3](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/c2bfb3b1-38e5-462d-9917-ee99ed8799d5)
 
-Tenemos las dos señales en reposo de los voluntarios. Se puede observar que el primero, tiene una mayor amplitud en el reposo, por lo que vemos que tuvo una mayor actividad ya que le costaba mantenerse en reposo absoluto. Sin embargo, en ambas señales vemos una amplitud pequeña propia de las ondas de baja amplitud alfa y theta, las cuales son propias de un estado de reposo[a].
-
-![Imagen4](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/d82f7a80-90c9-4770-825a-757ca0453690)
-
-Se ve que los picos más prominentes están en frecuencias cercanas a 0 y que no existe una actividad superior a los 30Hz[c], lo cual indicaría que el paciente ya no está en reposo, que siente algún dolor, está realizando algún esfuerzo o algún suceso inesperado.
