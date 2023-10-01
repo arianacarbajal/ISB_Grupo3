@@ -547,6 +547,8 @@ Se aplicó un filtro pasa baja con una frecuencia de corte de 20 Hz y un bajo or
 
 ### Explicación de las señales
 
+REPOSO
+
 ![Imagen3](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/c2bfb3b1-38e5-462d-9917-ee99ed8799d5)
 
 Tenemos las dos señales en reposo de los voluntarios. Se puede observar que el primero, tiene una mayor amplitud en el reposo, por lo que vemos que tuvo una mayor actividad ya que le costaba mantenerse en reposo absoluto. Sin embargo, en ambas señales vemos una amplitud pequeña propia de las ondas de baja amplitud alfa y theta, las cuales son propias de un estado de reposo[a].
@@ -557,8 +559,14 @@ Se ve que los picos más prominentes están en frecuencias cercanas a 0 y que no
 
 <table>
   <tr>
-    <td><img src="https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/900d3844-85d4-46a0-a9bb-21eb4e68453f" alt="Image 1"></td>
-    <td><img src="https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/0e83a43a-0ba5-4f75-89b4-47fff416cb55" alt="Image 2"></td>
+    <td>
+      <img src="https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/900d3844-85d4-46a0-a9bb-21eb4e68453f" alt="Voluntario 1: Señal en parpadeo">
+      <p>Image 1</p>
+    </td>
+    <td>
+      <img src="https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/0e83a43a-0ba5-4f75-89b4-47fff416cb55" alt="Voluntario 2: Señal en parpadeo">
+      <p>Image 2</p>
+    </td>
   </tr>
 </table>
 
