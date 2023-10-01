@@ -561,11 +561,11 @@ Se ve que los picos más prominentes están en frecuencias cercanas a 0 y que no
   <tr>
     <td>
       <img src="https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/900d3844-85d4-46a0-a9bb-21eb4e68453f" alt="Voluntario 1: Señal en parpadeo">
-      <p>Image 1</p>
+      <p>Voluntario 2: Señal en parpadeo</p>
     </td>
     <td>
       <img src="https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/0e83a43a-0ba5-4f75-89b4-47fff416cb55" alt="Voluntario 2: Señal en parpadeo">
-      <p>Image 2</p>
+      <p>Voluntario 2: Señal en parpadeo</p>
     </td>
   </tr>
 </table>
@@ -576,11 +576,16 @@ Obtuvimos la señal durante el ejercicio del parpadeo con el bitalino. Si bien s
 
 Señal EEG referencial de parpadeo [c]
 
-
 <table>
   <tr>
-    <td><img src="https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/e30fc67a-4fc4-4b80-af1f-cb76ee5060bb" alt="Image 1"></td>
-    <td><img src="https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/ca9f1625-129c-493f-8e1c-c5040ccf14ee" alt="Image 2"></td>
+    <td>
+      <img src="https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/e30fc67a-4fc4-4b80-af1f-cb76ee5060bb" alt="Voluntario 1: Señal en parpadeo">
+      <p>Voluntario 1: FFT en parpadeo</p>
+    </td>
+    <td>
+      <img src="[https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/0e83a43a-0ba5-4f75-89b4-47fff416cb55](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/ca9f1625-129c-493f-8e1c-c5040ccf14ee)" alt="Voluntario 2: Señal en parpadeo">
+      <p>Voluntario 2: FFT en parpadeo</p>
+    </td>
   </tr>
 </table>
 
