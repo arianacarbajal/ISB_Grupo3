@@ -1,4 +1,4 @@
-# Laboratorio 4: Adquisición ECG Bitalino
+# Laboratorio 4: Adquisición EEG Bitalino y Ultracortex
 ## Tabla de contenidos:
 * [Objetivos](#objetivos)
 * [Materiales y equipos](#materiales-y-equipos)
