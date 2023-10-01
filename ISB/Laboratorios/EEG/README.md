@@ -577,7 +577,7 @@ Tenemos las dos señales en reposo de los voluntarios. Se puede observar que el 
   </tr>
 </table>
 
-Se ve que los picos más prominentes están en frecuencias cercanas a 0 y que no existe una actividad superior a los 30Hz[c], lo cual indicaría que el paciente ya no está en reposo, que siente algún dolor, está realizando algún esfuerzo o algún suceso inesperado.
+Se ve que los picos más prominentes están en frecuencias cercanas a 0 y que no existe una actividad superior a los 30Hz[c], lo cual indicaría que el paciente ya no está en reposo, que siente algún dolor, está realizando algún esfuerzo o algún suceso inesperado. Específicamente, en los momentos de relajación, sin atención, baja concentración y con los ojos cerrados; las ondas esperadas son las alfa, las cuales se encuentran entre los 8-13Hz, por lo que vemos una mayor amplitud en este rango, incluso podemos visualizar ondas theta, las cuales son propias del pasaje de la consciencia al sueño[e].
 
 PARPADEO
 
@@ -603,11 +603,11 @@ Señal EEG referencial de parpadeo [c]
 <table>
   <tr>
     <td>
-      <img src="https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/e30fc67a-4fc4-4b80-af1f-cb76ee5060bb" alt="Voluntario 1: Señal en parpadeo">
+      <img src="https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/e30fc67a-4fc4-4b80-af1f-cb76ee5060bb" alt="Voluntario 1: FFT en parpadeo">
       <p>Voluntario 1: FFT en parpadeo</p>
     </td>
     <td>
-      <img src="[https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/0e83a43a-0ba5-4f75-89b4-47fff416cb55]" alt="Voluntario 2: Señal en parpadeo">
+      <img src="[https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/0e83a43a-0ba5-4f75-89b4-47fff416cb55]" alt="Voluntario 2: FFT en parpadeo">
       <p>Voluntario 2: FFT en parpadeo</p>
     </td>
   </tr>
