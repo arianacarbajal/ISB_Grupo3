@@ -1,5 +1,10 @@
 
 Análisis de las señales obtenidas
+
 ![Imagen3](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/c2bfb3b1-38e5-462d-9917-ee99ed8799d5)
 
 Tenemos las dos señales en reposo de los voluntarios. Se puede observar que el primero, tiene una mayor amplitud en el reposo, por lo que vemos que tuvo una mayor actividad ya que le costaba mantenerse en reposo absoluto. Sin embargo, en ambas señales vemos una amplitud pequeña propia de las ondas de baja amplitud alfa y theta, las cuales son propias de un estado de reposo[a].
+
+![Imagen4](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/d82f7a80-90c9-4770-825a-757ca0453690)
+
+Se ve que los picos más prominentes están en frecuencias cercanas a 0 y que no existe una actividad superior a los 30Hz[c], lo cual indicaría que el paciente ya no está en reposo, que siente algún dolor, está realizando algún esfuerzo o algún suceso inesperado.
