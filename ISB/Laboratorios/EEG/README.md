@@ -549,13 +549,37 @@ Se aplicó un filtro pasa baja con una frecuencia de corte de 20 Hz y un bajo or
 
 REPOSO
 
-![Imagen3](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/c2bfb3b1-38e5-462d-9917-ee99ed8799d5)
+<table>
+  <tr>
+    <td>
+      <img src="[https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/b72f0270-10ff-4f28-899a-5bce54f55b70]" alt="Voluntario 1: Señal en parpadeo">
+      <p>Voluntario 1: Reposo</p>
+    </td>
+    <td>
+      <img src="[https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/3f973d3b-2f97-4b05-ab69-5ae278c6322f]" alt="Voluntario 2: Señal en parpadeo">
+      <p>Voluntario 2: Reposo</p>
+    </td>
+  </tr>
+</table>
 
 Tenemos las dos señales en reposo de los voluntarios. Se puede observar que el primero, tiene una mayor amplitud en el reposo, por lo que vemos que tuvo una mayor actividad ya que le costaba mantenerse en reposo absoluto. Sin embargo, en ambas señales vemos una amplitud pequeña propia de las ondas de baja amplitud alfa y theta, las cuales son propias de un estado de reposo[a].
 
-![Imagen4](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/d82f7a80-90c9-4770-825a-757ca0453690)
+<table>
+  <tr>
+    <td>
+      <img src="[https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/45c92565-b233-4955-9533-788d6f59b3e0]" alt="Voluntario 1: Señal en parpadeo">
+      <p>Voluntario 1: FFT Normalizada en reposo</p>
+    </td>
+    <td>
+      <img src="[https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/3f973d3b-2f97-4b05-ab69-5ae278c6322f]" alt="Voluntario 2: Señal en parpadeo">
+      <p>Voluntario 2: FFT Normalizada en reposo</p>
+    </td>
+  </tr>
+</table>
 
 Se ve que los picos más prominentes están en frecuencias cercanas a 0 y que no existe una actividad superior a los 30Hz[c], lo cual indicaría que el paciente ya no está en reposo, que siente algún dolor, está realizando algún esfuerzo o algún suceso inesperado.
+
+PARPADEO
 
 <table>
   <tr>
@@ -583,13 +607,14 @@ Señal EEG referencial de parpadeo [c]
       <p>Voluntario 1: FFT en parpadeo</p>
     </td>
     <td>
-      <img src="[https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/0e83a43a-0ba5-4f75-89b4-47fff416cb55](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/ca9f1625-129c-493f-8e1c-c5040ccf14ee)" alt="Voluntario 2: Señal en parpadeo">
+      <img src="[https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/0e83a43a-0ba5-4f75-89b4-47fff416cb55]" alt="Voluntario 2: Señal en parpadeo">
       <p>Voluntario 2: FFT en parpadeo</p>
     </td>
   </tr>
 </table>
 
 Para el análisis en frecuencia, si bien pueden haber cambios en las ondas beta(13-30Hz), los cambios más significativos son en las ondas alfa, (8-13Hz) y los vemos en ambas gráficas aunque más pronunciados en Voluntario 2. Vemos que esos picos se presentan de forma simétrica. Poder distinguir estos cambios es complicado debido a los distintos estímulos a los cuales el voluntario esté sometido pues dependiendo de la imagen o sonidos al que se esté sometiendo, las gráficas variarán significativamente[d].
+
 
 
 
