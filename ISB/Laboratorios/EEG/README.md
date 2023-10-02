@@ -615,6 +615,8 @@ Señal EEG referencial de parpadeo [c]
 
 Para el análisis en frecuencia, si bien pueden haber cambios en las ondas beta(13-30Hz), los cambios más significativos son en las ondas alfa, (8-13Hz) y los vemos en ambas gráficas aunque más pronunciados en Voluntario 2. Vemos que esos picos se presentan de forma simétrica. Poder distinguir estos cambios es complicado debido a los distintos estímulos a los cuales el voluntario esté sometido pues dependiendo de la imagen o sonidos al que se esté sometiendo, las gráficas variarán significativamente[d].
 
+PROBLEMAS MATEMÁTICOS
+
 <p float="left">
   <img src="https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/41110d8b-1928-4863-9ed8-de3781449f01" width="400" />
   <br />
@@ -640,8 +642,22 @@ Para el análisis en frecuencia, si bien pueden haber cambios en las ondas beta(
 
 Tenemos las señales de los voluntarios mientras resolvían ejercicios matemáticos. En esas señales vemos amplitudes mucho mayores a las obtenidas en reposo y mayores a las de parpadeo, ya que la exigencia de la resolución de problemas requiere una activación global del cerebro. Este aumento de amplitud también puede ser debido al posicionamiento de los electrodos, los cuales estaban en el lóbulo frontal ya que esta zona suele activarse cuando una persona intenta resolver problemas[e], por lo que tenemos señales más fuertes.
 
+<p float="left">
+  <img src="https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/748de7f7-9279-40b5-ba2f-7e0c07d487ac" width="400" />
+  <br />
+  Voluntario 1: FFT resolviendo problemas matemáticos
+</p>
+
+<p float="left">
+  <img src="https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/32046faf-a329-457e-992c-3cf9a10fc817" width="400" />
+  <br />
+  Voluntario 2: FFT resolviendo problemas matemáticos
+</p>
+
+En los espectros de frecuencia podemos visualizar un aumento en las ondas beta específicamente, las cuales se encuentran entre 14-26 Hz. Esto se esperaba ya que estas son las ondas que se suelen visualizar cuando uno intenta resolver problemas. fue importante asegurar que los participantes se mantuvieron en el mayor reposo posible ya que la actividad motora o la estimulación táctil pueden alterar el ritmo de las ondas beta[e].
 
 
+Entre los participantes, se pudo ver que el voluntario 1 tuvo mayor dificultad para mantenerse completamente relajado, por lo que las variaciones entre las amplitudes de los tres ejercicios no es tan notoria como las del voluntario 2, donde el parpadeo cuadruplica la señal de reposo y los ejercicios matemáticos duplican el anterior, lo cual podría ser por problemas de estrés, concentración y por factores externos como los estímulos externos del laboratorio debido a las actividades ruidosas o llamativas realizadas por otras personas presentes.También cabe resaltar que no hubo presencia significativa de frecuencias entre 31 y 50Hz ya que estas son las ondas "γ" y pueden ser indicadores de enfermedades cerebrales[e].
 
 
 
