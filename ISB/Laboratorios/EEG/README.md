@@ -615,6 +615,20 @@ Señal EEG referencial de parpadeo [c]
 
 Para el análisis en frecuencia, si bien pueden haber cambios en las ondas beta(13-30Hz), los cambios más significativos son en las ondas alfa, (8-13Hz) y los vemos en ambas gráficas aunque más pronunciados en Voluntario 2. Vemos que esos picos se presentan de forma simétrica. Poder distinguir estos cambios es complicado debido a los distintos estímulos a los cuales el voluntario esté sometido pues dependiendo de la imagen o sonidos al que se esté sometiendo, las gráficas variarán significativamente[d].
 
+<p float="left">
+  <img src="https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/41110d8b-1928-4863-9ed8-de3781449f01" width="400" />
+  <br />
+  Voluntario 1: Señal resolviendo problemas matemáticos
+</p>
+
+<p float="left">
+  <img src="https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/4a92620f-02d3-49e7-b9de-4f48bd811fa0" width="400" />
+  <br />
+  Voluntario 1: 5 segundos de señal resolviendo problemas matemáticos
+</p>
+
+![download (4) (1)](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/0556225d-8d3c-48ea-999d-690ed31fcdad)
+![download (5) (3)](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/905229c5-8675-4a6e-aac7-d5ac046629e1)
 
 
 
