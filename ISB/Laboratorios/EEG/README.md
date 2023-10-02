@@ -598,18 +598,17 @@ Obtuvimos la señal durante el ejercicio del parpadeo con el bitalino. Si bien s
 
 Señal EEG referencial de parpadeo [c]
 
-<table>
-  <tr>
-    <td>
-      <img src="https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/e30fc67a-4fc4-4b80-af1f-cb76ee5060bb" alt="Voluntario 1: FFT en parpadeo">
-      <p>Voluntario 1: FFT en parpadeo</p>
-    </td>
-    <td>
-      <img src="[https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/0e83a43a-0ba5-4f75-89b4-47fff416cb55]" alt="Voluntario 2: FFT en parpadeo">
-      <p>Voluntario 2: FFT en parpadeo</p>
-    </td>
-  </tr>
-</table>
+<p float="left">
+  <img src="https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/ba61adff-569f-44e1-a845-39405584a796" width="400" />
+  <br />
+  Voluntario 1: FFT resolviendo problemas matemáticos
+</p>
+
+<p float="left">
+  <img src="https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/4f130730-c764-474a-b818-5c8c8730ec91" width="400" />
+  <br />
+  Voluntario 2: FFT resolviendo problemas matemáticos
+</p>
 
 Para el análisis en frecuencia, si bien pueden haber cambios en las ondas beta(13-30Hz), los cambios más significativos son en las ondas alfa, (8-13Hz) y los vemos en ambas gráficas aunque más pronunciados en Voluntario 2. Vemos que esos picos se presentan de forma simétrica. Poder distinguir estos cambios es complicado debido a los distintos estímulos a los cuales el voluntario esté sometido pues dependiendo de la imagen o sonidos al que se esté sometiendo, las gráficas variarán significativamente[d].
 
