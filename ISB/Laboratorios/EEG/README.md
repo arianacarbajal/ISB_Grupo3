@@ -549,18 +549,17 @@ Se aplicó un filtro pasa baja con una frecuencia de corte de 20 Hz y un bajo or
 
 REPOSO
 
-<table>
-  <tr>
-    <td>
-      <img src="[https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/b72f0270-10ff-4f28-899a-5bce54f55b70]" alt="Voluntario 1: Señal en parpadeo">
-      <p>Voluntario 1: Reposo</p>
-    </td>
-    <td>
-      <img src="[https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/3f973d3b-2f97-4b05-ab69-5ae278c6322f]" alt="Voluntario 2: Señal en parpadeo">
-      <p>Voluntario 2: Reposo</p>
-    </td>
-  </tr>
-</table>
+<p float="left">
+  <img src="https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/fb782464-8619-407d-a656-7d9e40d90a12" width="400" />
+  <br />
+  Voluntario 1: Voluntario 1: Reposo
+</p>
+
+<p float="left">
+  <img src="https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/758b1c21-afbf-4990-a285-34d3ddd3e839" width="400" />
+  <br />
+  Voluntario 2: Voluntario 2: Reposo
+</p>
 
 Tenemos las dos señales en reposo de los voluntarios. Se puede observar que el primero, tiene una mayor amplitud en el reposo, por lo que vemos que tuvo una mayor actividad ya que le costaba mantenerse en reposo absoluto. Sin embargo, en ambas señales vemos una amplitud pequeña propia de las ondas de baja amplitud alfa y theta, las cuales son propias de un estado de reposo[a].
 
