@@ -2,7 +2,7 @@
 ## Tabla de contenidos:
 * [Objetivos](#objetivos)
 * [Materiales y equipos](#materiales-y-equipos)
-* [Electroencefalograma](#ecg)
+* [Electroencefalograma](#eeg)
 * [Entregables](#entregable)
   * [Fotos de conexión usada (Electrodos-cuerpo, BITalino-cables)](#conexión-usada)
   * [Video de señal](#video-de-señal)
@@ -46,10 +46,34 @@ La electroencefalografía (EEG) es una técnica no invasiva que utiliza electrod
 En los procedimientos de electroencefalografía, se colocan electrodos en el cuero cabelludo del paciente, que están conectados a un electroencefalógrafo. Durante el estudio, el paciente se encuentra en un estado de reposo y relajación, y se pueden realizar pruebas específicas, como la hiperventilación o la estimulación luminosa, para provocar respuestas anormales en el cerebro. Los resultados se registran en un electroencefalograma (EEG) y son evaluados por un especialista en neurofisiología clínica para identificar patrones anormales de actividad cerebral.
 
 El Electroencefalograma tiene como objetivo principal detectar anormalidades en las ondas cerebrales y la actividad eléctrica del cerebro. Su utilidad abarca la evaluación de una amplia gama de condiciones neurológicas, como epilepsia, trastornos mentales, parasomnias, encefalopatías metabólicas, demencia y convulsiones relacionadas con accidentes cerebrovasculares. Además, el EEG desempeña un papel valioso en la predicción del pronóstico en casos de lesiones cerebrales, traumatismos craneoencefálicos, muerte cerebral y toxicidad por medicamentos. Este procedimiento es esencial en la neurología y se utiliza tanto en la práctica clínica como en la investigación científica para comprender mejor la función cerebral y desarrollar terapias de neurorehabilitación basadas en la actividad cerebral. [9]
+### ¿Que podemos ver en una señal de EEG?
+Las ondas EEG se pueden clasificar segun:
+- Su frecuencia , la cantidad de veces que se repite en un segundo)
+- Su amplitud entre la linea base en 0 y el pico de la onda , la amplitud estara en uV
+- Su morfología
+
+  Se pueden identificar 5 ritmos clásicos en una onda EEG , como se aprecia en la figura:
+
+
+1. **Onda Alfa (8-13 Hz):** Aparece en estados de relajación con los ojos cerrados. Se bloquea al abrir los ojos o al concentrarse en tareas mentales. Indica la activación cortical, con asimetría común en el hemisferio derecho.
+
+2. **Onda Beta (13-30 Hz):** Presente en individuos despiertos y alertas con los ojos abiertos. Predominante en regiones frontales, asociado con actividad mental. Puede aumentar con estímulos táctiles y actividad motora contralateral.
+
+3. **Onda Theta (4-8 Hz):** Se registra en el sueño MOR y en niños despiertos hasta la adolescencia. Distribución en lóbulos temporales. Incluye Theta baja (4-6 Hz) relacionada con somnolencia y Theta alta (6-8 Hz) vinculada a la memoria de trabajo.
+
+4. **Onda Delta (0.5-4 Hz):** Dominante en etapas 3 y 4 del sueño. Anormal en adultos despiertos. En pediatría, puede indicar madurez cortical. Artefactos musculares pueden causar ondas similares.
+
+5. **Onda Gamma (30-50 Hz):** Asociada con actividad mental superior, percepción y conciencia. Desaparece bajo anestesia general. Refleja la integración de múltiples aspectos para formar una imagen coherente. [10]
+
+Estas ondas cerebrales proporcionan información importante sobre el estado mental y la actividad cerebral en diferentes contextos.
+![7a_1](https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/65236ac7-c0e7-40d9-af55-bb676a47cd52)
+Imagen: Ritmos clásicos que se evalúan en un EEG en la clínica [10]
 
 
 ## Procedimiento:
+
 ### Participantes :
+
 
 Se adquirieron señales  2 participantes para el laboratorio.
 
@@ -505,6 +529,8 @@ Por lo tanto, estas interferencias puede llegar a afectar la medicion de EEG;sin
 [8] A. Biasiucci, Benedetta Franceschiello, and M. M. Murray, “Electroencephalography,” Current Biology, vol. 29, no. 3, pp. R80–R85, Feb. 2019, doi: https://doi.org/10.1016/j.cub.2018.11.052. Available: https://pubmed.ncbi.nlm.nih.gov/30721678/. [Accessed: Oct. 02, 2023]
 ‌
 [9]Appaji Rayi and N. Murr, “Electroencephalogram,” Nih.gov, Oct. 03, 2022. Available: https://www.ncbi.nlm.nih.gov/books/NBK563295/. [Accessed: Oct. 02, 2023]
-‌
+
+[10]“Fisiología de la actividad eléctrica del cerebro: electroencefalografía | FISIOLOGÍA,” Unam.mx, 2013. Available: https://fisiologia.facmed.unam.mx/index.php/fisiologia-de-la-actividad-electrica-del-cerebro-electroencefalografia/. [Accessed: Oct. 02, 2023]
+‌‌
 
 
