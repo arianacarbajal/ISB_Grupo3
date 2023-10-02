@@ -132,11 +132,14 @@ Video de la señal en reposo:
 
 
 Video se señal en reposo participante 1
-https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/f9ae9e74-45ea-4248-8cdc-ead2fe69d33a
 
 
 
-<div align="center">
+
+https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/88ec58a6-4453-4862-91b4-6ae47cff550e
+
+
+
 
 Video de señal en reposo participante 2
 
