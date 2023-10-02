@@ -663,80 +663,37 @@ SEÑALES EN INTERFAZ DE ULTRACORTEX
 
 
 ### Interferencias  en la señal EEG .
-Existen diversas interferencias que pueden alterar la medición de un EEG. Entre las principales fuentes de estas  se encuentran : Movimientos musculares involuntarios, movimientos oculares y latidos del corazón. [2]
+Existen diversas interferencias que pueden alterar la medición de un EEG. Entre las principales fuentes de estas  se encuentran : Movimientos musculares involuntarios, movimientos oculares y latidos del corazón. [6]
 
 La existencia de estas fuentes inauténticas en prácticamente la totalidad de los sensores se origina debido a la rápida difusión de la actividad eléctrica en los tejidos.
-Una estrategia para reducir el impacto de esta interferencia implica la captura separada de estas señales contaminantes para posteriormente eliminarlas de la medición mediante el algoritmo BCA( métodos de Análisis de Componentes Acotadas). [2]
+Una estrategia para reducir el impacto de esta interferencia implica la captura separada de estas señales contaminantes para posteriormente eliminarlas de la medición mediante el algoritmo BCA( métodos de Análisis de Componentes Acotadas). [6]
+
+
 
 Por ejemplo, en estas gráficas (figura 2.2) se visualiza la interferencia  que se genera por movimientos oculares (como parpadeo) que se obtuvo mediante un algoritmo (BCA).
-
 
 
 <p align="center">
 <img src="algoritmo_BCA.png" align="center" />
 </p>
 
-
 <img src="https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/algoritmo_BCA.png" alt="Algoritmo BCA">
 
 
 
-Esta interferencia también se visualiza en el EEG  hallado en el laboratorio. En la figura 3, se  muestra la interferencia generada debido al parpadeo del   participante 2 , muy similar a la interferencia de la anterior figura. 
+Esta interferencia también se visualiza en el EEG  hallado en el laboratorio. En la figura 3, se  muestra la interferencia generada debido al parpadeo del   participante 2 , muy similar a la interferencia de la anterior figura.  [7]
 
 <p align="center">
 <img src="participante_2.png" align="center" />
 <img src="https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/participante_2.png" alt="Participante 2">
 </p>
 
-
+Por lo tanto, estas interferencias puede llegar a afectar la medicion de EEG;sin embargo, se pueden reducir estas realizando las mediciones un ambiente adecuado e instruyendo al participante que no realice otros movimientos que no sean los requeridos. Además, también se puede realizar algoritmos que permitan filtrar estos ruidos  [6]  para así obtener una señal de mejor calidad para su posterior análisis . 
 
 
 [1]“BITalino Lab Guides (Home Guides) – Support PLUX Biosignals official”. Support PLUX Biosignals official – Official PLUX support and biosignals knowledge base. Accedido el 1 de octubre de 2023. [En línea]. Disponible: https://support.pluxbiosignals.com/knowledge-base/bitalino-lab-guides/
 
 
-
-[2]Aguilera, P., Beeta, D., Sarmiento, A., & Fondón, I. Cancelación de interferencias en eeg mediante el análisis de componentes acotadas,Universidad de Sevilla, Sevilla, España, Accedido el 1 de octubre de 2023. [En línea]. Disponible:https://www.researchgate.net/profile/Pablo-Aguilera-6/publication/266896121_Cancelacion_de_interferencias_en_EEG_mediante_el_Analisis_de_Componentes_Acotadas/links/547f05490cf2c1e3d2dc392e/Cancelacion-de-interferencias-en-EEG-mediante-el-Analisis-de-Componentes-Acotadas.pdf
-
-
-### ¿ Que ocurre con el ECG cuando realizamos la medición  en una persona en reposo y  luego de realizar ejercicio? 
-
-Los dos participantes reposaron durante 2 min para luego realizarse la medición de ECG.Luego , ambos  participantes realizaron ejercicios de burpees durante 2 minutos, luego se  procedió a medir el ECG.El tipo de  ejercicio no influye significativamente a la medición de ECG ,ya que lo importante es que aumenten sus bpm-latidos por minuto(de 90 a 150 generalmente). 
- 
-A continuación se muestra las gráficas de ECG en reposo y luego de la actividad física  de los participantes.
-
-Participante 1 : Comparación de  ECG en reposo  y  ECG luego del ejercicio.
-<p align="center">
-<img src="Img_ecg/pip.jpg" align="center"/>
-</p>
-
-
-
-Participante 2 : Comparación de  ECG en reposo  y  ECG luego del ejercicio.
-
-<p align="center">
-<img src="Img_ecg/pep.jpg" align="center"/>
-</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-Participante  analizado del paper : Comparación  ECG en reposo y  ECG luego del ejercicio. [ 16] 
-<p align="center">
-<img src="Img_ecg/pap.jpg" align="center"/>
-</p>
-
-
-
-Se visualiza que la señal obtenida de los participantes comparada   con la encontrada en la literatura varían debido a muy probablemente a la colocación de los electrodos o efectos de electromagnetismo explicadas anteriormente. No obstante,sí  se puede llegar a visualizar que después del ejercicio en las 3 gráficas,, la frecuencia cardíaca aumenta, los intervalos PR y QT se acortan, la onda S se vuelve más prominente, la onda T es más pronunciada, acercándose incluso al pico de la onda R cuya amplitud también aumenta. [16] 
 
 
 
@@ -753,5 +710,5 @@ Se visualiza que la señal obtenida de los participantes comparada   con la enco
 
 [5] F. Vasconcellos, “Procesamiento de señales EEG Basado en Python - UMH,” UNIVERSIDAD MIGUEL HERNÁNDEZ DE ELCHE ESCUELA POLITÉCNICA SUPERIOR DE ELCHE, http://dspace.umh.es/bitstream/11000/26575/1/TFGVasconcellos%20Noailles%2c%20Fernando.pdf (accessed Oct. 2, 2023). 
 ‌
-
+[6]Aguilera, P., Beeta, D., Sarmiento, A., & Fondón, I. Cancelación de interferencias en eeg mediante el análisis de componentes acotadas,Universidad de Sevilla, Sevilla, España, Accedido el 1 de octubre de 2023. [En línea]. Disponible:https://www.researchgate.net/profile/Pablo-Aguilera-6/publication/266896121_Cancelacion_de_interferencias_en_EEG_mediante_el_Analisis_de_Componentes_Acotadas/links/547f05490cf2c1e3d2dc392e/Cancelacion-de-interferencias-en-EEG-mediante-el-Analisis-de-Componentes-Acotadas.pdf
 
