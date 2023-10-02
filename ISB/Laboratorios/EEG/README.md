@@ -97,10 +97,10 @@ El cable de 3 hilos se conecto al puerto 4 ya que se utilizara EEG en el laborat
 Para plotear  la señal obtenida, se utilizo el Bitalino para medicion de EEG [3]. 
 
 <p align="center">
-<img src="Img_ecg/elec.jpg" align="center" />
+ ![cc439b1a-0885-4f18-91d9-1b0945117d85](https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/674a1ec5-9329-4980-8df3-b2bba6951d81)
 
-<img src="https://github.com/arianacarbajal/ISB_Grupo3/blob/817e448d75c3dc40c041a78026f0e5bbb8b43369/ISB/Laboratorios/Imagenes/BITALINO.png" alt="Bitalino EEG">
-</p>
+![bfcd4547-22a0-4940-bb89-521ed47be1a2 png](https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/9b8c9e25-abd1-48a1-943d-231c867ae36f)
+
 
 
 Se posiciono el electrodo rojo con polaridad positiva en la parte izquierda de la frente , el electrodo negro con polaridad negativa en la parte derecha de la frente  y el electrodo de referencia blanco en la parte posterior de la oreja del participante.
