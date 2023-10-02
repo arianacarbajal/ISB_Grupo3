@@ -135,6 +135,7 @@ Para el Ultracortex se utilizó la configuracion 10 -20 de electrodos
 Utilizando como referencia la posición de electrodos de Ultracortex
 ![el](https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/0534ccb0-8a82-49b1-a8d2-c5be06e3e5ed)
 
+Imagen : Posición de electrodos 10-20 ultracortex [11]
 
 ### Procedimiento realizado de registro EEG
 1. Registrar una línea base de señal con poco ruido y sin movimientos (respiración normal,
@@ -539,5 +540,6 @@ Por lo tanto, estas interferencias puede llegar a afectar la medicion de EEG;sin
 
 [10]“Fisiología de la actividad eléctrica del cerebro: electroencefalografía | FISIOLOGÍA,” Unam.mx, 2013. Available: https://fisiologia.facmed.unam.mx/index.php/fisiologia-de-la-actividad-electrica-del-cerebro-electroencefalografia/. [Accessed: Oct. 02, 2023]
 ‌‌
-
+[11]“Ultracortex ‘Mark IV’ EEG Headset,” OpenBCI Online Store, 2015. Available: https://shop.openbci.com/products/ultracortex-mark-iv. [Accessed: Oct. 02, 2023]
+‌
 
