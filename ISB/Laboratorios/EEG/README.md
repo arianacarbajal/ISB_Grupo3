@@ -142,8 +142,6 @@ https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/c99df8ef-ecd4-4d8b-
 
 
 
-
-
 ### Gráficos OpenSignals
 
 Participante 1
@@ -153,15 +151,12 @@ Participante 1
 -Señal en reposo 2:
 ![rep](https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/f15ffd77-1b42-46dc-89b8-47a5209af18d)
 
-<p align="center">
-
-</p>
 
  - Señal  ejercios matematicos:
-<p align="center">
+
  ![mat](https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/e8f41b20-5a6c-4662-a7f9-f26aa884181a)
 
-</p>
+
 
 Participante 2
 - Señal reposo 1:
@@ -174,16 +169,13 @@ Participante 2
 -Señal en reposo 2:
 ![re2](https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/4df5f4b9-d64f-4b89-a9e4-e1a75c03afae)
 
-<p align="center">
 
-</p>
 
  - Señal  ejercios matematicos:
-<p align="center">
+
 ![ma](https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/b3e135fa-fc10-416d-88c3-139e6729126d)
 
 
-</p>
 
 Ultracortex:
 - Señal en reposo
