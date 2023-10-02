@@ -672,9 +672,6 @@ Una estrategia para reducir el impacto de esta interferencia implica la captura 
 Por ejemplo, en estas gráficas (figura 2.2) se visualiza la interferencia  que se genera por movimientos oculares (como parpadeo) que se obtuvo mediante un algoritmo (BCA).
 
 
-<p align="center">
-<img src="algoritmo_BCA.png" align="center" />
-</p>
 
 <img src="https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/algoritmo_BCA.png" alt="Algoritmo BCA">
 
@@ -682,9 +679,8 @@ Por ejemplo, en estas gráficas (figura 2.2) se visualiza la interferencia  que 
 
 Esta interferencia también se visualiza en el EEG  hallado en el laboratorio. En la figura 3, se  muestra la interferencia generada debido al parpadeo del   participante 2 , muy similar a la interferencia de la anterior figura.  [7]
 
-<p align="center">
-<img src="participante_2.png" align="center" />
-<img src="https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/participante_2.png" alt="Participante 2">
+
+<img src="https://github.com/arianacarbajal/ISB_Grupo3/blob/8debe27cbe1cad862cff05ff8cbded31493bda5c/ISB/Laboratorios/Imagenes/participante_2.png" alt="Participante 2">
 </p>
 
 Por lo tanto, estas interferencias puede llegar a afectar la medicion de EEG;sin embargo, se pueden reducir estas realizando las mediciones un ambiente adecuado e instruyendo al participante que no realice otros movimientos que no sean los requeridos. Además, también se puede realizar algoritmos que permitan filtrar estos ruidos  [6]  para así obtener una señal de mejor calidad para su posterior análisis . 
