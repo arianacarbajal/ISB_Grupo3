@@ -563,18 +563,17 @@ REPOSO
 
 Tenemos las dos señales en reposo de los voluntarios. Se puede observar que el primero, tiene una mayor amplitud en el reposo, por lo que vemos que tuvo una mayor actividad ya que le costaba mantenerse en reposo absoluto. Sin embargo, en ambas señales vemos una amplitud pequeña propia de las ondas de baja amplitud alfa y theta, las cuales son propias de un estado de reposo[a].
 
-<table>
-  <tr>
-    <td>
-      <img src="[https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/45c92565-b233-4955-9533-788d6f59b3e0]" alt="Voluntario 1: Señal en parpadeo">
-      <p>Voluntario 1: FFT Normalizada en reposo</p>
-    </td>
-    <td>
-      <img src="[https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/3f973d3b-2f97-4b05-ab69-5ae278c6322f]" alt="Voluntario 2: Señal en parpadeo">
-      <p>Voluntario 2: FFT Normalizada en reposo</p>
-    </td>
-  </tr>
-</table>
+<p float="left">
+  <img src="https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/b89e426c-906c-497a-82de-18e713e803c8" width="400" />
+  <br />
+  Voluntario 1: FFT  Normalizada
+</p>
+
+<p float="left">
+  <img src="https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/9f2d4a66-fcbd-4313-9cbd-e2ce0dda55b8" width="400" />
+  <br />
+  Voluntario 2: FFT  Normalizada
+</p>
 
 Se ve que los picos más prominentes están en frecuencias cercanas a 0 y que no existe una actividad superior a los 30Hz[c], lo cual indicaría que el paciente ya no está en reposo, que siente algún dolor, está realizando algún esfuerzo o algún suceso inesperado. Específicamente, en los momentos de relajación, sin atención, baja concentración y con los ojos cerrados; las ondas esperadas son las alfa, las cuales se encuentran entre los 8-13Hz, por lo que vemos una mayor amplitud en este rango, incluso podemos visualizar ondas theta, las cuales son propias del pasaje de la consciencia al sueño[e].
 
