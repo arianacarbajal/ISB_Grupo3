@@ -130,24 +130,20 @@ Se muestra  la señal en reposo absoluto
 
 Video de la señal en reposo:
 
+
+Video se señal en reposo participante 1
+https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/f9ae9e74-45ea-4248-8cdc-ead2fe69d33a
+
+
+
 <div align="center">
 
-[![Video EMG ](https://img.youtube.com/vi/2OWpv3OOGYY/mqdefault.jpg)](https://youtu.be/2OWpv3OOGYY)
+Video de señal en reposo participante 2
 
 
-Video de la señal despues de ejercicio:
-
-<p align="center">
+https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/46a67262-d40f-499e-aaa8-a56032407053
 
 
-
-[![Video EMG ](https://img.youtube.com/vi/14niZ4_Tip4/mqdefault.jpg)](https://youtu.be/14niZ4_Tip4)
-
-
-Es importante mencionar que no se esta apoyando el Bitalino en la mesa de las computadoras debido a que si estaba posicionado ahi , no se podia adquirir bien la señal , puede deberse al ruido electromagnético.
-
-
-</div>
 
 ### Gráficos OpenSignals
 Participante 1
