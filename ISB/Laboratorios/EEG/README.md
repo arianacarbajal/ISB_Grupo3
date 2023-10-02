@@ -626,9 +626,23 @@ Para el análisis en frecuencia, si bien pueden haber cambios en las ondas beta(
   <br />
   Voluntario 1: 5 segundos de señal resolviendo problemas matemáticos
 </p>
+<p float="left">
+  <img src="https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/0556225d-8d3c-48ea-999d-690ed31fcdad" width="400" />
+  <br />
+  Voluntario 2: Señal resolviendo problemas matemáticos
+</p>
 
-![download (4) (1)](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/0556225d-8d3c-48ea-999d-690ed31fcdad)
-![download (5) (3)](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/905229c5-8675-4a6e-aac7-d5ac046629e1)
+<p float="left">
+  <img src="https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/905229c5-8675-4a6e-aac7-d5ac046629e1" width="400" />
+  <br />
+  Voluntario 2: 5 segundos de señal resolviendo problemas matemáticos
+</p>
+
+Tenemos las señales de los voluntarios mientras resolvían ejercicios matemáticos. En esas señales vemos amplitudes mucho mayores a las obtenidas en reposo y mayores a las de parpadeo, ya que la exigencia de la resolución de problemas requiere una activación global del cerebro. Este aumento de amplitud también puede ser debido al posicionamiento de los electrodos, los cuales estaban en el lóbulo frontal ya que esta zona suele activarse cuando una persona intenta resolver problemas[e], por lo que tenemos señales más fuertes.
+
+
+
+
 
 
 
