@@ -89,8 +89,9 @@ Para el circuito , se hizo uso del cable de tres hilos con tres de los electrodo
 El cable de 3 hilos se conecto al puerto 4 ya que se utilizara EEG en el laboratorio . Por ultimo se conecto la bateria y se encendio el switch ON/OFF.
 
 <p align="center">
-<img src="Img_ecg/conec.jpg"align="center" />
 
+<img src="https://github.com/arianacarbajal/ISB_Grupo3/blob/817e448d75c3dc40c041a78026f0e5bbb8b43369/ISB/Laboratorios/Imagenes/BITALINO.png" alt="Bitalino EEG" align="center"/>
+</p>
 
 ### Conexión usada - electrodos:
 Para plotear  la señal obtenida, se utilizo el Bitalino para medicion de EEG [3]. 
