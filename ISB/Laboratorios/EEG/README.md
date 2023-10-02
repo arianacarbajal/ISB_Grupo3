@@ -316,36 +316,6 @@ plt.xlim(0, Fs/2)
 ```
 
 
-‌
-
-
-### Señales graficadas en Prosim
-- Señal de ejercicio completa:
-<p align="center">
-<img src="Img_ecg/ecg_ej/señalcompleta.png" align="center"/>
-</p>
-
- - Señal al incio de ejercicio  5 segundos:
-<p align="center">
-<img src="Img_ecg/ecg_ej/señal5sec.png" align="center"/>
-</p>
-
- -  Señal en los segundos 90_95 de ejercicio:
-<p align="center">
-<img src="Img_ecg/ecg_ej/señalfiltrada.png" align="center"/>
-</p>
-
- - FFT  de ejercicio en Hz :
-<p align="center">
-<img src="Img_ecg/ecg_ej/fft.png" align="center"/>
-</p>
-
-
-  - FFT  de ejercicio en DB  :
-<p align="center">
-<img src="Img_ecg/ecg_ej/fftDBsinfiltro.png" align="center"/>
-</p>
-
 ### Filtros empleados 
 Fue necesario aplicar filtros a nuestras señales adquiridas de EEG debido a la presencia de artefactos significativos en ellas. Para abordar esta distorsión, se exploraron diversas configuraciones de filtros que se adaptaran a las particularidades de las señales adquiridas. Se usó la información de la página de bitalino, sección EEG, rescatamos opciones de filtros recomendados [3], y en este escenario específico, optamos por utilizar tres tipos de filtros: un filtro pasa baja, un filtro pasa alta y un filtro notch.
 
