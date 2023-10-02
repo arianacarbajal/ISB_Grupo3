@@ -96,14 +96,17 @@ Para plotear  la señal obtenida, se colocó los electrodos en la posición que 
 <p align="center">
 <img src="Img_ecg/elec.jpg" align="center" />
 
+<img src="https://github.com/arianacarbajal/ISB_Grupo3/blob/817e448d75c3dc40c041a78026f0e5bbb8b43369/ISB/Laboratorios/Imagenes/BITALINO.png" alt="Bitalino EEG">
+</p>
 
 
 Se posiciono el electrodo rojo con polaridad positiva en la parte izquierda de la frente , el electrodo negro con polaridad negativa en la parte derecha de la frente  y el electrodo de referencia blanco en la parte posterior de la oreja del participante.
 
 Se muestran las conexiones en la siguiente figura:
 
+<img src="https://github.com/arianacarbajal/ISB_Grupo3/blob/817e448d75c3dc40c041a78026f0e5bbb8b43369/ISB/Laboratorios/Imagenes/COLOCACION%20ELECTRODOS.png" alt="Imagen de referencia ">
 <p align="center">
-<img src="Img_ecg/ele.jfif" align="center" />
+
 </p>
 
 
