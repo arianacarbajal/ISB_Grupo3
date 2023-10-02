@@ -102,7 +102,7 @@ Para plotear  la señal obtenida, se utilizo el Bitalino para medicion de EEG [3
 
 </p>
 
-Posicionamiento de electrodos para el participante 1 
+Posicionamiento de electrodos para el participante 1  
 <img src="https://github.com/arianacarbajal/ISB_Grupo3/blob/817e448d75c3dc40c041a78026f0e5bbb8b43369/ISB/Laboratorios/Imagenes/elec1.jpg" alt="Imagen de referencia ">
 <p align="center">
 
