@@ -99,7 +99,7 @@ Para plotear  la señal obtenida, se colocó los electrodos en la posición que 
 
 
 
-Se posiciono el electrodo rojo con polaridad positiva en la muñeca izquierda , el electrodo negro con polaridad negativa en la muñeca derecha y el electrodo de referencia blanco en la cresta iliaca del participante.
+Se posiciono el electrodo rojo con polaridad positiva en la parte izquierda de la frente , el electrodo negro con polaridad negativa en la parte derecha de la frente  y el electrodo de referencia blanco en la parte posterior de la oreja del participante.
 
 Se muestran las conexiones en la siguiente figura:
 
@@ -107,7 +107,6 @@ Se muestran las conexiones en la siguiente figura:
 <img src="Img_ecg/ele.jfif" align="center" />
 </p>
 
-Se utilizó la configuración bipolar de los electrones y se obtuvo la derivada 1 del ECG.
 
 Luego de ello , se conectó   el BiTalino por Bluetooth con el programa  OpenSignals para poder visualizar la señal deseada y se realizaron dos pruebas: una con el participante en reposo  y la segunda se realizo cuando el participante haya realizado 2 minutos de ejercicio .
 
