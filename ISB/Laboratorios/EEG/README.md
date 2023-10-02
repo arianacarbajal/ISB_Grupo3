@@ -189,9 +189,11 @@ Ultracortex:
 ### Archivos
 Por otro lado podemos encontrar los archivos de la informacion de las señales ploteadas 
 
--[Archivos txt de cada participante](https://github.com/arianacarbajal/ISB_Grupo3/tree/d909b519ee5c547a1c889af40f01fbb1b80932ce/ISB/Laboratorios/EEG/TXT)
+-[Archivos txt de cada participante]
+(https://github.com/arianacarbajal/ISB_Grupo3/tree/58c008bf54c4f06515acdc2d8f9a60d5dc3d2d3e/ISB/Laboratorios/EEG/TXT)
 
--[Archivos ipny con codigo de cada participante](https://github.com/arianacarbajal/ISB_Grupo3/tree/d909b519ee5c547a1c889af40f01fbb1b80932ce/ISB/Laboratorios/EEG/ipny)
+
+-[Archivos ipny con codigo de cada participante](https://github.com/arianacarbajal/ISB_Grupo3/tree/58c008bf54c4f06515acdc2d8f9a60d5dc3d2d3e/ISB/Laboratorios/EEG/ipynb)
 
 ### Codigo utilizado para los graficos en Phyton
 El código contiene comentarios para el mejor entendimiento de la lógica usada.
