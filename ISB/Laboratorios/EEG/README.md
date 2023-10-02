@@ -561,7 +561,7 @@ REPOSO
   Voluntario 2: Voluntario 2: Reposo
 </p>
 
-Tenemos las dos señales en reposo de los voluntarios. Se puede observar que el primero, tiene una mayor amplitud en el reposo, por lo que vemos que tuvo una mayor actividad ya que le costaba mantenerse en reposo absoluto. Sin embargo, en ambas señales vemos una amplitud pequeña propia de las ondas de baja amplitud alfa y theta, las cuales son propias de un estado de reposo[a].
+Tenemos las dos señales en reposo de los voluntarios. Se puede observar que el primero, tiene una mayor amplitud en el reposo, por lo que vemos que tuvo una mayor actividad ya que le costaba mantenerse en reposo absoluto. Sin embargo, en ambas señales vemos una amplitud pequeña propia de las ondas de baja amplitud alfa y theta, las cuales son propias de un estado de reposo[1].
 
 <p float="left">
   <img src="https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/b89e426c-906c-497a-82de-18e713e803c8" width="400" />
@@ -575,7 +575,7 @@ Tenemos las dos señales en reposo de los voluntarios. Se puede observar que el 
   Voluntario 2: FFT  Normalizada
 </p>
 
-Se ve que los picos más prominentes están en frecuencias cercanas a 0 y que no existe una actividad superior a los 30Hz[c], lo cual indicaría que el paciente ya no está en reposo, que siente algún dolor, está realizando algún esfuerzo o algún suceso inesperado. Específicamente, en los momentos de relajación, sin atención, baja concentración y con los ojos cerrados; las ondas esperadas son las alfa, las cuales se encuentran entre los 8-13Hz, por lo que vemos una mayor amplitud en este rango, incluso podemos visualizar ondas theta, las cuales son propias del pasaje de la consciencia al sueño[e].
+Se ve que los picos más prominentes están en frecuencias cercanas a 0 y que no existe una actividad superior a los 30Hz[3], lo cual indicaría que el paciente ya no está en reposo, que siente algún dolor, está realizando algún esfuerzo o algún suceso inesperado. Específicamente, en los momentos de relajación, sin atención, baja concentración y con los ojos cerrados; las ondas esperadas son las alfa, las cuales se encuentran entre los 8-13Hz, por lo que vemos una mayor amplitud en este rango, incluso podemos visualizar ondas theta, las cuales son propias del pasaje de la consciencia al sueño[5].
 
 PARPADEO
 
@@ -592,11 +592,11 @@ PARPADEO
   </tr>
 </table>
 
-Obtuvimos la señal durante el ejercicio del parpadeo con el bitalino. Si bien se puede observar mayores amplitudes en los momentos de parpadeo, estas no son tan marcadas como idealmente se hubiera querido obtener, principalmente por el posicionamiento de los electrodos, ya que la mayor actividad se da en la región occipital debido a la cercanía de los músculos y movimientos oculares[b], sin embargo si es posible detectar picos de mayor amplitud cada aproximadamente 5 segundos y se puede comparar con las señales obtenidas en otro estudio[c] donde se realizó un filtrado más complejo y en la zona occipital pero se muestra que los mayores picos son los indicadores de actividad y que esta mayor amplitud es el indicador utilizado pues no hay características propias del parpadeo.
+Obtuvimos la señal durante el ejercicio del parpadeo con el bitalino. Si bien se puede observar mayores amplitudes en los momentos de parpadeo, estas no son tan marcadas como idealmente se hubiera querido obtener, principalmente por el posicionamiento de los electrodos, ya que la mayor actividad se da en la región occipital debido a la cercanía de los músculos y movimientos oculares[2], sin embargo si es posible detectar picos de mayor amplitud cada aproximadamente 5 segundos y se puede comparar con las señales obtenidas en otro estudio[3] donde se realizó un filtrado más complejo y en la zona occipital pero se muestra que los mayores picos son los indicadores de actividad y que esta mayor amplitud es el indicador utilizado pues no hay características propias del parpadeo.
 
 ![Imagen5](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/3d8a796d-0bdd-423c-adc4-a1d3e2bde0ab)
 
-Señal EEG referencial de parpadeo [c]
+Señal EEG referencial de parpadeo [3]
 
 <p float="left">
   <img src="https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/ba61adff-569f-44e1-a845-39405584a796" width="400" />
@@ -610,7 +610,7 @@ Señal EEG referencial de parpadeo [c]
   Voluntario 2: FFT resolviendo problemas matemáticos
 </p>
 
-Para el análisis en frecuencia, si bien pueden haber cambios en las ondas beta(13-30Hz), los cambios más significativos son en las ondas alfa, (8-13Hz) y los vemos en ambas gráficas aunque más pronunciados en Voluntario 2. Vemos que esos picos se presentan de forma simétrica. Poder distinguir estos cambios es complicado debido a los distintos estímulos a los cuales el voluntario esté sometido pues dependiendo de la imagen o sonidos al que se esté sometiendo, las gráficas variarán significativamente[d].
+Para el análisis en frecuencia, si bien pueden haber cambios en las ondas beta(13-30Hz), los cambios más significativos son en las ondas alfa, (8-13Hz) y los vemos en ambas gráficas aunque más pronunciados en Voluntario 2. Vemos que esos picos se presentan de forma simétrica. Poder distinguir estos cambios es complicado debido a los distintos estímulos a los cuales el voluntario esté sometido pues dependiendo de la imagen o sonidos al que se esté sometiendo, las gráficas variarán significativamente[4].
 
 PROBLEMAS MATEMÁTICOS
 
@@ -637,7 +637,7 @@ PROBLEMAS MATEMÁTICOS
   Voluntario 2: 5 segundos de señal resolviendo problemas matemáticos
 </p>
 
-Tenemos las señales de los voluntarios mientras resolvían ejercicios matemáticos. En esas señales vemos amplitudes mucho mayores a las obtenidas en reposo y mayores a las de parpadeo, ya que la exigencia de la resolución de problemas requiere una activación global del cerebro. Este aumento de amplitud también puede ser debido al posicionamiento de los electrodos, los cuales estaban en el lóbulo frontal ya que esta zona suele activarse cuando una persona intenta resolver problemas[e], por lo que tenemos señales más fuertes.
+Tenemos las señales de los voluntarios mientras resolvían ejercicios matemáticos. En esas señales vemos amplitudes mucho mayores a las obtenidas en reposo y mayores a las de parpadeo, ya que la exigencia de la resolución de problemas requiere una activación global del cerebro. Este aumento de amplitud también puede ser debido al posicionamiento de los electrodos, los cuales estaban en el lóbulo frontal ya que esta zona suele activarse cuando una persona intenta resolver problemas[5], por lo que tenemos señales más fuertes.
 
 <p float="left">
   <img src="https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/748de7f7-9279-40b5-ba2f-7e0c07d487ac" width="400" />
@@ -651,10 +651,10 @@ Tenemos las señales de los voluntarios mientras resolvían ejercicios matemáti
   Voluntario 2: FFT resolviendo problemas matemáticos
 </p>
 
-En los espectros de frecuencia podemos visualizar un aumento en las ondas beta específicamente, las cuales se encuentran entre 14-26 Hz. Esto se esperaba ya que estas son las ondas que se suelen visualizar cuando uno intenta resolver problemas. fue importante asegurar que los participantes se mantuvieron en el mayor reposo posible ya que la actividad motora o la estimulación táctil pueden alterar el ritmo de las ondas beta[e].
+En los espectros de frecuencia podemos visualizar un aumento en las ondas beta específicamente, las cuales se encuentran entre 14-26 Hz. Esto se esperaba ya que estas son las ondas que se suelen visualizar cuando uno intenta resolver problemas. fue importante asegurar que los participantes se mantuvieron en el mayor reposo posible ya que la actividad motora o la estimulación táctil pueden alterar el ritmo de las ondas beta[5].
 
 
-Entre los participantes, se pudo ver que el voluntario 1 tuvo mayor dificultad para mantenerse completamente relajado, por lo que las variaciones entre las amplitudes de los tres ejercicios no es tan notoria como las del voluntario 2, donde el parpadeo cuadruplica la señal de reposo y los ejercicios matemáticos duplican el anterior, lo cual podría ser por problemas de estrés, concentración y por factores externos como los estímulos externos del laboratorio debido a las actividades ruidosas o llamativas realizadas por otras personas presentes.También cabe resaltar que no hubo presencia significativa de frecuencias entre 31 y 50Hz ya que estas son las ondas "γ" y pueden ser indicadores de enfermedades cerebrales[e].
+Entre los participantes, se pudo ver que el voluntario 1 tuvo mayor dificultad para mantenerse completamente relajado, por lo que las variaciones entre las amplitudes de los tres ejercicios no es tan notoria como las del voluntario 2, donde el parpadeo cuadruplica la señal de reposo y los ejercicios matemáticos duplican el anterior, lo cual podría ser por problemas de estrés, concentración y por factores externos como los estímulos externos del laboratorio debido a las actividades ruidosas o llamativas realizadas por otras personas presentes.También cabe resaltar que no hubo presencia significativa de frecuencias entre 31 y 50Hz ya que estas son las ondas "γ" y pueden ser indicadores de enfermedades cerebrales[5].
 
 
 
@@ -713,46 +713,15 @@ Se visualiza que la señal obtenida de los participantes comparada   con la enco
 ## Bibliografía
 
 
-[1]“Electrocardiograma,” Medlineplus.gov, 2022. Available: https://medlineplus.gov/spanish/pruebas-de-laboratorio/electrocardiograma/. [Accessed: Sep. 17, 2023]
+[1] M. Martínez and G. Trout, “Conceptos Básicos de Electroencefalografía,” Dialnet, https://dialnet.unirioja.es/descarga/articulo/4788132.pdf (accessed Oct. 1, 2023). 
 
+[2] L. J. Gómez Figueroa, “Análisis de señales EEG Para detección de Eventos OCULARES, musculares Y Cognitivos,” Inicio, https://oa.upm.es/44379/ (accessed Oct. 1, 2023). 
 
-‌[2]“Electrocardiograma,” Medlineplus.gov, 2022. Available: https://medlineplus.gov/spanish/pruebas-de-laboratorio/electrocardiograma/. [Accessed: Sep. 17, 2023]
+[3] R. Sepúlveda, O. Montiel, G. Díaz, D. Gutierrez, and O. Castillo, “Clasificación de Señales Encefalográficas Mediante redes Neuronales Artificiales,” Computación y Sistemas, https://paperity.org/p/190632341/clasificacion-de-senales-encefalograficas-mediante-redes-neuronales-artificiales (accessed Oct. 1, 2023). 
 
+[4] R. Cerino, D. Pinto, S. Vergara, and F. Pérez-Téllez, “Estimulación Visual Basada en conceptos y su análisis mediante electroencefalografía,” SciELO, https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S1405-55462023000100107 (accessed Oct. 1, 2023). 
 
-[3]Euroinnova Business School, “Derivaciones de electrocardiograma,” Euroinnova Business School, Aug. 08, 2023. Available: https://www.euroinnova.pe/blog/latamelectrocardiograma-derivaciones#:~:text=La%20derivaci%C3%B3n%20I%20mide%20laizquierdo%20y%20la%20pierna%20izquierda.. [Accessed: Sep. 17, 2023]
-
+[5] F. Vasconcellos, “Procesamiento de señales EEG Basado en Python - UMH,” UNIVERSIDAD MIGUEL HERNÁNDEZ DE ELCHE ESCUELA POLITÉCNICA SUPERIOR DE ELCHE, http://dspace.umh.es/bitstream/11000/26575/1/TFGVasconcellos%20Noailles%2c%20Fernando.pdf (accessed Oct. 2, 2023). 
 ‌
-[4]T. Cascino and M. J. Shea, “Electrocardiografía,” Manual MSD versión para profesionales, Jul. 06, 2021. Available: https://www.msdmanuals.com/es-pe/professional/trastornos-cardiovasculares/pruebas-y-procedimientos-cardiovasculares/electrocardiograf%C3%ADa. [Accessed: Sep. 17, 2023]
-‌
-
-[5]L. Delgado, “Cómo entender fácilmente la diferencia entre aeróbico y anaeróbico,” Sportlife, Jan. 23, 2023. Available: https://www.sportlife.es/entrenar/fitness/como-entender-facilmente-diferencia-entre-aerobico-anaerobico_271079_102.html. [Accessed: Sep. 17, 2023]
-‌
-
-[6]Promax Nutrition, “The Benefits of Burpees,” Promax Nutrition, Jun. 29, 2016. Available: https://www.promaxnutrition.com/blogs/news/benefits-burpees. [Accessed: Sep. 17, 2023]
-
-‌
-[7] Yuan Weiting and R. Zhou, “An Improved Self-Adaptive Filter Based on LMS Algorithm for Filtering 50Hz Interference in ECG Signals,” Aug. 2007, doi: https://doi.org/10.1109/icemi.2007.4351057. Available: https://ieeexplore.ieee.org/document/4351057. [Accessed: Sep. 17, 2023]
-
-
-[8]“Introduction - Cardiology Teaching Package - Practice Learning - Division of Nursing - The University of Nottingham,” Nottingham.ac.uk, 2023. Available: https://www.nottingham.ac.uk/nursing/practice/resources/cardiology/introduction/index.php. [Accessed: Sep. 17, 2023]
-‌
-
-[9]
-“Cátedra de Clínica Médica - Facultad de Ciencias Médicas - Universidad Nacional de Rosario,” Clinica-unr.com.ar, 2023. Available: http://www.clinica-unr.com.ar/2015-web/Educacion_distancia/Curso_ECG_01.htm. [Accessed: Sep. 17, 2023]
-
-[10] J. Gallo Villegas, "Exercise Electrocardiogram Testing: Usefulness in the Diagnosis and Prognosis of Coronary Artery Disease," 2015.
-
-[11]
-“Latidos cardíacos rápidos, lentos e irregulares (arritmia),” HealthyChildren.org, 2023. Available: https://www.healthychildren.org/Spanish/health-issues/conditions/heart/Paginas/Irregular-Heartbeat-Arrhythmia.aspx. [Accessed: Sep. 17, 2023]
-‌
-
-‌[12]Business Bliss FZE, “Effects and Functions of an Electrocardiogram Under the Influence of Exercise,” Ukessays.com, Mar. 21, 2023. Available: https://www.ukessays.com/essays/physiology/effects-and-functions-of-an-electrocardiogram-under-the-influence-of-exercise.php?vref=1. [Accessed: Sep. 17, 2023]
-‌
-[13]Sensitivity and Adjustment Model of Electrocardiographic Signal Distortion Based on the Electrodes’ Location and Motion Artifacts Reduction for Wearable Monitoring Applications. (s.f.). MDPI. https://www.mdpi.com/1424-8220/21/14/4822
-
-
-[14] . MEASUREMENT SCIENCE REVIEW. https://www.measurement.sk/2013/Buczkowski.pdf(2013)
-
-[15]An Investigation on the Effect of Extremely Low Frequency Pulsed Electromagnetic Fields on Human Electrocardiograms (ECGs). (s.f.). MDPI. https://www.mdpi.com/1660-4601/13/11/1171
 
 
