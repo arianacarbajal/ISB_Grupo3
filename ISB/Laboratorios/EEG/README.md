@@ -678,6 +678,7 @@ Por ejemplo, en estas gráficas (figura 2.2) se visualiza la interferencia  que 
 </p>
 
 
+<img src="https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/algoritmo_BCA.png" alt="Algoritmo BCA">
 
 
 
@@ -685,6 +686,7 @@ Esta interferencia también se visualiza en el EEG  hallado en el laboratorio. E
 
 <p align="center">
 <img src="participante_2.png" align="center" />
+<img src="https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/participante_2.png" alt="Participante 2">
 </p>
 
 
