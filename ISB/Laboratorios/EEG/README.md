@@ -153,6 +153,7 @@ https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/c99df8ef-ecd4-4d8b-
 
 
 ### Gráficos OpenSignals
+
 Participante 1
  - Señal  en reposo:
 <p align="center">
@@ -196,8 +197,7 @@ import re
 from scipy import signal
 from scipy.signal import medfilt, iirnotch, butter, filtfilt
 
-
-f = open("ecg1reposo.txt","r")
+f = open("rep2.txt","r")
 raw_data = f.read()  # con f.read() leemos todo el contenido
 f.close()
 
@@ -206,37 +206,42 @@ Fs = 1000
 Ts = 1/Fs
 print(f" Fs={Fs} hz\n Ts={Ts} s")
 
-a = np.genfromtxt("./ecg1reposo.txt", delimiter="\t",skip_header = 3)
+a = np.genfromtxt("./rep2.txt", delimiter="\t",skip_header = 3)
 yarray = a[:, 5]
 N=len(yarray)
-bits = 10 # Bits de la salida
-volt_range = 3.3
-yarray = (yarray/2**bits -1/2) * volt_range/1009
-yarray=yarray*1000 # convertir los bits a mV
 yarray = yarray - np.mean(yarray)
+yarray = np.array(yarray) * 40000/1000000
 xarray = np.arange(1, len(yarray)+1)/Fs
 xarray=xarray
 plt.figure(figsize=(8, 6))
 plt.plot(xarray, yarray, label="señal")
+plt.xlabel("Tiempo (s)")
+plt.ylabel("Amplitud uV")
+plt.legend(loc="upper right")
+
 plt.grid(linestyle=":")
+
+
 plt.figure(figsize=(8, 6))
-plt.plot(xarray, yarray, label="señal")
+plt.plot(xarray, yarray, label="señal primeros 3 segundos")
+plt.xlabel("Tiempo (s)")
+plt.ylabel("Amplitud uV")
+plt.legend(loc="upper right")
+
 plt.grid(linestyle=":")
 plt.xlim(0,3)
 #FFT
 signal_fft = np.fft.fft(yarray)
 frequencies = np.fft.fftfreq(N, Ts)
-
-#-Fs/2 a Fs/2
 frequencies = np.fft.fftshift(frequencies)
 signal_fft = np.fft.fftshift(signal_fft)
 plt.figure(figsize=(8, 6))
 plt.plot(frequencies, np.abs(signal_fft), label="FFT Normalizada")
 plt.grid(linestyle=":")
 plt.xlabel("Frecuencia (Hz)")
-plt.ylabel("Amplitud")
+plt.ylabel("Amplitud en uV")
 plt.legend(loc="upper right")
-plt.xlim(0, Fs/2)
+plt.xlim(-Fs/2, Fs/2)
 
 plt.figure()
 plt.plot(frequencies, 20*np.log10(np.abs(signal_fft)), label="FFT Normalizada en dB")
@@ -245,216 +250,65 @@ plt.xlabel("Frecuencia (Hz)")
 plt.ylabel("Amplitud")
 plt.legend(loc="upper right")
 plt.xlim(0, Fs/2)
-#Filtro notch
-f0 = 60.0
-cutoff_freq = 20.0
-filter_order = 2
-#Filtro pasa baja
-normal_cutoff = cutoff_freq / (0.5 * Fs)
-b, a = signal.butter(filter_order, normal_cutoff, btype='low', analog=False)
+
+f_high = 0.5
+f_low = 40
+
+# Crear el filtro
+
+nyquist = 0.5 * Fs
+low = f_low / nyquist
+high = f_high / nyquist
+b, a = signal.butter(6, low, btype='low', analog=False)
 filtered_signal = signal.lfilter(b, a, yarray)
 #Filtro pasa alta
-filter_order = 30
-cutoff_freq = 0.5
-normal_cutoff = cutoff_freq / (0.5 * Fs)
-b, a = signal.butter(filter_order, normal_cutoff, btype='high', analog=False)
 
-
-b, a = signal.iirnotch(f0, 30, Fs)
+b, a = signal.butter(4, high, btype='high', analog=False)
 filtered_signal = signal.lfilter(b, a, filtered_signal)
-
-window_size = 13
-filtered_signal = medfilt(filtered_signal, kernel_size=window_size)
+b, a = signal.iirnotch(60, 30, Fs)
+filtered_signal = signal.lfilter(b, a, filtered_signal)
 
 plt.figure(figsize=(8, 6))
 plt.plot(xarray, filtered_signal)
 plt.title("Señal filtrada")
 plt.grid(linestyle=":")
 plt.xlabel("Tiempo (s)")
-plt.ylabel("Amplitud")
-plt.xlim(0,3)
+plt.ylabel("Amplitud uV")
 
-#BPM
-threshold = -0.2
-above_threshold = np.where(filtered_signal[0:3000] < threshold)[0]
-new_array = []
-for i in range(len(above_threshold)):
-  if i == 0 or above_threshold[i] != above_threshold[i - 1] + 1:
-    new_array.append(above_threshold[i])
-num_beats = len(new_array)
-bpm = (num_beats / 3.0) * 60.0
-print("Frecuencia cardíaca: {:.2f} bpm".format(bpm))
+plt.figure(figsize=(8, 6))
+plt.plot(xarray, filtered_signal)
+plt.title("Señal filtrada (5 segundos)")
+plt.grid(linestyle=":")
+plt.xlabel("Tiempo (s)")
+plt.ylabel("Amplitud uV")
+plt.legend(loc="upper right")
+
+plt.xlim(5,10)
 
 
-signal_fft = np.fft.fft(filtered_signal)
+signal_fft2 = np.fft.fft(filtered_signal)
 frequencies = np.fft.fftfreq(N, Ts)
 frequencies = np.fft.fftshift(frequencies)
-signal_fft = np.fft.fftshift(signal_fft)
+signal_fft2 = np.fft.fftshift(signal_fft2)
 plt.figure(figsize=(8, 6))
-plt.plot(frequencies, np.abs(signal_fft), label="FFT Normalizada")
+plt.plot(frequencies, np.abs(signal_fft2), label="FFT Normalizada")
 plt.grid(linestyle=":")
 plt.xlabel("Frecuencia (Hz)")
 plt.ylabel("Amplitud")
 plt.legend(loc="upper right")
-plt.xlim(0, Fs/2)
 
 plt.figure()
-plt.plot(frequencies, 20*np.log10(np.abs(signal_fft)), label="FFT Normalizada en dB")
+plt.plot(frequencies, 20*np.log10(np.abs(signal_fft2)), label="FFT Normalizada en dB")
 plt.grid(linestyle=":")
 plt.xlabel("Frecuencia (Hz)")
 plt.ylabel("Amplitud")
 plt.legend(loc="upper right")
 plt.xlim(0, Fs/2)
-
 ```
 
 
 ‌
 
-### Gráficos en Python
-Posteriormente se pudo procesar la señal adquirida con ayuda de un codigo compilado en Python, con lo que se obtuvieron las señales.
-
-Participante 1
- - Señal del reposo completa:
-<p align="center">
-<img src="Img_ecg/ecg1_rep/señalcompleta.png" align="center"/>
-</p>
-
- - Señal del reposo 5 segundos:
-<p align="center">
-<img src="Img_ecg/ecg1_rep/señal5sec.png" align="center"/>
-</p>
-
- -  Señal del reposo 5 segundos filtrada:
-<p align="center">
-<img src="Img_ecg/ecg1_rep/filtrada.png" align="center"/>
-</p>
-
- - FFT normalizada en Hz :
-<p align="center">
-<img src="Img_ecg/ecg1_rep/fft.png" align="center"/>
-</p>
-
- - FFT normalizada en Hz filtrada:
-<p align="center">
-<img src="Img_ecg/ecg1_rep/fftfiltrada.png" align="center"/>
-</p>
-
-  - FFT normalizada en DB  :
-<p align="center">
-<img src="Img_ecg/ecg1_rep/fftDB.png" align="center"/>
-</p>
-
-  - FFT normalizada en DB filtrada  :
-<p align="center">
-<img src="Img_ecg/ecg1_rep/fftDBfiltrada.png" align="center"/>
-</p>
-
- - Señal despues de ejercicio completa:
-<p align="center">
-<img src="Img_ecg/ecg1_ej/señalcompleta.png" align="center"/>
-</p>
-
- - Señal despues de ejercicio  5 segundos:
-<p align="center">
-<img src="Img_ecg/ecg1_ej/señal5sec.png" align="center"/>
-</p>
-
- -  Señal despues de ejercicio 5 segundos filtrada:
-<p align="center">
-<img src="Img_ecg/ecg1_ej/señalfiltrada.png" align="center"/>
-</p>
-
- - FFT despues de ejercicio en Hz :
-<p align="center">
-<img src="Img_ecg/ecg1_ej/fft.png" align="center"/>
-</p>
-
- - FFT despues de ejercicio en Hz filtrada:
-<p align="center">
-<img src="Img_ecg/ecg1_ej/FFTfiltrada.png" align="center"/>
-</p>
-
-  - FFT despues de ejercicio en DB  :
-<p align="center">
-<img src="Img_ecg/ecg1_ej/fftDBsinfiltro.png" align="center"/>
-</p>
-
-  - FFT despues de ejercicio en DB filtrada  :
-<p align="center">
-<img src="Img_ecg/ecg1_ej/fftDBfiltrada.png" align="center"/>
-</p>
-
-Participante 2
- - Señal del reposo completa:
-<p align="center">
-<img src="Img_ecg/ecg2_rep/señalcompleta.png" align="center"/>
-</p>
-
- - Señal del reposo 5 segundos:
-<p align="center">
-<img src="Img_ecg/ecg2_rep/señal5sec.png" align="center"/>
-</p>
-
- -  Señal del reposo 5 segundos filtrada:
-<p align="center">
-<img src="Img_ecg/ecg2_rep/señalfiltrada.png" align="center"/>
-</p>
-
- - FFT normalizada en Hz :
-<p align="center">
-<img src="Img_ecg/ecg2_rep/fft.png" align="center"/>
-</p>
-
- - FFT normalizada en Hz filtrada:
-<p align="center">
-<img src="Img_ecg/ecg2_rep/fftfiltrada.png" align="center"/>
-</p>
-
-  - FFT normalizada en DB  :
-<p align="center">
-<img src="Img_ecg/ecg2_rep/fftDB.png" align="center"/>
-</p>
-
-  - FFT normalizada en DB filtrada  :
-<p align="center">
-<img src="Img_ecg/ecg2_rep/fftDBfiltrada.png" align="center"/>
-</p>
-
-- Señal despues de ejercicio completa:
-<p align="center">
-<img src="Img_ecg/ecg2_ej/señalcompleta.png" align="center"/>
-</p>
-
- - Señal despues de ejercicio  5 segundos:
-<p align="center">
-<img src="Img_ecg/ecg2_ej/señal5sec.png" align="center"/>
-</p>
-
- -  Señal despues de ejercicio 5 segundos filtrada:
-<p align="center">
-<img src="Img_ecg/ecg2_ej/señalfiltrada.png" align="center"/>
-</p>
-
- - FFT despues de ejercicio en Hz :
-<p align="center">
-<img src="Img_ecg/ecg2_ej/fft.png" align="center"/>
-</p>
-
- - FFT despues de ejercicio en Hz filtrada:
-<p align="center">
-<img src="Img_ecg/ecg2_ej/FFTfiltrada.png" align="center"/>
-</p>
-
-  - FFT despues de ejercicio en DB  :
-<p align="center">
-<img src="Img_ecg/ecg2_ej/fftDBsinfiltro.png" align="center"/>
-</p>
-
-  - FFT despues de ejercicio en DB filtrada  :
-<p align="center">
-<img src="Img_ecg/ecg2_ej/fftDBfiltrada.png" align="center"/>
-</p>
 
 ### Señales graficadas en Prosim
 - Señal de ejercicio completa:
@@ -483,68 +337,23 @@ Participante 2
 <img src="Img_ecg/ecg_ej/fftDBsinfiltro.png" align="center"/>
 </p>
 
+### Filtros empleados 
+Fue necesario aplicar filtros a nuestras señales adquiridas de EEG debido a la presencia de artefactos significativos en ellas. Para abordar esta distorsión, se exploraron diversas configuraciones de filtros que se adaptaran a las particularidades de las señales adquiridas. Se usó la información de la página de bitalino, sección EEG, rescatamos opciones de filtros recomendados [3], y en este escenario específico, optamos por utilizar tres tipos de filtros: un filtro pasa baja, un filtro pasa alta y un filtro notch.
 
-### Simulacion señal paro cardiaco Prosim
-- Señal de parada cardiaca completa:
-<p align="center">
-<img src="Img_ecg/ecg_p/señal.png" align="center"/>
-</p>
+Filtro pasa baja a 40 Hz (orden 2):
+Se aplicó un filtro pasa baja con una frecuencia de corte de 40 Hz y un bajo orden de 2. Esta configuración se eligió después de pruebas y ajustes experimentales para mejorar la calidad de la señal EEG. El filtro pasa baja atenúa gradualmente las frecuencias por encima de 40 Hz, lo que ayuda a reducir el ruido de alta frecuencia sin eliminar información relevante en la señal EEG. Esto es fundamental para preservar la información de las ondas cerebrales de interés y facilitar un análisis más preciso.
 
- - Señal ECG normal:
-<p align="center">
-<img src="Img_ecg/ecg_p/norm.png" align="center"/>
-</p>
+Filtro pasa alta a 0.5 Hz (orden 2):
+Se utilizó un filtro pasa alta con una frecuencia de corte de 0.5 Hz y un bajo orden de 2. Este filtro se diseñó para eliminar las componentes de frecuencia extremadamente bajas que pueden estar relacionadas con artefactos de origen no cerebral, como cambios lentos en la línea de base de la señal. Al eliminar estos componentes de baja frecuencia, se mejora la capacidad de detectar y analizar las ondas cerebrales de interés.
 
- -  Señal en Taquicardia ventricular:
-<p align="center">
-<img src="Img_ecg/ecg_p/Taquicardia_vent.png" align="center"/>
-</p>
+Filtro notch a 60 Hz (Q=30):
+Este filtro notch se utilizó para eliminar las interferencias de línea de alimentación eléctrica a 60 Hz, ya que se observó un pico en 60 Hz en la FFT de los datos EEG. El valor de Q de 30 indica un filtro relativamente estrecho y selectivo, diseñado para atenuar la frecuencia de 60 Hz y sus armónicos, mientras conserva las componentes de frecuencia de interés en las señales cerebrales.
 
- -  Señal en Fibrosis ventricular:
-<p align="center">
-<img src="Img_ecg/ecg_p/fibrosis_vent.png" align="center"/>
-</p>
-
- -  Señal en Asistolia:
-<p align="center">
-<img src="Img_ecg/ecg_p/asistolia.png" align="center"/>
-</p>
+Estas configuraciones de filtros se seleccionaron después de considerar las características específicas de las señales EEG y se ajustaron mediante pruebas y experimentación. El resultado fue una mejora en la calidad de los datos EEG, lo que permitió una interpretación más precisa de los eventos y fenómenos cerebrales de interés en nuestros registros.
 
 
- - FFT  en Hz :
-<p align="center">
-<img src="Img_ecg/ecg_p/fft.png" align="center"/>
-</p>
 
-
-  - FFT  en DB  :
-<p align="center">
-<img src="Img_ecg/ecg_p/fftDB.png" align="center"/>
-</p>
-
-
-### Filtros empleados  y Resultados obtenidos
-ECG1 reposo 100.00 bpm
-
-ECG1 ejercicio 156.00 bpm
-
-ECG2 reposo 96.00 bpm
-
-ECG2 ejercicio 144.00 bpm
-
-Fue necesario aplicar filtros a nuestras señales adquiridas debido a la presencia de artefactos significativos en ellas , para ello fueron de gran importancia el analsis de las Transformadas de Fourier de cada señal. Para abordar esta distorsión, se exploraron diversas configuraciones de filtros que se adaptaran a las particularidades de cada señal. La bibliografía ofreció opciones de filtros recomendados [1], en este escenario específico, optamos por utilizar tres tipos de filtros: un filtro pasa baja, un filtro notch y un filtro de mediana.
-Estos filtros se seleccionaron después de considerar las características específicas de nuestras señales y se aplicaron con el propósito de mejorar la calidad de los datos. Cada filtro se ajustó de manera adecuada para abordar las distorsiones particulares presentes en las señales, lo que permitió una interpretación más precisa de los eventos y fenómenos de interés en nuestros datos.
-
-Filtro notch a 60 hz (Q=30):
-Este filtro notch se utilizó para eliminar las interferencias de línea de alimentación eléctrica a 60 Hz, ya que se observó un pico en 60 hz en la FFT de ambos sujetos en ambos casos. El valor de Q de 30 indica un filtro relativamente estrecho y selectivo, diseñado para atenuar la frecuencia de 60 Hz y sus armónicos, mientras que conserva las componentes de frecuencia de interés del ECG.
-
-Filtro de mediana:
-El filtro de mediana se utilizó en dos configuraciones diferentes: un tamaño de ventana de 13 en un sujeto n°1 y un tamaño de ventana de 3 en el sujeto n°2. El filtro de mediana es eficaz para eliminar ruido impulsivo o picos aislados en la señal del ECG, que pueden ser causados por artefactos o interferencias momentáneas. Se presenció un ruido impulsivo significativo en la señal del sujeto n°1 a comparación del sujeto n°2, por eso se eligieron diferentes tamaños de ventana.
-
-Filtro pasa baja en 20Hz (orden 2):
-Se aplicó un filtro pasa baja con una frecuencia de corte de 20 Hz y un bajo orden de 2. La elección de este filtro se basa en la necesidad de atenuar gradualmente las frecuencias más altas presentes en la señal del ECG. Al utilizar un filtro de orden 2, se logra un decaimiento suave de las componentes de alta frecuencia, permitiendo así que se reduzca el ruido de alta frecuencia sin eliminar abruptamente información relevante en la señal. Este enfoque es beneficioso para preservar la forma de onda característica del ECG mientras se elimina el ruido de alta frecuencia, lo que facilita la identificación precisa de los eventos cardíacos.[7]
-
-### Explicación de las señales
+### PLoteo en Phyton y Explicación de las señales
 
 REPOSO
 
