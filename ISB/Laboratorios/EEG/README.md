@@ -178,9 +178,9 @@ Participante 2
 ### Archivos
 Por otro lado podemos encontrar los archivos de la informacion de las señales ploteadas 
 
--[Archivos txt de cada participante](https://github.com/arianacarbajal/ISB_Grupo3/tree/d909b519ee5c547a1c889af40f01fbb1b80932ce/ISB/Laboratorios/4.Adquisicion_ECG/Txt_ecg)
+-[Archivos txt de cada participante](https://github.com/arianacarbajal/ISB_Grupo3/tree/d909b519ee5c547a1c889af40f01fbb1b80932ce/ISB/Laboratorios/EEG/TXT)
 
--[Archivos ipny con codigo de cada participante](https://github.com/arianacarbajal/ISB_Grupo3/tree/d909b519ee5c547a1c889af40f01fbb1b80932ce/ISB/Laboratorios/4.Adquisicion_ECG/Ipny_ecg)
+-[Archivos ipny con codigo de cada participante](https://github.com/arianacarbajal/ISB_Grupo3/tree/d909b519ee5c547a1c889af40f01fbb1b80932ce/ISB/Laboratorios/EEG/ipny)
 
 ### Codigo utilizado para los graficos en Phyton
 El código contiene comentarios para el mejor entendimiento de la lógica usada.
