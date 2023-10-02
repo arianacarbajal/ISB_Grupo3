@@ -673,8 +673,8 @@ Por ejemplo, en estas gráficas (figura 2.2) se visualiza la interferencia  que 
 
 
 
-<img src="https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/algoritmo_BCA.png" alt="Algoritmo BCA">
-
+<img src="https://github.com/arianacarbajal/ISB_Grupo3/blob/36a4bd86813132c6172d7043e5646d98c493e788/ISB/Laboratorios/Imagenes/algoritmo_BCA.png" alt="Algoritmo BCA">
+</p>
 
 
 Esta interferencia también se visualiza en el EEG  hallado en el laboratorio. En la figura 3, se  muestra la interferencia generada debido al parpadeo del   participante 2 , muy similar a la interferencia de la anterior figura.  [7]
