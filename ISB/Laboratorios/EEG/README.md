@@ -144,7 +144,11 @@ https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/88ec58a6-4453-4862-
 Video de señal en reposo participante 2
 
 
-https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/46a67262-d40f-499e-aaa8-a56032407053
+
+https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/c99df8ef-ecd4-4d8b-b248-4dea5ba4ff8b
+
+
+
 
 
 
