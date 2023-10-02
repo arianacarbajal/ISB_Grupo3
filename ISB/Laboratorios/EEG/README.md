@@ -110,7 +110,7 @@ Se muestran las conexiones en la siguiente figura:
 </p>
 
 
-Luego de ello , se conectó   el BiTalino por Bluetooth con el programa  OpenSignals para poder visualizar la señal deseada y se realizaron dos pruebas: una con el participante en reposo  y la segunda se realizo cuando el participante haya realizado 2 minutos de ejercicio .
+Luego de ello , se conectó   el BiTalino por Bluetooth con el programa  OpenSignals para poder visualizar la señal deseada y se realizaron las pruebas a los 2 participantes.
 
 ### Ejercicio realizado : Burpee
 Los burpees son ejercicios breves y de alta intensidad que trabajan diversos músculos como el abdomen, la espalda, el pecho, los brazos y las piernas. Es un tipo de ejercicio anaeróbico ya que se realiza en un ritmo más intenso y es más corto en duración , en comparación a ejercicios aeróbicos .Durante el ejercicio aeróbico, la frecuencia cardíaca se mantiene en un rango moderado, mientras que durante el ejercicio anaeróbico se eleva significativamente, por ello es que se utilizó este tipo de ejercicio para el procedimiento del laboratorio.[5] [6]
