@@ -2,7 +2,7 @@
 ## Tabla de contenidos:
 * [Objetivos](#objetivos)
 * [Materiales y equipos](#materiales-y-equipos)
-* [Electrocardiograma](#ecg)
+* [Electroencefalograma](#ecg)
 * [Entregables](#entregable)
   * [Fotos de conexión usada (Electrodos-cuerpo, BITalino-cables)](#conexión-usada)
   * [Video de señal](#video-de-señal)
@@ -75,13 +75,12 @@ Las ondas de electrocardiografía (ECG) son representaciones gráficas de la act
 
 Se adquirieron señales  2 participantes para el laboratorio.
 
-|  **Participante**  | **Edad** | **Actividad fisica** |
+|  **Participante**  | **Edad** | **Sexo** |
 |:------------:|:---------------:|:------------:|
-| Participante 1 |   20  |     Hace ejercicio una vez por semana     |
-|     Participante 2   |      21   | Practica ejercicio de 4/5 veces a la semana|
+| Participante 1 |   20  |    Masculino   |
+|     Participante 2   |      20  |Feminino|
 
 
-La participante 2 es del sexo femenimo , mientras que el 1 es del masculino.
 
 
 ### Conexión usada circuito Bitalino:
@@ -102,14 +101,21 @@ Para plotear  la señal obtenida, se utilizo el Bitalino para medicion de EEG [3
 
 </p>
 
-Posicionamiento de electrodos para el participante 1  
-<img src="https://github.com/arianacarbajal/ISB_Grupo3/blob/817e448d75c3dc40c041a78026f0e5bbb8b43369/ISB/Laboratorios/Imagenes/elec1.jpg" alt="Imagen de referencia ">
+Posicionamiento de electrodos para el participante 1 
+<img src="https://github.com/arianacarbajal/ISB_Grupo3/raw/683926dff9c40ae8fdcc8517b2e31c0d409e530e/ISB/Laboratorios/Imagenes/elec2.jpg" width="400" />
+
+
 <p align="center">
 
 </p>
 Posicionamiento de electrodos para la participante 2
 
+<img src="https://github.com/arianacarbajal/ISB_Grupo3/raw/683926dff9c40ae8fdcc8517b2e31c0d409e530e/ISB/Laboratorios/Imagenes/elec2.jpg" width="400" />
 
+
+<p align="center">
+
+</p>
 
 
 Se posiciono el electrodo rojo con polaridad positiva en la parte izquierda de la frente , el electrodo negro con polaridad negativa en la parte derecha de la frente  y el electrodo de referencia blanco en la parte posterior de la oreja del participante.
