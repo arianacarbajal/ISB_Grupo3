@@ -41,19 +41,11 @@
 
 ## Electroencefalograma
 
-La electroencefalografía (EEG) es una técnica no invasiva que utiliza electrodos en el cuero cabelludo para medir los campos eléctricos del cerebro. Esta prueba registra los potenciales de voltaje producidos por el flujo de corriente en y alrededor de las neuronas. [1]
+La electroencefalografía (EEG) es una técnica no invasiva que utiliza electrodos en el cuero cabelludo para medir los campos eléctricos del cerebro. Esta prueba registra los potenciales de voltaje producidos por el flujo de corriente en y alrededor de las neuronas. [8]
 
 En los procedimientos de electroencefalografía, se colocan electrodos en el cuero cabelludo del paciente, que están conectados a un electroencefalógrafo. Durante el estudio, el paciente se encuentra en un estado de reposo y relajación, y se pueden realizar pruebas específicas, como la hiperventilación o la estimulación luminosa, para provocar respuestas anormales en el cerebro. Los resultados se registran en un electroencefalograma (EEG) y son evaluados por un especialista en neurofisiología clínica para identificar patrones anormales de actividad cerebral.
 
-El Electroencefalograma tiene como objetivo principal detectar anormalidades en las ondas cerebrales y la actividad eléctrica del cerebro. Su utilidad abarca la evaluación de una amplia gama de condiciones neurológicas, como epilepsia, trastornos mentales, parasomnias, encefalopatías metabólicas, demencia y convulsiones relacionadas con accidentes cerebrovasculares. Además, el EEG desempeña un papel valioso en la predicción del pronóstico en casos de lesiones cerebrales, traumatismos craneoencefálicos, muerte cerebral y toxicidad por medicamentos. Este procedimiento es esencial en la neurología y se utiliza tanto en la práctica clínica como en la investigación científica para comprender mejor la función cerebral y desarrollar terapias de neurorehabilitación basadas en la actividad cerebral. [2]
-
-
-### Explicación de la onda de ECG
-
-
-<p align="center">
-<img src="Img_ecg/señal.jpg"align="center" />
-</p>
+El Electroencefalograma tiene como objetivo principal detectar anormalidades en las ondas cerebrales y la actividad eléctrica del cerebro. Su utilidad abarca la evaluación de una amplia gama de condiciones neurológicas, como epilepsia, trastornos mentales, parasomnias, encefalopatías metabólicas, demencia y convulsiones relacionadas con accidentes cerebrovasculares. Además, el EEG desempeña un papel valioso en la predicción del pronóstico en casos de lesiones cerebrales, traumatismos craneoencefálicos, muerte cerebral y toxicidad por medicamentos. Este procedimiento es esencial en la neurología y se utiliza tanto en la práctica clínica como en la investigación científica para comprender mejor la función cerebral y desarrollar terapias de neurorehabilitación basadas en la actividad cerebral. [9]
 
 
 ## Procedimiento:
@@ -155,26 +147,51 @@ https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/c99df8ef-ecd4-4d8b-
 ### Gráficos OpenSignals
 
 Participante 1
- - Señal  en reposo:
+ - Señal  en abre y cierra de ojos:
+![abre](https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/4af31bb1-2b9f-425d-822c-565fba11b694)
+
+-Señal en reposo 2:
+![rep](https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/f15ffd77-1b42-46dc-89b8-47a5209af18d)
+
 <p align="center">
-<img src="Img_ecg/rep_ed.jpg" align="center" />
+
 </p>
 
- - Señal despues de movimiento:
+ - Señal  ejercios matematicos:
 <p align="center">
-<img src="Img_ecg/ej_ed.jpg" align="center"/>
+ ![mat](https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/e8f41b20-5a6c-4662-a7f9-f26aa884181a)
+
 </p>
+
 Participante 2
- - Señal  en reposo:
+- Señal reposo 1:
+![re](https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/3b9b567f-e6d9-43c3-b748-dfafbcfc467f)
+
+ - Señal  en abre y cierra de ojos:
+![oj](https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/be7f4bb8-021f-4007-8a24-f3876d8180f6)
+
+
+-Señal en reposo 2:
+![re2](https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/4df5f4b9-d64f-4b89-a9e4-e1a75c03afae)
+
 <p align="center">
-<img src="Img_ecg/rep_n.jfif" align="center" />
+
 </p>
 
- - Señal despues de movimiento:
+ - Señal  ejercios matematicos:
 <p align="center">
-<img src="Img_ecg/ej_n.jfif" align="center"/>
+![ma](https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/b3e135fa-fc10-416d-88c3-139e6729126d)
+
+
 </p>
 
+Ultracortex:
+- Señal en reposo
+  ![u1](https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/5a7ed413-0fc4-4c7b-8dc7-812821189b3b)
+
+- Señal en abre y cierra de ojos
+
+![u2](https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/b51aa29a-314e-413a-baa4-265108dbf5dc)
 
 
 ### Archivos
@@ -521,4 +538,10 @@ Por lo tanto, estas interferencias puede llegar a afectar la medicion de EEG;sin
 
 
 [7]Aguilera, P., Beeta, D., Sarmiento, A., & Fondón, I. Cancelación de interferencias en eeg mediante el análisis de componentes acotadas,Universidad de Sevilla, Sevilla, España, Accedido el 1 de octubre de 2023. [En línea]. Disponible:https://www.researchgate.net/profile/Pablo-Aguilera-6/publication/266896121_Cancelacion_de_interferencias_en_EEG_mediante_el_Analisis_de_Componentes_Acotadas/links/547f05490cf2c1e3d2dc392e/Cancelacion-de-interferencias-en-EEG-mediante-el-Analisis-de-Componentes-Acotadas.pdf
+
+[8] A. Biasiucci, Benedetta Franceschiello, and M. M. Murray, “Electroencephalography,” Current Biology, vol. 29, no. 3, pp. R80–R85, Feb. 2019, doi: https://doi.org/10.1016/j.cub.2018.11.052. Available: https://pubmed.ncbi.nlm.nih.gov/30721678/. [Accessed: Oct. 02, 2023]
+‌
+[9]Appaji Rayi and N. Murr, “Electroencephalogram,” Nih.gov, Oct. 03, 2022. Available: https://www.ncbi.nlm.nih.gov/books/NBK563295/. [Accessed: Oct. 02, 2023]
+‌
+
 
