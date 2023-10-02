@@ -91,7 +91,7 @@ El cable de 3 hilos se conecto al puerto 2 ya que se utilizara ECG en el laborat
 
 
 ### Conexión usada - electrodos:
-Para plotear  la señal obtenida, se colocó los electrodos en la posición que se muestra en la siguiente figura. 
+Para plotear  la señal obtenida, se utilizo el Bitalino para medicion de EEG [3]. 
 
 <p align="center">
 <img src="Img_ecg/elec.jpg" align="center" />
@@ -597,7 +597,7 @@ Obtuvimos la señal durante el ejercicio del parpadeo con el bitalino. Si bien s
 
 ![Imagen5](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/3d8a796d-0bdd-423c-adc4-a1d3e2bde0ab)
 
-Señal EEG referencial de parpadeo [3]
+Señal EEG referencial de parpadeo [4]
 
 <p float="left">
   <img src="https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/ba61adff-569f-44e1-a845-39405584a796" width="400" />
@@ -611,7 +611,7 @@ Señal EEG referencial de parpadeo [3]
   Voluntario 2: FFT resolviendo problemas matemáticos
 </p>
 
-Para el análisis en frecuencia, si bien pueden haber cambios en las ondas beta(13-30Hz), los cambios más significativos son en las ondas alfa, (8-13Hz) y los vemos en ambas gráficas aunque más pronunciados en Voluntario 2. Vemos que esos picos se presentan de forma simétrica. Poder distinguir estos cambios es complicado debido a los distintos estímulos a los cuales el voluntario esté sometido pues dependiendo de la imagen o sonidos al que se esté sometiendo, las gráficas variarán significativamente[4].
+Para el análisis en frecuencia, si bien pueden haber cambios en las ondas beta(13-30Hz), los cambios más significativos son en las ondas alfa, (8-13Hz) y los vemos en ambas gráficas aunque más pronunciados en Voluntario 2. Vemos que esos picos se presentan de forma simétrica. Poder distinguir estos cambios es complicado debido a los distintos estímulos a los cuales el voluntario esté sometido pues dependiendo de la imagen o sonidos al que se esté sometiendo, las gráficas variarán significativamente[5].
 
 PROBLEMAS MATEMÁTICOS
 
@@ -638,7 +638,7 @@ PROBLEMAS MATEMÁTICOS
   Voluntario 2: 5 segundos de señal resolviendo problemas matemáticos
 </p>
 
-Tenemos las señales de los voluntarios mientras resolvían ejercicios matemáticos. En esas señales vemos amplitudes mucho mayores a las obtenidas en reposo y mayores a las de parpadeo, ya que la exigencia de la resolución de problemas requiere una activación global del cerebro. Este aumento de amplitud también puede ser debido al posicionamiento de los electrodos, los cuales estaban en el lóbulo frontal ya que esta zona suele activarse cuando una persona intenta resolver problemas[5], por lo que tenemos señales más fuertes.
+Tenemos las señales de los voluntarios mientras resolvían ejercicios matemáticos. En esas señales vemos amplitudes mucho mayores a las obtenidas en reposo y mayores a las de parpadeo, ya que la exigencia de la resolución de problemas requiere una activación global del cerebro. Este aumento de amplitud también puede ser debido al posicionamiento de los electrodos, los cuales estaban en el lóbulo frontal ya que esta zona suele activarse cuando una persona intenta resolver problemas[6], por lo que tenemos señales más fuertes.
 
 <p float="left">
   <img src="https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/748de7f7-9279-40b5-ba2f-7e0c07d487ac" width="400" />
@@ -652,10 +652,11 @@ Tenemos las señales de los voluntarios mientras resolvían ejercicios matemáti
   Voluntario 2: FFT resolviendo problemas matemáticos
 </p>
 
-En los espectros de frecuencia podemos visualizar un aumento en las ondas beta específicamente, las cuales se encuentran entre 14-26 Hz. Esto se esperaba ya que estas son las ondas que se suelen visualizar cuando uno intenta resolver problemas. fue importante asegurar que los participantes se mantuvieron en el mayor reposo posible ya que la actividad motora o la estimulación táctil pueden alterar el ritmo de las ondas beta[5].
+En los espectros de frecuencia podemos visualizar un aumento en las ondas beta específicamente, las cuales se encuentran entre 14-26 Hz. Esto se esperaba ya que estas son las ondas que se suelen visualizar cuando uno intenta resolver problemas. fue importante asegurar que los participantes se mantuvieron en el mayor reposo posible ya que la actividad motora o la estimulación táctil pueden alterar el ritmo de las ondas beta[6].
 
 
-Entre los participantes, se pudo ver que el voluntario 1 tuvo mayor dificultad para mantenerse completamente relajado, por lo que las variaciones entre las amplitudes de los tres ejercicios no es tan notoria como las del voluntario 2, donde el parpadeo cuadruplica la señal de reposo y los ejercicios matemáticos duplican el anterior, lo cual podría ser por problemas de estrés, concentración y por factores externos como los estímulos externos del laboratorio debido a las actividades ruidosas o llamativas realizadas por otras personas presentes.También cabe resaltar que no hubo presencia significativa de frecuencias entre 31 y 50Hz ya que estas son las ondas "γ" y pueden ser indicadores de enfermedades cerebrales[5].
+Entre los participantes, se pudo ver que el voluntario 1 tuvo mayor dificultad para mantenerse completamente relajado, por lo que las variaciones entre las amplitudes de los tres ejercicios no es tan notoria como las del voluntario 2, donde el parpadeo cuadruplica la señal de reposo y los ejercicios matemáticos duplican el anterior, lo cual podría ser por problemas de estrés, concentración y por factores externos como los estímulos externos del laboratorio debido a las actividades ruidosas o llamativas realizadas por otras personas presentes.También cabe resaltar que no hubo presencia significativa de frecuencias entre 31 y 50Hz ya que estas son las ondas "γ" y pueden ser indicadores de enfermedades cerebrales[6]
+].
 
 SEÑALES EN INTERFAZ DE ULTRACORTEX
 | Imagen 1 | Imagen 2 | Imagen 3 | Imagen 4 |
@@ -665,10 +666,10 @@ SEÑALES EN INTERFAZ DE ULTRACORTEX
 
 
 ### Interferencias  en la señal EEG .
-Existen diversas interferencias que pueden alterar la medición de un EEG. Entre las principales fuentes de estas  se encuentran : Movimientos musculares involuntarios, movimientos oculares y latidos del corazón. [6]
+Existen diversas interferencias que pueden alterar la medición de un EEG. Entre las principales fuentes de estas  se encuentran : Movimientos musculares involuntarios, movimientos oculares y latidos del corazón. [7]
 
 La existencia de estas fuentes inauténticas en prácticamente la totalidad de los sensores se origina debido a la rápida difusión de la actividad eléctrica en los tejidos.
-Una estrategia para reducir el impacto de esta interferencia implica la captura separada de estas señales contaminantes para posteriormente eliminarlas de la medición mediante el algoritmo BCA( métodos de Análisis de Componentes Acotadas). [6]
+Una estrategia para reducir el impacto de esta interferencia implica la captura separada de estas señales contaminantes para posteriormente eliminarlas de la medición mediante el algoritmo BCA( métodos de Análisis de Componentes Acotadas). [7]
 
 
 
@@ -680,16 +681,16 @@ Por ejemplo, en estas gráficas (figura 2.2) se visualiza la interferencia  que 
 </p>
 
 
-Esta interferencia también se visualiza en el EEG  hallado en el laboratorio. En la figura 3, se  muestra la interferencia generada debido al parpadeo del   participante 2 , muy similar a la interferencia de la anterior figura.  [7]
+Esta interferencia también se visualiza en el EEG  hallado en el laboratorio. En la figura 3, se  muestra la interferencia generada debido al parpadeo del   participante 2 , muy similar a la interferencia de la anterior figura. 
 
 
 <img src="https://github.com/arianacarbajal/ISB_Grupo3/blob/8debe27cbe1cad862cff05ff8cbded31493bda5c/ISB/Laboratorios/Imagenes/participante_2.png" alt="Participante 2">
 </p>
 
-Por lo tanto, estas interferencias puede llegar a afectar la medicion de EEG;sin embargo, se pueden reducir estas realizando las mediciones un ambiente adecuado e instruyendo al participante que no realice otros movimientos que no sean los requeridos. Además, también se puede realizar algoritmos que permitan filtrar estos ruidos  [6]  para así obtener una señal de mejor calidad para su posterior análisis . 
+Por lo tanto, estas interferencias puede llegar a afectar la medicion de EEG;sin embargo, se pueden reducir estas realizando las mediciones un ambiente adecuado e instruyendo al participante que no realice otros movimientos que no sean los requeridos. Además, también se puede realizar algoritmos que permitan filtrar estos ruidos  [7]  para así obtener una señal de mejor calidad para su posterior análisis . 
 
 
-[1]“BITalino Lab Guides (Home Guides) – Support PLUX Biosignals official”. Support PLUX Biosignals official – Official PLUX support and biosignals knowledge base. Accedido el 1 de octubre de 2023. [En línea]. Disponible: https://support.pluxbiosignals.com/knowledge-base/bitalino-lab-guides/
+
 
 
 
@@ -702,12 +703,14 @@ Por lo tanto, estas interferencias puede llegar a afectar la medicion de EEG;sin
 
 [2] L. J. Gómez Figueroa, “Análisis de señales EEG Para detección de Eventos OCULARES, musculares Y Cognitivos,” Inicio, https://oa.upm.es/44379/ (accessed Oct. 1, 2023). 
 
-[3] R. Sepúlveda, O. Montiel, G. Díaz, D. Gutierrez, and O. Castillo, “Clasificación de Señales Encefalográficas Mediante redes Neuronales Artificiales,” Computación y Sistemas, https://paperity.org/p/190632341/clasificacion-de-senales-encefalograficas-mediante-redes-neuronales-artificiales (accessed Oct. 1, 2023). 
+[3]“BITalino Lab Guides (Home Guides) – Support PLUX Biosignals official”. Support PLUX Biosignals official – Official PLUX support and biosignals knowledge base. Accedido el 1 de octubre de 2023. [En línea]. Disponible: https://support.pluxbiosignals.com/knowledge-base/bitalino-lab-guides/
 
-[4] R. Cerino, D. Pinto, S. Vergara, and F. Pérez-Téllez, “Estimulación Visual Basada en conceptos y su análisis mediante electroencefalografía,” SciELO, https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S1405-55462023000100107 (accessed Oct. 1, 2023). 
+[4] R. Sepúlveda, O. Montiel, G. Díaz, D. Gutierrez, and O. Castillo, “Clasificación de Señales Encefalográficas Mediante redes Neuronales Artificiales,” Computación y Sistemas, https://paperity.org/p/190632341/clasificacion-de-senales-encefalograficas-mediante-redes-neuronales-artificiales (accessed Oct. 1, 2023). 
 
-[5] F. Vasconcellos, “Procesamiento de señales EEG Basado en Python - UMH,” UNIVERSIDAD MIGUEL HERNÁNDEZ DE ELCHE ESCUELA POLITÉCNICA SUPERIOR DE ELCHE, http://dspace.umh.es/bitstream/11000/26575/1/TFGVasconcellos%20Noailles%2c%20Fernando.pdf (accessed Oct. 2, 2023). 
+[5] R. Cerino, D. Pinto, S. Vergara, and F. Pérez-Téllez, “Estimulación Visual Basada en conceptos y su análisis mediante electroencefalografía,” SciELO, https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S1405-55462023000100107 (accessed Oct. 1, 2023). 
+
+[6] F. Vasconcellos, “Procesamiento de señales EEG Basado en Python - UMH,” UNIVERSIDAD MIGUEL HERNÁNDEZ DE ELCHE ESCUELA POLITÉCNICA SUPERIOR DE ELCHE, http://dspace.umh.es/bitstream/11000/26575/1/TFGVasconcellos%20Noailles%2c%20Fernando.pdf (accessed Oct. 2, 2023). 
 
 
-[6]Aguilera, P., Beeta, D., Sarmiento, A., & Fondón, I. Cancelación de interferencias en eeg mediante el análisis de componentes acotadas,Universidad de Sevilla, Sevilla, España, Accedido el 1 de octubre de 2023. [En línea]. Disponible:https://www.researchgate.net/profile/Pablo-Aguilera-6/publication/266896121_Cancelacion_de_interferencias_en_EEG_mediante_el_Analisis_de_Componentes_Acotadas/links/547f05490cf2c1e3d2dc392e/Cancelacion-de-interferencias-en-EEG-mediante-el-Analisis-de-Componentes-Acotadas.pdf
+[7]Aguilera, P., Beeta, D., Sarmiento, A., & Fondón, I. Cancelación de interferencias en eeg mediante el análisis de componentes acotadas,Universidad de Sevilla, Sevilla, España, Accedido el 1 de octubre de 2023. [En línea]. Disponible:https://www.researchgate.net/profile/Pablo-Aguilera-6/publication/266896121_Cancelacion_de_interferencias_en_EEG_mediante_el_Analisis_de_Componentes_Acotadas/links/547f05490cf2c1e3d2dc392e/Cancelacion-de-interferencias-en-EEG-mediante-el-Analisis-de-Componentes-Acotadas.pdf
 
