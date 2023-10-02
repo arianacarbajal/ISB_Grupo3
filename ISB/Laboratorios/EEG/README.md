@@ -11,7 +11,6 @@
 
   * [Archivo de los datos de la señal ploteada](#archivos)
   * [Ploteo de la señal en Python.](#gráficos-en-python)
-  * [Que se ve una señal de primera derivada.](#gráficos-en-python)
    * [Explicación de las señales](#explicación-final)
    * [Artefactos](#artefactos)
 * [Bibliografía](#bibliografía)
@@ -51,19 +50,6 @@ El Electroencefalograma tiene como objetivo principal detectar anormalidades en 
 
 ### Explicación de la onda de ECG
 
-Las ondas de electrocardiografía (ECG) son representaciones gráficas de la actividad eléctrica del corazón. Aquí se resumen las principales características de cada onda:
-
-1. **Onda P:** Representa la despolarización de las aurículas. Puede ser bifásica en algunas derivaciones y su amplitud aumenta con la hipertrofia auricular.
-
-2. **Intervalo PR:** Es el tiempo entre la despolarización auricular y la despolarización ventricular. Su prolongación indica un bloqueo auriculoventricular de primer grado.
-
-3. **Complejo QRS:** Representa la despolarización ventricular. Se compone de la onda Q (descendente), la onda R (ascendente), y la onda S (segunda descendente). 
-
-4. **Intervalo QT:** Es el tiempo entre la despolarización ventricular y la repolarización ventricular. 
-
-5. **Segmento ST:** Representa la despolarización completa del miocardio ventricular. La elevación puede indicar varias condiciones, incluyendo isquemia o infarto, mientras que la depresión puede estar relacionada con hipopotasemia u otros problemas.
-
-6. **Onda T:** Refleja la repolarización ventricular.  Cambios en su forma o amplitud pueden indicar desequilibrios electrolíticos o problemas cardíacos.[4]
 
 <p align="center">
 <img src="Img_ecg/señal.jpg"align="center" />
@@ -102,19 +88,15 @@ Para plotear  la señal obtenida, se utilizo el Bitalino para medicion de EEG [3
 </p>
 
 Posicionamiento de electrodos para el participante 1 
-<img src="https://github.com/arianacarbajal/ISB_Grupo3/raw/683926dff9c40ae8fdcc8517b2e31c0d409e530e/ISB/Laboratorios/Imagenes/elec2.jpg" width="400" />
+</p>
+
+<img src="https://github.com/arianacarbajal/ISB_Grupo3/raw/1c44760bb2b864bee4fb86fcd6f6485acc1ffa65/ISB/Laboratorios/Imagenes/elec1.jpg" width="400" />
 
 
 <p align="center">
 
 </p>
 Posicionamiento de electrodos para la participante 2
-
-<img src="https://github.com/arianacarbajal/ISB_Grupo3/raw/683926dff9c40ae8fdcc8517b2e31c0d409e530e/ISB/Laboratorios/Imagenes/elec2.jpg" width="400" />
-
-
-<p align="center">
-
 </p>
 
 
