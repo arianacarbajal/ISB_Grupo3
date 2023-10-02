@@ -97,7 +97,7 @@ El cable de 3 hilos se conecto al puerto 4 ya que se utilizara EEG en el laborat
 Para plotear  la señal obtenida, se utilizo el Bitalino para medicion de EEG [3]. 
 
 
-<img src="https://github.com/arianacarbajal/ISB_Grupo3/blob/817e448d75c3dc40c041a78026f0e5bbb8b43369/ISB/Laboratorios/Imagenes/elec2.jpg" alt="Imagen de referencia ">
+<img src="https://github.com/arianacarbajal/ISB_Grupo3/blob/817e448d75c3dc40c041a78026f0e5bbb8b43369/ISB/Laboratorios/Imagenes/elec2.jpg">
 <p align="center">
 
 </p>
