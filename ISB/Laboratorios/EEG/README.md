@@ -67,6 +67,7 @@ Las ondas EEG se pueden clasificar segun:
 
 Estas ondas cerebrales proporcionan información importante sobre el estado mental y la actividad cerebral en diferentes contextos.
 ![7a_1](https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/65236ac7-c0e7-40d9-af55-bb676a47cd52)
+
 Imagen: Ritmos clásicos que se evalúan en un EEG en la clínica [10]
 
 
@@ -128,6 +129,12 @@ Se muestran las conexiones en la siguiente figura:
 
 
 Luego de ello , se conectó   el BiTalino por Bluetooth con el programa  OpenSignals para poder visualizar la señal deseada y se realizaron las pruebas a los 2 participantes.
+
+Para el Ultracortex se utilizó la configuracion 10 -20 de electrodos
+![WhatsApp Image 2023-09-30 at 4 10 42 PM (1)](https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/fb4064b2-cc47-4e82-829d-17ec507fd561)
+Utilizando como referencia la posición de electrodos de Ultracortex
+![el](https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/0534ccb0-8a82-49b1-a8d2-c5be06e3e5ed)
+
 
 ### Procedimiento realizado de registro EEG
 1. Registrar una línea base de señal con poco ruido y sin movimientos (respiración normal,
