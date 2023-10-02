@@ -656,7 +656,11 @@ En los espectros de frecuencia podemos visualizar un aumento en las ondas beta e
 
 Entre los participantes, se pudo ver que el voluntario 1 tuvo mayor dificultad para mantenerse completamente relajado, por lo que las variaciones entre las amplitudes de los tres ejercicios no es tan notoria como las del voluntario 2, donde el parpadeo cuadruplica la señal de reposo y los ejercicios matemáticos duplican el anterior, lo cual podría ser por problemas de estrés, concentración y por factores externos como los estímulos externos del laboratorio debido a las actividades ruidosas o llamativas realizadas por otras personas presentes.También cabe resaltar que no hubo presencia significativa de frecuencias entre 31 y 50Hz ya que estas son las ondas "γ" y pueden ser indicadores de enfermedades cerebrales[5].
 
-
+SEÑALES EN INTERFAZ DE ULTRACORTEX
+| Imagen 1 | Imagen 2 | Imagen 3 | Imagen 4 |
+|----------|----------|----------|----------|
+| ![Imagen 1](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/fa549909-31b4-4690-a0b9-541202d448e5) | ![Imagen 2](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/2939138d-a0e0-46f4-a3bd-9661c2010eba) | ![Imagen 3](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/928f9e72-7435-4e6f-bf00-585df693fd64) | ![Imagen 4](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/fd07dce0-2437-4ff5-bc3e-0587cb9fc34c) |
+| ![Imagen 5](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/86d8747c-3571-467b-9ba8-63dcf94eae99) | ![Imagen 6](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/b6851cb1-533e-4c0f-b494-b66be33111df) | ![Imagen 7](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/f4c61204-d5a4-4d68-aafb-b3e04556cd1d) | ![Imagen 8](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/db1c14dc-2143-4d97-bdc0-a3082cbcd997) |
 
 
 ### Interferencias  en la señal EEG .
