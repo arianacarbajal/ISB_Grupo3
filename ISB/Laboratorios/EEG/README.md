@@ -668,6 +668,19 @@ Una estrategia para reducir el impacto de esta interferencia implica la captura 
 Por ejemplo, en estas gráficas (figura 2.2) se visualiza la interferencia  que se genera por movimientos oculares (como parpadeo) que se obtuvo mediante un algoritmo (BCA).
 
 
+
+[1]“BITalino Lab Guides (Home Guides) – Support PLUX Biosignals official”. Support PLUX Biosignals official – Official PLUX support and biosignals knowledge base. Accedido el 1 de octubre de 2023. [En línea]. Disponible: https://support.pluxbiosignals.com/knowledge-base/bitalino-lab-guides/
+
+
+
+[2]Aguilera, P., Beeta, D., Sarmiento, A., & Fondón, I. Cancelación de interferencias en eeg mediante el análisis de componentes acotadas,Universidad de Sevilla, Sevilla, España, Accedido el 1 de octubre de 2023. [En línea]. Disponible:https://www.researchgate.net/profile/Pablo-Aguilera-6/publication/266896121_Cancelacion_de_interferencias_en_EEG_mediante_el_Analisis_de_Componentes_Acotadas/links/547f05490cf2c1e3d2dc392e/Cancelacion-de-interferencias-en-EEG-mediante-el-Analisis-de-Componentes-Acotadas.pdf
+
+
+
+
+
+Esta interferencia también se visualiza en el EEG  hallado en el laboratorio. En la figura 3, se  muestra la interferencia generada debido al parpadeo del   participante 2 , muy similar a la interferencia de la anterior figura. 
+
 ### ¿ Que ocurre con el ECG cuando realizamos la medición  en una persona en reposo y  luego de realizar ejercicio? 
 
 Los dos participantes reposaron durante 2 min para luego realizarse la medición de ECG.Luego , ambos  participantes realizaron ejercicios de burpees durante 2 minutos, luego se  procedió a medir el ECG.El tipo de  ejercicio no influye significativamente a la medición de ECG ,ya que lo importante es que aumenten sus bpm-latidos por minuto(de 90 a 150 generalmente). 
