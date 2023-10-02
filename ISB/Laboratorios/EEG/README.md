@@ -659,12 +659,14 @@ Entre los participantes, se pudo ver que el voluntario 1 tuvo mayor dificultad p
 
 
 
-### Artefactos que pueden afectar la señal ECG 
-Según ese análisis en este paper [13], se demuestra que una mala ubicación de los electrodos en el torso puede provocar la modificación de las señales adquiridas, errores de diagnóstico y una mala interpretación de la información de la señal. 
+### Interferencias  en la señal EEG .
+Existen diversas interferencias que pueden alterar la medición de un EEG. Entre las principales fuentes de estas  se encuentran : Movimientos musculares involuntarios, movimientos oculares y latidos del corazón. [2]
 
-Por lo tanto, se recomienda realizar una  correcta modificación de la posición de los electrodos. Este cambio en la posición de los electrodos también tiene el propósito de reducir la influencia del ruido y los artefactos, tratando de colocar los electrodos en lugares con menos tejido adiposo, lo que actúa como un dieléctrico que modifica de manera impredecible las propiedades eléctricas del conductor de volumen cuando el sujeto realiza movimiento. Sin embargo, esto último puede afectar la calidad del ECG al no utilizar el método de triángulo de Einthoven. Por lo tanto, se utiliza un modelo computacional para determinar la influencia que tiene las posiciones de los electrodos en la medición . Esto precisamente se utilizaría para medir la determinar el nivel de distorsión de la señal ECG permitiendo que las señales medidas se puedan  ajustar a las derivaciones propuestas en el triángulo de Einthoven. Además, sería posible conocer la posición donde la señal muestra poca distorsión y obtener una reducción significativa de los artefactos de movimiento.
+La existencia de estas fuentes inauténticas en prácticamente la totalidad de los sensores se origina debido a la rápida difusión de la actividad eléctrica en los tejidos.
+Una estrategia para reducir el impacto de esta interferencia implica la captura separada de estas señales contaminantes para posteriormente eliminarlas de la medición mediante el algoritmo BCA( métodos de Análisis de Componentes Acotadas). [2]
 
-Aparte de la posición de electrodos, artefactos que emitan un campo electromagnético también afectan la calidad y medición del ECG. Por ejemplo, se demostró que la radiación electromagnética emitida de los celulares influye en los registros del ECG [14]. Incluso, las terapia de campos electromagnéticos pulsados de frecuencia extremadamente baja (ELF-PEMF)  también pueden llegar a afectar la medición del electrocardiograma. [15] 
+Por ejemplo, en estas gráficas (figura 2.2) se visualiza la interferencia  que se genera por movimientos oculares (como parpadeo) que se obtuvo mediante un algoritmo (BCA).
+
 
 ### ¿ Que ocurre con el ECG cuando realizamos la medición  en una persona en reposo y  luego de realizar ejercicio? 
 
