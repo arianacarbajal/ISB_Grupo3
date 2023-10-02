@@ -6,7 +6,7 @@
 * [Entregables](#entregable)
   * [Fotos de conexión usada (Electrodos-cuerpo, BITalino-cables)](#conexión-usada)
   * [Video de señal](#video-de-señal)
-  * [Ejercicio utilizado](#ejercicio)
+  * [Procedimiento realizado de registro EEG](#ejercicio)
   * [Ploteo de la señal en OpenSignals](#gráficos-opensignals)
 
   * [Archivo de los datos de la señal ploteada](#archivos)
@@ -16,12 +16,12 @@
    * [Artefactos](#artefactos)
 * [Bibliografía](#bibliografía)
  
-
 ## Objetivos:
 
-* Adquirir señales biomédicas de ECG .
+* Adquirir señales biomédicas de EEG .
 * Hacer una correcta configuración de BiTalino.
-* Extraer la información de las señales ECG del software OpenSignals (r)evolution.
+* * Hacer una correcta configuración de Ultracortex.
+* Extraer la información de las señales EeG del software OpenSignals (r)evolution.
 
 ## Materiales y equipos:
 
@@ -29,14 +29,16 @@
 
 |  **Materiales**  | **Descripción** | 
 |:------------:|:---------------:|
-|  Kit BITalino |  Es un kit de desarrollo y de experimentación con diferentes sensores.   Para este laboratorio el Kit Bitalino se utilizará con el sensor ECG para la adquisición de señales  |
-|   ProSim 4 vital signal simulator    | Es un comprobador funcional portátil del monitor de signos vitales.En el laboratorio se utilizó para simular una señal ECG en ejercicio intenso y paro cardiáco    |
-|    Electrodos   |    Son los dispositivos que ponen en contacto al paciente con el electrocardiógrafo. A través de ellos se obtiene la información eléctrica para la impresión y el análisis del electrocardiograma. En este laboratorio se utilizaron 3 de ellos para hallar la primera derivada de ECG|
-|   Laptop   |   Se utilizo para obtener las gráficas de la señal ECG en el programa Open signals y el procesamiento en Pyhton |
+|  Kit BITalino |  Es un kit de desarrollo y de experimentación con diferentes sensores.   Para este laboratorio el Kit Bitalino se utilizará con el sensor EEG para la adquisición de señales  |
+|   Ultracortex    |Es una herramienta para registrar la actividad cerebral (EEG) con fines de investigación que consta de un casco imprimible en 3D diseñado para funcionar con el sistema OpenBCI   |
+|    Electrodos   | Son discos de metal planos que se colocan en el cuero cabelludo   |
+|   Laptop   |   Se utilizo para obtener las gráficas de la señal EEG en el programa Open signals, Open BCI y el procesamiento en Pyhton |
 
 
 
 </div>
+
+
 
 ## Electroencefalograma
 
@@ -82,9 +84,9 @@ Se adquirieron señales  2 participantes para el laboratorio.
 La participante 2 es del sexo femenimo , mientras que el 1 es del masculino.
 
 
-### Conexión usada circuito:
+### Conexión usada circuito Bitalino:
 Para el circuito , se hizo uso del cable de tres hilos con tres de los electrodos no invasivos. 
-El cable de 3 hilos se conecto al puerto 2 ya que se utilizara ECG en el laboratorio . Por ultimo se conecto la bateria y se encendio el switch ON/OFF.
+El cable de 3 hilos se conecto al puerto 4 ya que se utilizara EEG en el laboratorio . Por ultimo se conecto la bateria y se encendio el switch ON/OFF.
 
 <p align="center">
 <img src="Img_ecg/conec.jpg"align="center" />
@@ -112,22 +114,16 @@ Se muestran las conexiones en la siguiente figura:
 
 Luego de ello , se conectó   el BiTalino por Bluetooth con el programa  OpenSignals para poder visualizar la señal deseada y se realizaron las pruebas a los 2 participantes.
 
-### Ejercicio realizado : Burpee
-Los burpees son ejercicios breves y de alta intensidad que trabajan diversos músculos como el abdomen, la espalda, el pecho, los brazos y las piernas. Es un tipo de ejercicio anaeróbico ya que se realiza en un ritmo más intenso y es más corto en duración , en comparación a ejercicios aeróbicos .Durante el ejercicio aeróbico, la frecuencia cardíaca se mantiene en un rango moderado, mientras que durante el ejercicio anaeróbico se eleva significativamente, por ello es que se utilizó este tipo de ejercicio para el procedimiento del laboratorio.[5] [6]
-
-
-Prueba 1 :Señal ECG en reposo
-
-<p align="center">
-<img src="Img_ecg/rep.jfif" align="center" />
-
-</p>
-
-Prueba 2: Señal ECG luego de ejercicio (2 minutos de Burpees)
-
-<p align="center">
-<img src="Img_ecg/ej.jfif" align="center" />
-</p>
+### Procedimiento realizado de registro EEG
+1. Registrar una línea base de señal con poco ruido y sin movimientos (respiración normal,
+sin movimientos oculares/ojos cerrados) durante 30 segundos.
+2. Repetir un ciclo de OJOS ABIERTOS - OJOS CERRADOS cinco veces, manteniendo ambas
+fases durante cinco segundos.
+3. Registre otra fase de referencia de 30 segundos (paso 1).
+4. Que uno de tus compañeros lea en voz alta una serie de ejercicios matemáticos (ver
+indicaciones abajo) y resuelve cada uno de ellos mentalmente enfocando tu mirada en un
+punto específico para evitar artefactos.
+5. Detenga la grabación y guarde sus datos.
 
 ### Video de señal 
 En el siguiente video de youtube se muestran las conexiones electrodos-cuerpo y visualización de la Señal en OpenSignals para el Participante 1 .
