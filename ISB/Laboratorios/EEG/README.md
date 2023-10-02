@@ -670,7 +670,7 @@ Por ejemplo, en estas gráficas (figura 2.2) se visualiza la interferencia  que 
 
 
 <p align="center">
-<img src="algoritmo_BCA.jfif" align="center" />
+<img src="algoritmo_BCA.png" align="center" />
 </p>
 
 
@@ -680,7 +680,7 @@ Por ejemplo, en estas gráficas (figura 2.2) se visualiza la interferencia  que 
 Esta interferencia también se visualiza en el EEG  hallado en el laboratorio. En la figura 3, se  muestra la interferencia generada debido al parpadeo del   participante 2 , muy similar a la interferencia de la anterior figura. 
 
 <p align="center">
-<img src="participante_2.jfif" align="center" />
+<img src="participante_2.png" align="center" />
 </p>
 
 
