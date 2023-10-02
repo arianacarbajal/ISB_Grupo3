@@ -38,15 +38,14 @@
 
 </div>
 
-## Electrocardiograma
+## Electroencefalograma
 
-Un electrocardiograma (ECG) es un procedimiento que evalúa las señales eléctricas que regulan el ritmo del corazón. La prueba evalúa cómo los impulsos eléctricos viajan a través del músculo del corazón cuando se contrae y se relaja.[1]
+La electroencefalografía (EEG) es una técnica no invasiva que utiliza electrodos en el cuero cabelludo para medir los campos eléctricos del cerebro. Esta prueba registra los potenciales de voltaje producidos por el flujo de corriente en y alrededor de las neuronas. [1]
 
+En los procedimientos de electroencefalografía, se colocan electrodos en el cuero cabelludo del paciente, que están conectados a un electroencefalógrafo. Durante el estudio, el paciente se encuentra en un estado de reposo y relajación, y se pueden realizar pruebas específicas, como la hiperventilación o la estimulación luminosa, para provocar respuestas anormales en el cerebro. Los resultados se registran en un electroencefalograma (EEG) y son evaluados por un especialista en neurofisiología clínica para identificar patrones anormales de actividad cerebral.
 
-El electrocardiograma es una herramienta esencial para diagnosticar y monitorear diversas enfermedades cardíacas, como arritmias, cardiomiopatías, enfermedades de las arterias coronarias, ataques cardíacos, insuficiencia cardiaca, enfermedades de las válvulas cardíacas y defectos cardiacos congénitos.[2]
+El Electroencefalograma tiene como objetivo principal detectar anormalidades en las ondas cerebrales y la actividad eléctrica del cerebro. Su utilidad abarca la evaluación de una amplia gama de condiciones neurológicas, como epilepsia, trastornos mentales, parasomnias, encefalopatías metabólicas, demencia y convulsiones relacionadas con accidentes cerebrovasculares. Además, el EEG desempeña un papel valioso en la predicción del pronóstico en casos de lesiones cerebrales, traumatismos craneoencefálicos, muerte cerebral y toxicidad por medicamentos. Este procedimiento es esencial en la neurología y se utiliza tanto en la práctica clínica como en la investigación científica para comprender mejor la función cerebral y desarrollar terapias de neurorehabilitación basadas en la actividad cerebral. [2]
 
-El ECG utiliza derivaciones para obtener vistas del corazón desde diferentes ángulos: las bipolares (I, II, III) miden la actividad entre extremidades, las precordiales (V1-V6) se enfocan en el tórax y las aumentadas ofrecen perspectivas adicionales para evaluar la actividad eléctrica cardíaca.[3]
-Para este laboratorio utilizaremos la derivada bipolar I la cual mide la actividad eléctrica entre el brazo derecho y el brazo izquierdo.
 
 ### Explicación de la onda de ECG
 
