@@ -189,8 +189,7 @@ Ultracortex:
 ### Archivos
 Por otro lado podemos encontrar los archivos de la informacion de las señales ploteadas 
 
--[Archivos txt de cada participante]
-(https://github.com/arianacarbajal/ISB_Grupo3/tree/46fa50f4117d09cc93392f574247df8690fe1e8e/ISB/Laboratorios/EEG/TXT)
+-[Archivos txt de cada participante](https://github.com/arianacarbajal/ISB_Grupo3/tree/46fa50f4117d09cc93392f574247df8690fe1e8e/ISB/Laboratorios/EEG/TXT)
 
 
 -[Archivos ipny con codigo de cada participante](https://github.com/arianacarbajal/ISB_Grupo3/tree/58c008bf54c4f06515acdc2d8f9a60d5dc3d2d3e/ISB/Laboratorios/EEG/ipynb)
