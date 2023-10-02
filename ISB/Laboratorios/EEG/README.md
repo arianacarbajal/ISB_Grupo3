@@ -709,6 +709,6 @@ Por lo tanto, estas interferencias puede llegar a afectar la medicion de EEG;sin
 [4] R. Cerino, D. Pinto, S. Vergara, and F. Pérez-Téllez, “Estimulación Visual Basada en conceptos y su análisis mediante electroencefalografía,” SciELO, https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S1405-55462023000100107 (accessed Oct. 1, 2023). 
 
 [5] F. Vasconcellos, “Procesamiento de señales EEG Basado en Python - UMH,” UNIVERSIDAD MIGUEL HERNÁNDEZ DE ELCHE ESCUELA POLITÉCNICA SUPERIOR DE ELCHE, http://dspace.umh.es/bitstream/11000/26575/1/TFGVasconcellos%20Noailles%2c%20Fernando.pdf (accessed Oct. 2, 2023). 
-‌
+
 [6]Aguilera, P., Beeta, D., Sarmiento, A., & Fondón, I. Cancelación de interferencias en eeg mediante el análisis de componentes acotadas,Universidad de Sevilla, Sevilla, España, Accedido el 1 de octubre de 2023. [En línea]. Disponible:https://www.researchgate.net/profile/Pablo-Aguilera-6/publication/266896121_Cancelacion_de_interferencias_en_EEG_mediante_el_Analisis_de_Componentes_Acotadas/links/547f05490cf2c1e3d2dc392e/Cancelacion-de-interferencias-en-EEG-mediante-el-Analisis-de-Componentes-Acotadas.pdf
 
