@@ -68,10 +68,15 @@ Se seleccionó el músculo vasto lateral de la pierna (VL) como el foco central 
 [1] 
 
 [A1]J. Wang, S. Sun, and Y. Sun, “A Muscle Fatigue Classification Model Based on LSTM and Improved Wavelet Packet Threshold,” Sensors, vol. 21, no. 19, pp. 6369–6369, Sep. 2021, doi: https://doi.org/10.3390/s21196369.
+
 [A2] V. P. Singh, D. Kumar, B. Polus, and S. F. Fraser, “Strategies to identify changes in SEMG due to muscle fatigue during cycling,” Journal of Medical Engineering & Technology, vol. 31, no. 2, pp. 144–151, Jan. 2007, doi: https://doi.org/10.1080/03091900500444281.
+
 [A3] Ibán Latasa, A. Córdova, G. Quintana-Ortí, A. Lavilla-Oiz, J. Navallas, and J. Rodríguez-Falces, “Evaluation of the Electromyography Test for the Analysis of the Aerobic-Anaerobic Transition in Elite Cyclists during Incremental Exercise,” Applied sciences, vol. 9, no. 3, pp. 589–589, Feb. 2019, doi: https://doi.org/10.3390/app9030589.
-[A4] H. A. Yousif et al., “Assessment of Muscles Fatigue Based on Surface EMG Signals Using Machine Learning and Statistical Approaches: A Review,” IOP conference series, vol. 705, no. 1, pp. 012010–012010, Nov. 2019, doi: https://doi.org/10.1088/1757-899x/705/1/012010. 
+
+[A4] H. A. Yousif et al., “Assessment of Muscles Fatigue Based on Surface EMG Signals Using Machine Learning and Statistical Approaches: A Review,” IOP conference series, vol. 705, no. 1, pp. 012010–012010, Nov. 2019, doi: https://doi.org/10.1088/1757-899x/705/1/012010.
+
 ‌[A5] L. Wang et al., “A Comparative Study of EMG Indices in Muscle Fatigue Evaluation Based on Grey Relational Analysis during All-Out Cycling Exercise,” BioMed Research International, vol. 2018, pp. 1–8, Jan. 2018, doi: https://doi.org/10.1155/2018/9341215. 
+
 [A6] S. Bercier et al., “The vastus lateralis neuromuscular activity during all-out cycling exercise,” Journal of Electromyography and Kinesiology, vol. 19, no. 5, pp. 922–930, Oct. 2009, doi: https://doi.org/10.1016/j.jelekin.2008.03.012.
 ‌
 
