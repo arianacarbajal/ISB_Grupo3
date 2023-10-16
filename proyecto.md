@@ -21,7 +21,7 @@
 ### Problemática
 
 ### Estado del arte
-
+<div class=text-justify> 
 En el contexto de este estado del arte, se ha realizado una revisión exhaustiva de investigaciones previas con el propósito de evaluar metodologías y precisiones, así como de analizar los paquetes musculares que han sido objeto de estudio. Los siguientes estudios han sido examinados detenidamente para comprender las técnicas empleadas en la detección de la fatiga muscular, lo que ha sido esencial en la determinación de nuestra estrategia de investigación.
 
 El paper, titulado "A Muscle Fatigue Classification Model Based on LSTM and Improved Wavelet Packet Threshold," [A1] se enfocó en proponer un nuevo método para la clasificación automática de la fatiga muscular basado en la electromiografía de superficie (sEMG). Durante este proceso, se analizaron los músculos vasto recto femoral (RF), vasto lateral (VL), vasto medial (VM) y gastrocnemio (GA) de la pierna izquierda en 20 participantes durante una prueba incremental en un ergómetro de ciclo. La metodología incluyó el uso de la transformada wavelet packet y la aplicación de un algoritmo de eliminación de ruido mediante umbral de paquete wavelet mejorado para el análisis de señales sEMG. Se extrajeron características tanto en el dominio del tiempo como en el de la frecuencia de las señales sEMG. Además, se propuso un modelo de reconocimiento de fatiga muscular basado en la red LSTM, que fue entrenado para clasificar la fatiga muscular utilizando estas características. Los resultados revelaron que el algoritmo de umbral de paquete wavelet mejorado superó a otros métodos de umbral, y que el modelo LSTM demostró un mejor rendimiento en la clasificación de la fatiga muscular en comparación con modelos como CNN, SVM y BFA-GSVCM.
@@ -35,12 +35,12 @@ El artículo, titulado “Assessment of Muscles Fatigue Based on Surface EMG Sig
 
 
 ‌El objetivo del estudio "Un estudio comparativo de índices EMG en la evaluación de la fatiga muscular durante el ejercicio de ciclismo al máximo esfuerzo" [A5] fue evaluar la utilidad de diferentes índices EMG en la evaluación de la fatiga muscular inducida por el ejercicio de ciclismo al máximo esfuerzo. Los músculos analizados fueron el vasto lateral (VL), el bíceps femoral (BF) y el gastrocnemio medial (GM). Se reclutaron 12 ciclistas altamente entrenados para realizar un ejercicio de ciclismo al máximo esfuerzo y se midieron los índices EMG de los músculos VL, BF y GM durante el ejercicio. Se utilizó el análisis de correlación gris para evaluar la relación entre los diferentes índices EMG y la fatiga muscular. Las variables utilizadas para medir la fatiga muscular fueron la frecuencia mediana (MF), la frecuencia media (MNF), la potencia media de la frecuencia (MPF) y la relación de potencia mediana (MMP).Además, se encontró que la frecuencia mediana (MF) y la frecuencia media (MNF) fueron los índices EMG más sensibles para detectar la fatiga muscular en los tres músculos analizados.
-
+</div>
 ### Propuesta de solución
-
+<div class=text-justify>
 Se seleccionó el músculo vasto lateral de la pierna (VL) como el foco central de este estudio debido a su destacado papel como generador principal de potencia durante la práctica del ciclismo [A6]. Por consiguiente, proponemos el  desarrollo de un Modelo de Aprendizaje Automático para la Monitorización de la Fatiga Muscular en el Músculo Vasto Lateral durante la Rehabilitación con Bicicleta Estática mediante señales de electromiografía de superficie (sEMG). Esta elección se respalda en la capacidad inherente del aprendizaje automático para analizar de forma precisa y eficiente las complejas señales de sEMG, identificar patrones de fatiga muscular y proporcionar retroalimentación en tiempo real. Nuestra propuesta tiene como objetivo optimizar los protocolos de rehabilitación y prevenir lesiones musculares en el contexto de pacientes que utilizan la bicicleta estática como parte de su proceso de recuperación, lo que, indudablemente, contribuirá al bienestar y al rendimiento de este grupo.
 
-
+</div>
 
 
 
