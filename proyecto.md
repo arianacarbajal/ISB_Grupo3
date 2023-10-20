@@ -90,9 +90,9 @@ Específicos:
 ### Problemática
 El presente proyecto se está centrando en personas físicamente activas, que presentan o pueden presentar lesiones. Revisando la incidencia de lesiones musculares, podemos notar que las extremidades inferiores son las más afectadas, representando el 51.6% de las lesiones[5]. 
 
-![Texto alternativo](Imagen/Imagen1.png)
+   ![Texto alternativo](Imagen/Imagen1.png)
 <div class=text-justify>
-Diagrama de incidencia de lesiones musculares dependiendo de la zona.
+   Imagen : <Diagrama de incidencia de lesiones musculares dependiendo de la zona.
 <div class=text-justify>
 Estos datos pueden variar un poco dependiendo de la naturaleza de la actividad física que realiza el sujeto, sin embargo, la prevalencia en las extremidades inferiores suele ser mayor, lo cual otorga mayor importancia al monitoreo de esta zona. De estos datos también es importante notar que las lesiones musculares y de tendón representan el 53.8% y que el 65.7% de las lesiones son causadas por sobreuso[5], estadística que se eleva si se evalúa exclusivamente el tiempo de entrenamiento y no de competencia.
 <div class=text-justify>
