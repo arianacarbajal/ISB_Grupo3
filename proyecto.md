@@ -40,13 +40,13 @@ El presente proyecto se está centrando en personas físicamente activas, que pr
 Diagrama de incidencia de lesiones musculares dependiendo de la zona.
 <div class=text-justify>
 Estos datos pueden variar un poco dependiendo de la naturaleza de la actividad física que realiza el sujeto, sin embargo, la prevalencia en las extremidades inferiores suele ser mayor, lo cual otorga mayor importancia al monitoreo de esta zona. De estos datos también es importante notar que las lesiones musculares y de tendón representan el 53.8% y que el 65.7% de las lesiones son causadas por sobreuso[a], estadística que se eleva si se evalúa exclusivamente el tiempo de entrenamiento y no de competencia.
-  <div class=text-justify>
+<div class=text-justify>
 Tomando en cuenta la recurrencia de las lesiones musculares por sobre exigencia en las extremidades inferiores, notamos que el monitoreo de la actividad muscular en esta zona es crucial. Lo ideal sería realizar este  monitoreo tanto en personas sanas como en personas realizando rehabilitación física después de una lesión.
-  <div class=text-justify>
+<div class=text-justify>
 En personas sanas la fatiga muscular, es un importante factor de riesgo para sufrir lesiones futuras[d] y en personas que se encuentran en proceso de rehabilitacion, la falta de una terepia de rehabilitacion certera puede generar que la zona se sobreexija y agrave la lesion o empeore el pronostico inicial[g], consecuentemente no se recupere completamente y sea propensa a volver a lesionarse nuevamente, inhabilitando a la persona por un mayor periodo de tiempo[e].
-     <div class=text-justify>
+<div class=text-justify>
 Para ser más precisos, sin un monitoreo de la fatiga, es difícil poder detener los ejercicios oportunamente para establecer periodos de recuperación que nos permitan evitar la acumulación de fatiga, lo cual genera en el paciente una baja tolerancia a cargas, disminución de rendimiento, aumento de riesgo de lesiones y alteraciones cognitivas[f].
-
+<div class=text-justify>
 Dicho esto, hemos decidido concentramos específicamente en el ejercicio de bicicleta estática, por dos razones importantes:  
 1. Es un ejercicio idóneo para la rehabilitación de lesiones del miembro inferior ya que es posible modificar la altura del asiento y la posición de los pedales para centrarse específicamente en la actividad de los músculos y aliviar los ligamentos[h].
 2. Implica la activación de músculos vasto interno, externo, crural y recto anterior femoral que, como vimos, son propensos a las lesiones de sobrecarga específicamente generadas por las grandes cargas que debe soportar el tendón rotuliano y son los de mayor participación en el proceso de pedaleo[b].
