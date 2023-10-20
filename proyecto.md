@@ -172,7 +172,6 @@ Utilizar electrodos de alta adherencia asegurar una buena conexión y minimizar
 Posición de Electrodos:
 La posición de los electrodos se seleccionará de acuerdo con el consenso SENIAM, una norma europea llamada "Surface ElectroMyoGraphy for the Non-Invasive Assessment of Muscles." Esto garantiza una colocación estandarizada y precisa para la adquisición de señales de EMG.
 ![3-Figure1-1](https://github.com/arianacarbajal/ISB_Grupo3/assets/56054823/454571d0-a274-4b04-b8ae-c066b16d6417)
- artefactos.
 
 Procesamiento de Señal en Python:
 La señal se procesará en un entorno Python utilizando filtros pasa baja y alta, así como la transformada wavelet para eliminar el ruido y resaltar características relevantes.
