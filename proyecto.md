@@ -19,9 +19,9 @@
 La fatiga muscular es una disminución de la fuerza máxima y una respuesta muscular más lenta.  La fatiga puede tener un origen central, al reducir el rendimiento cognitivo o disminuir la excitación de las motoneuronas.Las fatigas en las  contracciones musculares van acompañadas de descargas reducidas de las motoneuronas.
 
 
-La fatiga periférica, es donde la disminución de la fuerza ocurre a nivel de las fibras musculares principalmente o el medio en el cual se encuentran . Puede interferir con el acople excitación contracción, la disponibilidad de sustratos metabólicos, el medio intracelular, el flujo sanguíneo muscular y las propiedades intrínsecas del aparato contráctil
+La fatiga periférica, es donde la disminución de la fuerza ocurre a nivel de las fibras musculares principalmente o el medio en el cual se encuentran . Puede interferir con el acople excitación contracción, la disponibilidad de sustratos metabólicos, el medio intracelular, el flujo sanguíneo muscular y las propiedades intrínsecas del aparato contráctil [1]
 
-Mecanismos fisiológicos que ocasionan la fatiga muscular son los siguientes:
+Mecanismos fisiológicos que ocasionan la fatiga muscular son los siguientes: [1]
 
 
 1)Alteraciones que ocurren durante la propagación del potencial de acción a lo largo del sarcolema con disminución en la sensibilidad de receptores post sinápticos a la acetilcolina, y al calcio en sarcolema y RS3 .Esto ocasiona una  disminución de la velocidad de conducción de los potenciales de acción a lo largo del sarcolema, así como en malfuncionamiento de la capacidad contráctil propia de la fibra muscular.
@@ -32,6 +32,40 @@ Mecanismos fisiológicos que ocasionan la fatiga muscular son los siguientes:
 3)Modificaciones a nivel de la fibra muscular propiamente, la más importante,es el aumento del fosfato inorgánico (Pi) en el sarcoplasma proveniente de: la hidrólisis de la fosfocreatina en creatina y Pi durante el ejercicio y de la hidrolisis de ATP
 
 4)La acumulación de iones de magnesio que limitan la liberación de Ca2+ desde el RS y la depleción de las reservas de glucógeno en la fibra muscular.
+
+
+
+**¿Que es la bicicleta estática? **
+Es  un nuevo tipo de bicicleta menos convencional(comparado a la bicicleta que todos conocemos ), apodado ‘estática’ pues simula la acción de una bicicleta convencional, pero sin producirse el desplazamiento. 
+Esto es debido a que lo que se busca es el desgaste energético, no el movimiento; es decir realizar el esfuerzo provocado por el pedaleo de una bici con fines deportivos. Sin embargo, dentro de esta subclase aparecen nuevas ramificaciones [2]: 
+
+-Convencionales: Las de uso doméstico aunque también se pueden encontrar en instalaciones deportivas. Siguen una estructura básica pero tienen gran variedad de funcionalidades. 
+
+-Spinning: Esta bicicleta aunque posee ruedas no se produce el desplazamiento, destaca por su uso diverso y por la gran variedad de resistencias al pedaleo.Lo utilizan deportistas de alto rendimiento.
+
+-Elípticas: El ejercicio se realiza de pie gracias a esta ya que posee dos pedales sobre los que se marchan y dos barras verticales que ayudan a la realización el ejercicio.
+
+ -De alta resistencia o crossfit: Estas destacan por sus materiales de elaboración pues son resistentes a la oxidación y el desgaste mecánico pues están pensadas para ejercicio de alta intensidad.
+
+
+
+
+El uso de bicicleta estática (ergómetro de ciclo) se utiliza en rehabilitación de deportistas  tanto en lesiones que perjudiquen el análisis de fatiga muscular (como amputaciones, lesiones musculo-tendinosas) o en lesiones que no afecten esta medición como esguinces, contusiones o traumatismos  en la rodilla (**generalmente en jugadores de fútbol**). [3]
+
+
+
+**¿Cómo podríamos unir el análisis por sEMG  de fatiga muscular con la rehabilitación con bicicleta estática en deportistas?** [4]
+
+En este artículo, determinamos como el cicloergómetro(bicicleta estática ) en ciclos de ejercicios  nos permite  hallar  un parámetro llamado PWCFT,  que permite clasificar si  el músculo/s  analizados (p.j vasto medial) presenta fatiga.
+
+ En el artículo, propusieron un umbral de fatiga neuromuscular basado en la actividad EMG, definido como la “Capacidad Física de Trabajo en el Umbral de Fatiga” (PWCFT), a través de un test especifico en cicloergómetro.
+
+ En su versión original, la determinación del umbral PWCFT se hacía examinando las curvas EMG-tiempo obtenidas de 4 series de trabajo realizadas en 4 niveles de potencia distintos. Los autores de este método identificaban el umbral PWCFT determinando el mayor nivel potencia (carga) que el ciclista podía mantener en un periodo de 2 minutos sin que la señal EMG se incrementara drásticamente . En su versión original, el método de deVries adolecía de una gran desventaja al tratarse de un test discontinuo que exige al ciclista varias visitas al laboratorio para realizar los análisis . Luego, , este grupo  realizaron un refinamiento de su método que le permitió extraer el umbral PWC mediante la realización de un solo test incremental.
+
+
+
+
+Las señales de EMG se obtienen mediante electrodos colocados en la pierna dominante sobre el músculo VL(vasto lateral ) a un 1/3 de la distancia entre el extremo lateral de la rótula y la proyección del hueso ilíaco. . Durante cada etapa (25w/min) de la prueba incremental, se registran varios segmentos consecutivos de EMG (cada segmento coincidiendo con el intervalo en el que el músculo está activo en una pedalada). Normalmente, los primeros 10-15 segundos de cada etapa de 1 minuto se descartan para el análisis, ya que durante este periodo inicial el ciclista realiza ajustes posturales para adaptarse a la nueva potencia. Para cada nivel de potencia del test, la amplitud sEMG de cada uno de los segmentos se calcula y representada en función del tiempo. Así mismo, se identifica la carga de trabajo (potencia) más baja que genera una pendiente significativa positiva en la relación amplitud sEMG/tiempo y también la carga de trabajo (potencia) más alta que genera una pendiente positiva no significativa en la relación amplitud sEMG/tiempo. El PWCFT se determina haciendo el promedio de las dos potencias arriba mencionadas
 
 
 
@@ -138,6 +172,18 @@ Se seleccionó el músculo vasto lateral de la pierna (VL) como el foco central 
 
 
 ### Bibliografía
+
+
+[1]“Mecanismos fisiológicos de la fatiga neuromuscular”. Medigraphic - Literatura Biomédica. Accedido el 20 de octubre de 2023. [En línea]. Disponible: https://www.medigraphic.com/cgi-bin/new/resumenI.cgi?IDARTICULO=66431
+
+[2]Rodríguez Ortega, Arturo. “Diseño de un nuevo modelo de bicicleta estática para uso comercial en una empresa multinacional con SAP ERP”. RiuNet repositorio UPV. Accedido el 20 de octubre de 2023. [En línea]. Disponible: https://riunet.upv.es/handle/10251/147867
+
+
+[3]“Eficacia del ejercicio muscular concéntrico y excéntrico en deportistas aficionados con tendinopatias rotulianas en el centro de rehabilitación ASOFISIO”. DSpace Principal. Accedido el 20 de octubre de 2023. [En línea]. Disponible: http://repositorio.puce.edu.ec/handle/22000/8912
+
+
+[4]UVaDOC Principal. Accedido el 20 de octubre de 2023. [En línea]. Disponible: https://uvadoc.uva.es/bitstream/handle/10324/57784/Actividad-electromiografica-EMG-durante-el-pedaleo.pdf?sequence=1&amp;isAllowed=y
+
 
 [a] D. Pérez, “Epidemiología de la lesión deportiva,” Universidad Politécnica de Madrid,2015. https://oa.upm.es/36508/1/TFG_DANIEL_PEREZ_DEL_POZO.pdf (accessed Oct. 2023). 
 [d] L. Gao et al., “Biomechanical effects of exercise fatigue on the lower limbs of men during the forward lunge,” Frontiers, 2023. https://www.frontiersin.org/articles/10.3389/fphys.2023.1182833/full (accessed Oct. 2023). 
