@@ -79,13 +79,13 @@ Desarrollar un sistema de monitorización de fatiga muscular basado en sensores 
   <div class=text-justify>
 Específicos:
 <div class=text-justify>
-Diseñar y construir un sistema de adquisición de señales sEMG para obtener nuestras señales de interés.
+- Diseñar y construir un sistema de adquisición de señales sEMG para obtener nuestras señales de interés.
  <div class=text-justify>
- Lograr un correcto filtrado y procesamiento de la señal para poder obtener la medición de la actividad del músculo vasto lateral de forma precisa.
+- Lograr un correcto filtrado y procesamiento de la señal para poder obtener la medición de la actividad del músculo vasto lateral de forma precisa.
    <div class=text-justify>
-Desarrollar un modelo de aprendizaje automático capaz de analizar las señales sEMG recopiladas y detectar patrones asociados a la fatiga muscular en el músculo vasto lateral.
+- Desarrollar un modelo de aprendizaje automático capaz de analizar las señales sEMG recopiladas y detectar patrones asociados a la fatiga muscular en el músculo vasto lateral.
   <div class=text-justify>
-Implementar un sistema de alerta temprana que notifique al paciente y al terapeuta cuando se detecten signos de fatiga muscular, con recomendaciones específicas para disminuir la intensidad del ejercicio.
+- Implementar un sistema de alerta temprana que notifique al paciente y al terapeuta cuando se detecten signos de fatiga muscular, con recomendaciones específicas para disminuir la intensidad del ejercicio.
 
 ### Problemática
 El presente proyecto se está centrando en personas físicamente activas, que presentan o pueden presentar lesiones. Revisando la incidencia de lesiones musculares, podemos notar que las extremidades inferiores son las más afectadas, representando el 51.6% de las lesiones[5]. 
@@ -151,9 +151,6 @@ Se seleccionó el músculo vasto lateral de la pierna (VL) como el foco central 
  
 </div>
 
-
-
-
 ### Metodología del proyecto
 1. Adquisición de la señal electromiográfica del antebrazo
 2. Procesamiento de señal en Phyton
@@ -162,7 +159,6 @@ Se seleccionó el músculo vasto lateral de la pierna (VL) como el foco central 
 5.  Obtención de resultados preliminares.
 6.  Documentación de la investigación.
 
-
 ### Integrantes del proyecto
 
 - Ariana Carbajal (colaborador) - ariana.carbajal@upch.pe 
@@ -170,11 +166,7 @@ Se seleccionó el músculo vasto lateral de la pierna (VL) como el foco central 
 - Gianfranco Fabian Feria Maquera (colaborador) - gianfranco.feria@upch.pe 
 - Eduardo André Cuti Riveros (colaborador) -  eduardo.cuti@upch.pe 
 
-
-
 ### Bibliografía
-
-
 [1]“Mecanismos fisiológicos de la fatiga neuromuscular”. Medigraphic - Literatura Biomédica. Accedido el 20 de octubre de 2023. [En línea]. Disponible: https://www.medigraphic.com/cgi-bin/new/resumenI.cgi?IDARTICULO=66431
 
 [2]Rodríguez Ortega, Arturo. “Diseño de un nuevo modelo de bicicleta estática para uso comercial en una empresa multinacional con SAP ERP”. RiuNet repositorio UPV. Accedido el 20 de octubre de 2023. [En línea]. Disponible: https://riunet.upv.es/handle/10251/147867
