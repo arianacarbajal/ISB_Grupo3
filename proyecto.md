@@ -20,7 +20,7 @@
 <div class=text-justify>
 General: 
  <div class=text-justify>
-Desarrollar un sistema de monitorización de fatiga muscular basado en sensores sEMG que optimice la rehabilitación y prevenga lesiones musculares en pacientes que realizan ejercicios en bicicleta estática durante su proceso de recuperación.
+Desarrollar un sistema de monitorización de fatiga muscular basado en sensores sEMG que optimice la rehabilitación y prevenga lesiones de sobre exigencia muscular en pacientes que realizan ejercicios en bicicleta estática.
   <div class=text-justify>
 Específicos:
 <div class=text-justify>
@@ -44,9 +44,9 @@ Estos datos pueden variar un poco dependiendo de la naturaleza de la actividad f
 Tomando en cuenta la recurrencia de las lesiones musculares por sobre exigencia en las extremidades inferiores, notamos que el monitoreo de la actividad muscular en esta zona es crucial. Lo ideal sería realizar este  monitoreo tanto en personas sanas como en personas realizando rehabilitación física después de una lesión.
 
 En personas sanas, para evitar que se generen las lesiones por fatiga muscular, la cual es un importante factor de riesgo[d], y en personas que se encuentran en un proceso de rehabilitación porque la falta de una terapia de rehabilitación certera puede generar que la zona se sobre exija y agrave la lesión o empeore el pronóstico inicial[g], consecuentemente no se recupere completamente y sea propensa a volver a lesionarse nuevamente, inhabilitando a la persona por un mayor periodo de tiempo[e].
-Para ser más precisos, sin un monitoreo de la fatiga, es difícil poder detener los ejercicios oportunamente para establecer periodos de recuperación que nos permitan evitar la acumulación de fatiga, lo cual genera una baja tolerancia a cargas, disminución de rendimiento, aumento de riesgo de lesiones y alteraciones cognitivas[f].
+Para ser más precisos, sin un monitoreo de la fatiga, es difícil poder detener los ejercicios oportunamente para establecer periodos de recuperación que nos permitan evitar la acumulación de fatiga, lo cual genera en el paciente una baja tolerancia a cargas, disminución de rendimiento, aumento de riesgo de lesiones y alteraciones cognitivas[f].
 
-Hemos decidido concentramos específicamente en el ejercicio de bicicleta estática, por dos razones importantes:  
+Dicho esto, hemos decidido concentramos específicamente en el ejercicio de bicicleta estática, por dos razones importantes:  
 1. Es un ejercicio idóneo para la rehabilitación de lesiones del miembro inferior ya que es posible modificar la altura del asiento y la posición de los pedales para centrarse específicamente en la actividad de los músculos y aliviar los ligamentos[h].
 2. Implica la activación de músculos vasto interno, externo, crural y recto anterior femoral que, como vimos, son propensos a las lesiones de sobrecarga específicamente generadas por las grandes cargas que debe soportar el tendón rotuliano y son los de mayor participación en el proceso de pedaleo[b].
 
