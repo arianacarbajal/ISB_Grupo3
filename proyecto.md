@@ -93,7 +93,10 @@ El presente proyecto se está centrando en personas físicamente activas, que pr
    ![Texto alternativo](Imagen/Imagen1.png)
 <div class=text-justify>
    Imagen : <Diagrama de incidencia de lesiones musculares dependiendo de la zona.
+
+
 <div class=text-justify>
+    
 Estos datos pueden variar un poco dependiendo de la naturaleza de la actividad física que realiza el sujeto, sin embargo, la prevalencia en las extremidades inferiores suele ser mayor, lo cual otorga mayor importancia al monitoreo de esta zona. De estos datos también es importante notar que las lesiones musculares y de tendón representan el 53.8% y que el 65.7% de las lesiones son causadas por sobreuso[5], estadística que se eleva si se evalúa exclusivamente el tiempo de entrenamiento y no de competencia.
 <div class=text-justify>
 Tomando en cuenta la recurrencia de las lesiones musculares por sobre exigencia en las extremidades inferiores, notamos que el monitoreo de la actividad muscular en esta zona es crucial. Lo ideal sería realizar este  monitoreo tanto en personas sanas como en personas realizando rehabilitación física después de una lesión.
