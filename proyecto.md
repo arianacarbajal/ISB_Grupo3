@@ -119,7 +119,14 @@ Se seleccionó el músculo vasto lateral de la pierna (VL) como el foco central 
 
 ### Bibliografía
 
-[1] 
+[a] D. Pérez, “Epidemiología de la lesión deportiva,” Universidad Politécnica de Madrid,2015. https://oa.upm.es/36508/1/TFG_DANIEL_PEREZ_DEL_POZO.pdf (accessed Oct. 2023). 
+[d] L. Gao et al., “Biomechanical effects of exercise fatigue on the lower limbs of men during the forward lunge,” Frontiers, 2023. https://www.frontiersin.org/articles/10.3389/fphys.2023.1182833/full (accessed Oct. 2023). 
+[g] J. A. Pernas, “Lesiones Musculares con y sin daño anatómico ,” VIl Jornadas Nacionales de Fisioterapia en el Deporte, 1999. https://ruc.udc.es/dspace/bitstream/handle/2183/10903/CC%2051%20art%204.pdf (accessed Oct. 19, 2023). 
+[e] R. D´Onofrio, M. Padasala, A. Bhatt, and L. Febbrari, “The return to sport after muscular injury of the hamstring. A systemic Review,” The return to sport after muscular injury of the Hamstring. A systematic review, 2019. https://www.researchgate.net/profile/Rosario-Donofrio-2/publication/332621616_The_return_to_sport_after_muscular_injury_of_the_Hamstring_A_Systemic_Review/links/5cc068e092851c8d2202d543/The-return-to-sport-after-muscular-injury-of-the-Hamstring-A-Systemic-Review.pdf (accessed Oct. 20, 2023). 
+[f] F. Daussin, A. Combes, V. Bougault, and J. Dekerle, “European Journal of Sports Medicine x 8 TH EUROPEAN SPORTS MEDICINE CONGRESS OF EFSMA EUROPEAN FEDERATION OF SPORTS MEDICINE ASSOCIATIONS AND 6 TH JOINT MEETING SFMES AND SFTS FRENCH SOCIETY OF EXERCISE AND SPORTS MEDICINE FRENCH SOCIETY OF SPORTS TRAUMATOLOGY,” Conference: 8TH EUROPEAN SPORTS MEDICINE CONGRESS OF EFSMA EUROPEAN FEDERATION OF SPORTS MEDICINE ASSOCIATIONS, 2013. https://www.researchgate.net/publication/297698831_European_Journal_of_Sports_Medicine_x_8_TH_EUROPEAN_SPORTS_MEDICINE_CONGRESS_OF_EFSMA_EUROPEAN_FEDERATION_OF_SPORTS_MEDICINE_ASSOCIATIONS_AND_6_TH_JOINT_MEETING_SFMES_AND_SFTS_FRENCH_SOCIETY_OF_EXERCI (accessed Oct, 2023). 
+
+[b] V. Bourguigne, “Alteraciones posturales y lesiones en ciclistas amateurs - core,” Universidad Fasta,2012.  https://core.ac.uk/download/pdf/49224101.pdf (accessed Oct. 20, 2023). 
+
 
 [A1]J. Wang, S. Sun, and Y. Sun, “A Muscle Fatigue Classification Model Based on LSTM and Improved Wavelet Packet Threshold,” Sensors, vol. 21, no. 19, pp. 6369–6369, Sep. 2021, doi: https://doi.org/10.3390/s21196369.
 
