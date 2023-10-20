@@ -2,6 +2,7 @@
 
 
 
+
 ## Tabla de contenido
 
 - [Introducción](#Introducción).
@@ -14,6 +15,25 @@
 - [Bibliografía](#Bibliografía).
 
 ### Introducción
+
+La fatiga muscular es una disminución de la fuerza máxima y una respuesta muscular más lenta.  La fatiga puede tener un origen central, al reducir el rendimiento cognitivo o disminuir la excitación de las motoneuronas.Las fatigas en las  contracciones musculares van acompañadas de descargas reducidas de las motoneuronas.
+
+
+La fatiga periférica, es donde la disminución de la fuerza ocurre a nivel de las fibras musculares principalmente o el medio en el cual se encuentran . Puede interferir con el acople excitación contracción, la disponibilidad de sustratos metabólicos, el medio intracelular, el flujo sanguíneo muscular y las propiedades intrínsecas del aparato contráctil
+
+Mecanismos fisiológicos que ocasionan la fatiga muscular son los siguientes:
+
+
+1)Alteraciones que ocurren durante la propagación del potencial de acción a lo largo del sarcolema con disminución en la sensibilidad de receptores post sinápticos a la acetilcolina, y al calcio en sarcolema y RS3 .Esto ocasiona una  disminución de la velocidad de conducción de los potenciales de acción a lo largo del sarcolema, así como en malfuncionamiento de la capacidad contráctil propia de la fibra muscular.
+
+2)La acumulación de lactato e hidrogeniones (H+), lo que genera una variación en el cociente respiratorio
+
+
+3)Modificaciones a nivel de la fibra muscular propiamente, la más importante,es el aumento del fosfato inorgánico (Pi) en el sarcoplasma proveniente de: la hidrólisis de la fosfocreatina en creatina y Pi durante el ejercicio y de la hidrolisis de ATP
+
+4)La acumulación de iones de magnesio que limitan la liberación de Ca2+ desde el RS y la depleción de las reservas de glucógeno en la fibra muscular.
+
+
 
 
 ### Objetivos del proyecto
