@@ -17,8 +17,24 @@
 
 
 ### Objetivos del proyecto
-
+General: 
+Desarrollar un sistema de monitorización de fatiga muscular basado en sensores sEMG que optimice la rehabilitación y prevenga lesiones musculares en pacientes que realizan ejercicios en bicicleta estática durante su proceso de recuperación.
+Específicos:
+Diseñar y construir un sistema de adquisición de señales sEMG que sea capaz de medir la actividad del músculo vasto lateral de forma precisa.
+Desarrollar un modelo de aprendizaje automático capaz de analizar las señales sEMG recopiladas y detectar patrones asociados a la fatiga muscular en el músculo vasto lateral.
+Implementar un sistema de alerta temprana que notifique al paciente y al terapeuta cuando se detecten signos de fatiga muscular, con recomendaciones específicas para disminuir la intensidad del ejercicio.
 ### Problemática
+El presente proyecto se está centrando en personas físicamente activas, que presentan o pueden presentar lesiones. Revisando la incidencia de lesiones musculares, podemos notar que las extremidades inferiores son las más afectadas, representando el 51.6% de las lesiones[a]. 
+
+Estos datos pueden variar un poco dependiendo de la naturaleza de la actividad física que realiza el sujeto, sin embargo, la prevalencia en las extremidades inferiores suele ser mayor, lo cual otorga mayor importancia al monitoreo de esta zona. De estos datos también es importante notar que las lesiones musculares y de tendón representan el 53.8% y que el 65.7% de las lesiones son causadas por sobreuso[a], estadística que se eleva si se evalúa exclusivamente el tiempo de entrenamiento y no de competencia.
+
+Tomando en cuenta la recurrencia de las lesiones musculares por sobre exigencia en las extremidades inferiores, notamos que el monitoreo de la actividad muscular en esta zona es crucial. Lo ideal sería realizar este  monitoreo tanto en personas sanas como en personas realizando rehabilitación física después de una lesión.
+En personas sanas, para evitar que se generen las lesiones por fatiga muscular, la cual es un importante factor de riesgo[d], y en personas que se encuentran en un proceso de rehabilitación porque la falta de una terapia de rehabilitación certera puede generar que la zona se sobre exija y agrave la lesión o empeore el pronóstico inicial[g], consecuentemente no se recupere completamente y sea propensa a volver a lesionarse nuevamente, inhabilitando a la persona por un mayor periodo de tiempo[e].
+Para ser más precisos, sin un monitoreo de la fatiga, es difícil poder detener los ejercicios oportunamente para establecer periodos de recuperación que nos permitan evitar la acumulación de fatiga, lo cual genera una baja tolerancia a cargas, disminución de rendimiento, aumento de riesgo de lesiones y alteraciones cognitivas[f].
+
+Hemos decidido concentramos específicamente en el ejercicio de bicicleta estática, por dos razones importantes:  
+1. Es un ejercicio idóneo para la rehabilitación de lesiones del miembro inferior ya que es posible modificar la altura del asiento y la posición de los pedales para centrarse específicamente en la actividad de los músculos y aliviar los ligamentos[h].
+2. Implica la activación de músculos vasto interno, externo, crural y recto anterior femoral que, como vimos, son propensos a las lesiones de sobrecarga específicamente generadas por las grandes cargas que debe soportar el tendón rotuliano y son los de mayor participación en el proceso de pedaleo[b].
 
 ### Estado del arte
 <div class=text-justify> 
