@@ -35,7 +35,7 @@ Mecanismos fisiológicos que ocasionan la fatiga muscular son los siguientes: [1
 
 
 
-**¿Que es la bicicleta estática? **
+**¿Qué es la bicicleta estática?**
 Es  un nuevo tipo de bicicleta menos convencional(comparado a la bicicleta que todos conocemos ), apodado ‘estática’ pues simula la acción de una bicicleta convencional, pero sin producirse el desplazamiento. 
 Esto es debido a que lo que se busca es el desgaste energético, no el movimiento; es decir realizar el esfuerzo provocado por el pedaleo de una bici con fines deportivos. Sin embargo, dentro de esta subclase aparecen nuevas ramificaciones [2]: 
 
