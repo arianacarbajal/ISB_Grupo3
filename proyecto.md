@@ -34,11 +34,13 @@ Implementar un sistema de alerta temprana que notifique al paciente y al terapeu
 El presente proyecto se está centrando en personas físicamente activas, que presentan o pueden presentar lesiones. Revisando la incidencia de lesiones musculares, podemos notar que las extremidades inferiores son las más afectadas, representando el 51.6% de las lesiones[a]. 
 
 ![Texto alternativo](Imagen/Imagen1.png)
+<div class=text-justify>
 Diagrama de incidencia de lesiones musculares dependiendo de la zona.
 <div class=text-justify>
 Estos datos pueden variar un poco dependiendo de la naturaleza de la actividad física que realiza el sujeto, sin embargo, la prevalencia en las extremidades inferiores suele ser mayor, lo cual otorga mayor importancia al monitoreo de esta zona. De estos datos también es importante notar que las lesiones musculares y de tendón representan el 53.8% y que el 65.7% de las lesiones son causadas por sobreuso[a], estadística que se eleva si se evalúa exclusivamente el tiempo de entrenamiento y no de competencia.
 
 Tomando en cuenta la recurrencia de las lesiones musculares por sobre exigencia en las extremidades inferiores, notamos que el monitoreo de la actividad muscular en esta zona es crucial. Lo ideal sería realizar este  monitoreo tanto en personas sanas como en personas realizando rehabilitación física después de una lesión.
+
 En personas sanas, para evitar que se generen las lesiones por fatiga muscular, la cual es un importante factor de riesgo[d], y en personas que se encuentran en un proceso de rehabilitación porque la falta de una terapia de rehabilitación certera puede generar que la zona se sobre exija y agrave la lesión o empeore el pronóstico inicial[g], consecuentemente no se recupere completamente y sea propensa a volver a lesionarse nuevamente, inhabilitando a la persona por un mayor periodo de tiempo[e].
 Para ser más precisos, sin un monitoreo de la fatiga, es difícil poder detener los ejercicios oportunamente para establecer periodos de recuperación que nos permitan evitar la acumulación de fatiga, lo cual genera una baja tolerancia a cargas, disminución de rendimiento, aumento de riesgo de lesiones y alteraciones cognitivas[f].
 
