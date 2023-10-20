@@ -156,12 +156,34 @@ Se seleccionó el músculo vasto lateral de la pierna (VL) como el foco central 
 </div>
 
 ### Metodología del proyecto
-1. Adquisición de la señal electromiográfica del antebrazo
-2. Procesamiento de señal en Phyton
-3. Aplicación de filtros digitales a la señal
-4. Análisis de la señal para simular movimientos en la prótesis. 
-5.  Obtención de resultados preliminares.
-6.  Documentación de la investigación.
+Criterios de Inclusión:
+Edad: Personas de 18 a 40 años.
+Actividad física: Individuos con actividad física regular.
+Reposo previo al estudio: No haber realizado ejercicio intenso en los tres días previos a la prueba.
+Criterios de Exclusión:
+Enfermedades: Personas con enfermedades cardiovasculares, neuromusculares y metabólicas no serán incluidas en el estudio.
+
+Preparación de la Piel para la Adquisición de Señal:
+Depilar el exceso de vello en la zona.
+Limpiar la zona con alcohol u otro desinfectante adecuado.
+Aplicar gel conductivo en la zona para mejorar la conductividad eléctrica de los electrodos.
+Utilizar electrodos de alta adherencia asegurar una buena conexión y minimizar artefactos.
+
+Posición de Electrodos:
+La posición de los electrodos se seleccionará de acuerdo con el consenso SENIAM, una norma europea llamada "Surface ElectroMyoGraphy for the Non-Invasive Assessment of Muscles." Esto garantiza una colocación estandarizada y precisa para la adquisición de señales de EMG.
+
+Procesamiento de Señal en Python:
+La señal se procesará en un entorno Python utilizando filtros pasa baja y alta, así como la transformada wavelet para eliminar el ruido y resaltar características relevantes.
+
+Análisis de la Señal:
+Se analizará la amplitud y la frecuencia de las señales de EMG a lo largo del tiempo para detectar cambios que indiquen fatiga muscular. Se considerarán características como la frecuencia mediana, frecuencia media, amplitud RMS y coeficientes de Wavelet.
+
+Monitoreo de la Fatiga Muscular:
+Se utilizará el espectro de potencia para seguir la evolución hacia frecuencias más bajas a medida que el músculo se fatiga. Esto permitirá el monitoreo de la fatiga en tiempo real durante el ejercicio.
+
+Modelo de Aprendizaje Automático:
+Se evaluarán los tipos de modelos de aprendizaje automático, tanto supervisados como no supervisados, para determinar cuál es más apropiado. La entrada del sistema serán las señales de EMG con sus características, y la salida será la recomendación de un ejercicio óptimo para prevenir lesiones musculares mediante el análisis de fatiga.Esta metodología proporciona un enfoque integral para el estudio de monitorización de fatiga muscular durante la rehabilitación con bicicleta estática. La combinación de técnicas de procesamiento de señales y aprendizaje automático permitirá un análisis detallado de la fatiga y la recomendación de ejercicios óptimos para mantener la salud muscular y prevenir lesiones.
+La elección de frecuencias de corte y características importantes a analizar se eligieron mediante el estado del arte, donde se adecuará según la necesidad específica de nuetro proyecto.
 
 ### Integrantes del proyecto
 
