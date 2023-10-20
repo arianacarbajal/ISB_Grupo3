@@ -161,7 +161,7 @@ Edad: Personas de 18 a 40 años.
 Actividad física: Individuos con actividad física regular.
 Reposo previo al estudio: No haber realizado ejercicio intenso en los tres días previos a la prueba.
 Criterios de Exclusión:
-Enfermedades: Personas con enfermedades cardiovasculares, neuromusculares y metabólicas no serán incluidas en el estudio.
+Personas con enfermedades cardiovasculares, neuromusculares y metabólicas no serán incluidas en el estudio.
 
 Preparación de la Piel para la Adquisición de Señal:
 Depilar el exceso de vello en la zona.
@@ -171,6 +171,7 @@ Utilizar electrodos de alta adherencia asegurar una buena conexión y minimizar
 
 Posición de Electrodos:
 La posición de los electrodos se seleccionará de acuerdo con el consenso SENIAM, una norma europea llamada "Surface ElectroMyoGraphy for the Non-Invasive Assessment of Muscles." Esto garantiza una colocación estandarizada y precisa para la adquisición de señales de EMG.
+
 ![3-Figure1-1](https://github.com/arianacarbajal/ISB_Grupo3/assets/56054823/454571d0-a274-4b04-b8ae-c066b16d6417)
 
 Procesamiento de Señal en Python:
