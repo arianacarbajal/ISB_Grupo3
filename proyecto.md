@@ -17,14 +17,23 @@
 
 
 ### Objetivos del proyecto
+<div class=text-justify>
 General: 
+ <div class=text-justify>
 Desarrollar un sistema de monitorización de fatiga muscular basado en sensores sEMG que optimice la rehabilitación y prevenga lesiones musculares en pacientes que realizan ejercicios en bicicleta estática durante su proceso de recuperación.
+  <div class=text-justify>
 Específicos:
+<div class=text-justify>
 Diseñar y construir un sistema de adquisición de señales sEMG que sea capaz de medir la actividad del músculo vasto lateral de forma precisa.
+ <div class=text-justify>
 Desarrollar un modelo de aprendizaje automático capaz de analizar las señales sEMG recopiladas y detectar patrones asociados a la fatiga muscular en el músculo vasto lateral.
+  <div class=text-justify>
 Implementar un sistema de alerta temprana que notifique al paciente y al terapeuta cuando se detecten signos de fatiga muscular, con recomendaciones específicas para disminuir la intensidad del ejercicio.
+   <div class=text-justify>
 ### Problemática
 El presente proyecto se está centrando en personas físicamente activas, que presentan o pueden presentar lesiones. Revisando la incidencia de lesiones musculares, podemos notar que las extremidades inferiores son las más afectadas, representando el 51.6% de las lesiones[a]. 
+
+![Texto alternativo](Imagen/Imagen1.png)
 
 Estos datos pueden variar un poco dependiendo de la naturaleza de la actividad física que realiza el sujeto, sin embargo, la prevalencia en las extremidades inferiores suele ser mayor, lo cual otorga mayor importancia al monitoreo de esta zona. De estos datos también es importante notar que las lesiones musculares y de tendón representan el 53.8% y que el 65.7% de las lesiones son causadas por sobreuso[a], estadística que se eleva si se evalúa exclusivamente el tiempo de entrenamiento y no de competencia.
 
