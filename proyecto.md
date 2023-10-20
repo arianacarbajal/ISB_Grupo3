@@ -92,7 +92,7 @@ El presente proyecto se está centrando en personas físicamente activas, que pr
 
    ![Texto alternativo](Imagen/Imagen1.png)
 <div class=text-justify>
-   Imagen : <Diagrama de incidencia de lesiones musculares dependiendo de la zona.
+   Imagen : Diagrama de incidencia de lesiones musculares dependiendo de la zona.
 
 
 <div class=text-justify>
