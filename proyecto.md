@@ -88,25 +88,25 @@ Desarrollar un modelo de aprendizaje automático capaz de analizar las señales 
 Implementar un sistema de alerta temprana que notifique al paciente y al terapeuta cuando se detecten signos de fatiga muscular, con recomendaciones específicas para disminuir la intensidad del ejercicio.
 
 ### Problemática
-El presente proyecto se está centrando en personas físicamente activas, que presentan o pueden presentar lesiones. Revisando la incidencia de lesiones musculares, podemos notar que las extremidades inferiores son las más afectadas, representando el 51.6% de las lesiones[a]. 
+El presente proyecto se está centrando en personas físicamente activas, que presentan o pueden presentar lesiones. Revisando la incidencia de lesiones musculares, podemos notar que las extremidades inferiores son las más afectadas, representando el 51.6% de las lesiones[5]. 
 
 ![Texto alternativo](Imagen/Imagen1.png)
 <div class=text-justify>
 Diagrama de incidencia de lesiones musculares dependiendo de la zona.
 <div class=text-justify>
-Estos datos pueden variar un poco dependiendo de la naturaleza de la actividad física que realiza el sujeto, sin embargo, la prevalencia en las extremidades inferiores suele ser mayor, lo cual otorga mayor importancia al monitoreo de esta zona. De estos datos también es importante notar que las lesiones musculares y de tendón representan el 53.8% y que el 65.7% de las lesiones son causadas por sobreuso[a], estadística que se eleva si se evalúa exclusivamente el tiempo de entrenamiento y no de competencia.
+Estos datos pueden variar un poco dependiendo de la naturaleza de la actividad física que realiza el sujeto, sin embargo, la prevalencia en las extremidades inferiores suele ser mayor, lo cual otorga mayor importancia al monitoreo de esta zona. De estos datos también es importante notar que las lesiones musculares y de tendón representan el 53.8% y que el 65.7% de las lesiones son causadas por sobreuso[5], estadística que se eleva si se evalúa exclusivamente el tiempo de entrenamiento y no de competencia.
 <div class=text-justify>
 Tomando en cuenta la recurrencia de las lesiones musculares por sobre exigencia en las extremidades inferiores, notamos que el monitoreo de la actividad muscular en esta zona es crucial. Lo ideal sería realizar este  monitoreo tanto en personas sanas como en personas realizando rehabilitación física después de una lesión.
 <div class=text-justify>
-En personas sanas la fatiga muscular, es un importante factor de riesgo para sufrir lesiones futuras[d] y en personas que se encuentran en proceso de rehabilitacion, la falta de una terepia de rehabilitacion certera puede generar que la zona se sobreexija y agrave la lesion o empeore el pronostico inicial[g], consecuentemente no se recupere completamente y sea propensa a volver a lesionarse nuevamente, inhabilitando a la persona por un mayor periodo de tiempo[e].
+En personas sanas la fatiga muscular, es un importante factor de riesgo para sufrir lesiones futuras[6] y en personas que se encuentran en proceso de rehabilitacion, la falta de una terepia de rehabilitacion certera puede generar que la zona se sobreexija y agrave la lesion o empeore el pronostico inicial[7], consecuentemente no se recupere completamente y sea propensa a volver a lesionarse nuevamente, inhabilitando a la persona por un mayor periodo de tiempo[8].
 <div class=text-justify>
-Para ser más precisos, sin un monitoreo de la fatiga, es difícil poder detener los ejercicios oportunamente para establecer periodos de recuperación que nos permitan evitar la acumulación de fatiga, lo cual genera en el paciente una baja tolerancia a cargas, disminución de rendimiento, aumento de riesgo de lesiones y alteraciones cognitivas[f].
+Para ser más precisos, sin un monitoreo de la fatiga, es difícil poder detener los ejercicios oportunamente para establecer periodos de recuperación que nos permitan evitar la acumulación de fatiga, lo cual genera en el paciente una baja tolerancia a cargas, disminución de rendimiento, aumento de riesgo de lesiones y alteraciones cognitivas[9].
 <div class=text-justify>
 Dicho esto, hemos decidido concentramos específicamente en el ejercicio de bicicleta estática, por dos razones importantes:  
  <div class=text-justify>
-1. Es un ejercicio idóneo para la rehabilitación de lesiones del miembro inferior ya que es posible modificar la altura del asiento y la posición de los pedales para centrarse específicamente en la actividad de los músculos y aliviar los ligamentos[h].
+1. Es un ejercicio idóneo para la rehabilitación de lesiones del miembro inferior ya que es posible modificar la altura del asiento y la posición de los pedales para centrarse específicamente en la actividad de los músculos y aliviar los ligamentos.
   <div class=text-justify>
-2. Implica la activación de músculos vasto interno, externo, crural y recto anterior femoral que, como vimos, son propensos a las lesiones de sobrecarga específicamente generadas por las grandes cargas que debe soportar el tendón rotuliano y son los de mayor participación en el proceso de pedaleo[b].
+2. Implica la activación de músculos vasto interno, externo, crural y recto anterior femoral que, como vimos, son propensos a las lesiones de sobrecarga específicamente generadas por las grandes cargas que debe soportar el tendón rotuliano y son los de mayor participación en el proceso de pedaleo[10].
 <div class=text-justify>
 “falta de monitoreo de fatiga muscular en el músculo vasto lateral durante el ejercicio en bicicleta estatica, en individuos sanos de manera preventiva o que estén en procesos de rehabilitación, para prevenir complicaciones y optimizar el proceso de rehabilitación”
 
@@ -186,13 +186,19 @@ Se seleccionó el músculo vasto lateral de la pierna (VL) como el foco central 
 [4]UVaDOC Principal. Accedido el 20 de octubre de 2023. [En línea]. Disponible: https://uvadoc.uva.es/bitstream/handle/10324/57784/Actividad-electromiografica-EMG-durante-el-pedaleo.pdf?sequence=1&amp;isAllowed=y
 
 
-[a] D. Pérez, “Epidemiología de la lesión deportiva,” Universidad Politécnica de Madrid,2015. https://oa.upm.es/36508/1/TFG_DANIEL_PEREZ_DEL_POZO.pdf (accessed Oct. 2023). 
-[d] L. Gao et al., “Biomechanical effects of exercise fatigue on the lower limbs of men during the forward lunge,” Frontiers, 2023. https://www.frontiersin.org/articles/10.3389/fphys.2023.1182833/full (accessed Oct. 2023). 
-[g] J. A. Pernas, “Lesiones Musculares con y sin daño anatómico ,” VIl Jornadas Nacionales de Fisioterapia en el Deporte, 1999. https://ruc.udc.es/dspace/bitstream/handle/2183/10903/CC%2051%20art%204.pdf (accessed Oct. 19, 2023). 
-[e] R. D´Onofrio, M. Padasala, A. Bhatt, and L. Febbrari, “The return to sport after muscular injury of the hamstring. A systemic Review,” The return to sport after muscular injury of the Hamstring. A systematic review, 2019. https://www.researchgate.net/profile/Rosario-Donofrio-2/publication/332621616_The_return_to_sport_after_muscular_injury_of_the_Hamstring_A_Systemic_Review/links/5cc068e092851c8d2202d543/The-return-to-sport-after-muscular-injury-of-the-Hamstring-A-Systemic-Review.pdf (accessed Oct. 20, 2023). 
-[f] F. Daussin, A. Combes, V. Bougault, and J. Dekerle, “European Journal of Sports Medicine x 8 TH EUROPEAN SPORTS MEDICINE CONGRESS OF EFSMA EUROPEAN FEDERATION OF SPORTS MEDICINE ASSOCIATIONS AND 6 TH JOINT MEETING SFMES AND SFTS FRENCH SOCIETY OF EXERCISE AND SPORTS MEDICINE FRENCH SOCIETY OF SPORTS TRAUMATOLOGY,” Conference: 8TH EUROPEAN SPORTS MEDICINE CONGRESS OF EFSMA EUROPEAN FEDERATION OF SPORTS MEDICINE ASSOCIATIONS, 2013. https://www.researchgate.net/publication/297698831_European_Journal_of_Sports_Medicine_x_8_TH_EUROPEAN_SPORTS_MEDICINE_CONGRESS_OF_EFSMA_EUROPEAN_FEDERATION_OF_SPORTS_MEDICINE_ASSOCIATIONS_AND_6_TH_JOINT_MEETING_SFMES_AND_SFTS_FRENCH_SOCIETY_OF_EXERCI (accessed Oct, 2023). 
+[5] D. Pérez, “Epidemiología de la lesión deportiva,” Universidad Politécnica de Madrid,2015. https://oa.upm.es/36508/1/TFG_DANIEL_PEREZ_DEL_POZO.pdf (accessed Oct. 2023).
 
-[b] V. Bourguigne, “Alteraciones posturales y lesiones en ciclistas amateurs - core,” Universidad Fasta,2012.  https://core.ac.uk/download/pdf/49224101.pdf (accessed Oct. 20, 2023). 
+[6] L. Gao et al., “Biomechanical effects of exercise fatigue on the lower limbs of men during the forward lunge,” Frontiers, 2023. https://www.frontiersin.org/articles/10.3389/fphys.2023.1182833/full (accessed Oct. 2023). 
+
+[7] J. A. Pernas, “Lesiones Musculares con y sin daño anatómico ,” VIl Jornadas Nacionales de Fisioterapia en el Deporte, 1999. 
+https://ruc.udc.es/dspace/bitstream/handle/2183/10903/CC%2051%20art%204.pdf (accessed Oct. 19, 2023). 
+
+[8] R. D´Onofrio, M. Padasala, A. Bhatt, and L. Febbrari, “The return to sport after muscular injury of the hamstring. A systemic Review,” The return to sport after muscular injury of the Hamstring. A systematic review, 2019. https://www.researchgate.net/profile/Rosario-Donofrio-2/publication/332621616_The_return_to_sport_after_muscular_injury_of_the_Hamstring_A_Systemic_Review/links/5cc068e092851c8d2202d543/The-return-to-sport-after-muscular-injury-of-the-Hamstring-A-Systemic-Review.pdf (accessed Oct. 20, 2023). 
+
+[9] F. Daussin, A. Combes, V. Bougault, and J. Dekerle, “European Journal of Sports Medicine x 8 TH EUROPEAN SPORTS MEDICINE CONGRESS OF EFSMA EUROPEAN FEDERATION OF SPORTS MEDICINE ASSOCIATIONS AND 6 TH JOINT MEETING SFMES AND SFTS FRENCH SOCIETY OF EXERCISE AND SPORTS MEDICINE FRENCH SOCIETY OF SPORTS TRAUMATOLOGY,” Conference: 8TH EUROPEAN SPORTS MEDICINE CONGRESS OF EFSMA EUROPEAN FEDERATION OF SPORTS MEDICINE ASSOCIATIONS, 2013. 
+https://www.researchgate.net/publication/297698831_European_Journal_of_Sports_Medicine_x_8_TH_EUROPEAN_SPORTS_MEDICINE_CONGRESS_OF_EFSMA_EUROPEAN_FEDERATION_OF_SPORTS_MEDICINE_ASSOCIATIONS_AND_6_TH_JOINT_MEETING_SFMES_AND_SFTS_FRENCH_SOCIETY_OF_EXERCI (accessed Oct, 2023). 
+
+[10] V. Bourguigne, “Alteraciones posturales y lesiones en ciclistas amateurs - core,” Universidad Fasta,2012.  https://core.ac.uk/download/pdf/49224101.pdf (accessed Oct. 20, 2023). 
 
 
 [A1]J. Wang, S. Sun, and Y. Sun, “A Muscle Fatigue Classification Model Based on LSTM and Improved Wavelet Packet Threshold,” Sensors, vol. 21, no. 19, pp. 6369–6369, Sep. 2021, doi: https://doi.org/10.3390/s21196369.
