@@ -48,9 +48,11 @@ En personas sanas la fatiga muscular, es un importante factor de riesgo para suf
 Para ser más precisos, sin un monitoreo de la fatiga, es difícil poder detener los ejercicios oportunamente para establecer periodos de recuperación que nos permitan evitar la acumulación de fatiga, lo cual genera en el paciente una baja tolerancia a cargas, disminución de rendimiento, aumento de riesgo de lesiones y alteraciones cognitivas[f].
 <div class=text-justify>
 Dicho esto, hemos decidido concentramos específicamente en el ejercicio de bicicleta estática, por dos razones importantes:  
+ <div class=text-justify>
 1. Es un ejercicio idóneo para la rehabilitación de lesiones del miembro inferior ya que es posible modificar la altura del asiento y la posición de los pedales para centrarse específicamente en la actividad de los músculos y aliviar los ligamentos[h].
+  <div class=text-justify>
 2. Implica la activación de músculos vasto interno, externo, crural y recto anterior femoral que, como vimos, son propensos a las lesiones de sobrecarga específicamente generadas por las grandes cargas que debe soportar el tendón rotuliano y son los de mayor participación en el proceso de pedaleo[b].
-
+<div class=text-justify>
 “falta de monitoreo de fatiga muscular en el músculo vasto lateral durante el ejercicio en bicicleta estatica, en individuos sanos de manera preventiva o que estén en procesos de rehabilitación, para prevenir complicaciones y optimizar el proceso de rehabilitación”
 
 ### Estado del arte
