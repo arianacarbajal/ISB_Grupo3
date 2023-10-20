@@ -24,8 +24,10 @@ Desarrollar un sistema de monitorización de fatiga muscular basado en sensores 
   <div class=text-justify>
 Específicos:
 <div class=text-justify>
-Diseñar y construir un sistema de adquisición de señales sEMG que sea capaz de medir la actividad del músculo vasto lateral de forma precisa.
+Diseñar y construir un sistema de adquisición de señales sEMG para obtener nuestras señales de interés.
  <div class=text-justify>
+ Lograr un correcto filtrado y procesamiento de la señal para poder obtener la medición de la actividad del músculo vasto lateral de forma precisa.
+   <div class=text-justify>
 Desarrollar un modelo de aprendizaje automático capaz de analizar las señales sEMG recopiladas y detectar patrones asociados a la fatiga muscular en el músculo vasto lateral.
   <div class=text-justify>
 Implementar un sistema de alerta temprana que notifique al paciente y al terapeuta cuando se detecten signos de fatiga muscular, con recomendaciones específicas para disminuir la intensidad del ejercicio.
