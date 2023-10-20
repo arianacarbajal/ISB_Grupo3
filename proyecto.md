@@ -140,10 +140,4 @@ Se seleccionó el músculo vasto lateral de la pierna (VL) como el foco central 
 
 [A6] S. Bercier et al., “The vastus lateralis neuromuscular activity during all-out cycling exercise,” Journal of Electromyography and Kinesiology, vol. 19, no. 5, pp. 922–930, Oct. 2009, doi: https://doi.org/10.1016/j.jelekin.2008.03.012.
 ‌
-
-
-[2] Resolución directoral, 132-2021-SA-DG-INR, Ministerio de Salud - Instituto Nacional de Rehabilitación, Lima, 2021. Accedido el 18 de agosto de 2023. [En línea]. Disponible: https://www.inr.gob.pe/transparencia/transparencia%20inr/resoluciones/2021/RD%20132-2021-SA-DG-INR.pdf
  
-[3] Unanyan, N. N., & Belov, A. A. (2021). “Design of upper limb prosthesis using real-time motion detection method based on EMG signal processing”. Biomedical Signal Processing and Control, 70, 103062. doi:10.1016/j.bspc.2021.103062 
-
-[4] Bi, L., Feleke, A. >Genetu, & Guan, C. (2019). A review on EMG-based motor intention prediction of continuous human upper limb motion for human-robot collaboration. Biomedical Signal Processing and Control, 51, 113–127. doi:10.1016/j.bspc.2019.02.011 
