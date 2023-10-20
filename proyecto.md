@@ -91,8 +91,9 @@ Específicos:
 El presente proyecto se está centrando en personas físicamente activas, que presentan o pueden presentar lesiones. Revisando la incidencia de lesiones musculares, podemos notar que las extremidades inferiores son las más afectadas, representando el 51.6% de las lesiones[5]. 
 
    ![Texto alternativo](Imagen/Imagen1.png)
-<div class=text-justify>
+
    Imagen : Diagrama de incidencia de lesiones musculares dependiendo de la zona.
+   
 
 
 <div class=text-justify>
