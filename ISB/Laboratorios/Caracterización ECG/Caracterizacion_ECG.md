@@ -41,18 +41,37 @@ Para leer los datos obtenidos, primeramente hay que realizar la conversión de l
 Imagen 1
 
 En la imagen 2 se puede ver el código utilizado y como se adecuó la señal. Primeramente se abre el documento ecg2reposo.txt, se definr la frecuencia 
+
 ![Imagen2](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/4add4cc3-69e9-4bb3-b44f-692dde9fef74)
 
+Imagen 2
+
 ![señalecgOG](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/31c62ccb-6c84-4c39-a258-1c8fa899f954)
+
+Imagen 3
 
 
 ## Análisis en frecuencia de la señal ECG
 
 Se realizó la transformada de fourier a la señal para poder obtener el espectro de frecuencias y detectar los ruidos. Podemos notar un evidente ruido en frecuencias altas, con picos marcados proveniente de la red eléctrica en Perú a 60Hz  y 120Hz. 
+
 ![freqECG](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/35ddb531-56ec-4d4a-8d49-2c70608da439)
+
+Imagen 4
 
 ## Reducir los ruidos con filtro Notch 
 
+Una vez que se identificó las frecuencias de los fitros más prominentes, se utilizó filtros Notch para eliminar específicamente las frecuencias de 60 y 120Hz puesto que en ese rango se tiene información importante del ecg, lo cual impide en uso de un filtro pasa baja. También se realizó un filtro Notch a 50 Hz. En el espectro de frecuencias, se detectó un pequeño ruido en esta frecuencia lo cual puede ser ruido magnetico y si bien es un pico pequeño, la señal mejoró mucho más al filtrar esta frecuencia. En la imagen 5, podemos ver el espectro de frecuencias después de haber filtrado la señal.
+
+![frecdespNotch](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/e22fbec0-1017-48ac-b331-d707216b85bb)
+
+Imagen 5
+
+En la imagen 6 podemos ver la señal ECG después de haber filtrado las señal.
+
+![ECGdespNotch](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/4d769b66-27b6-44fc-b56c-5fce12fe67cd)
+
+Imagen 6
 
 ## Filtrar la señal con un filtro pasa banda
 
