@@ -168,9 +168,12 @@ Se establece un umbral para distinguir entre los picos R y el ruido en la señal
 
 Se identifican y extraen los complejos QRS, que representan la actividad eléctrica de la contracción ventricular.
 
+Complejo QRS en un intervalo de 1 segundo
 ![image](https://github.com/arianacarbajal/ISB_Grupo3/assets/56054823/0445c3d2-e26b-45e6-a4b5-60a0d00a6574)
 
-![image](https://github.com/arianacarbajal/ISB_Grupo3/assets/56054823/88caa9e3-56c6-4c72-94a2-2d2a74438cc7)
+Complejo QRS en un intervalo de 10 segundo
+![image](https://github.com/arianacarbajal/ISB_Grupo3/assets/56054823/f1bba0a9-911e-4d70-ba55-98819065cd12)
+
 
 ## Bibliografía
 [1]https://support.pluxbiosignals.com/wp-content/uploads/2021/11/bitalino-revolution-user-manual.pdf
