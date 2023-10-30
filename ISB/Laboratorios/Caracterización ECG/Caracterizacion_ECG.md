@@ -176,6 +176,8 @@ Se establece un umbral para distinguir entre los picos R y el ruido en la señal
 ## Obtener los complejos QRS en la señal ECG inicial
 
 Se identifican y extraen los complejos QRS, que representan la actividad eléctrica de la contracción ventricular.
+Se identifican y extraen los complejos QRS, que representan la actividad eléctrica de la contracción ventricular.
+Se extrae las ubicaciones de inicio (start_qrs) y final (end_qrs) de los complejos QRS en una señal de ECG. Para end_qrs, se identifican los puntos donde el valor de la señal supera el umbral th_I1 y se realizan desplazamientos para detectar los finales de los picos R, asegurando que no haya duplicados. Para start_qrs, se utilizan un umbral th_I2 y operaciones similares para detectar los inicios de los intervalos sin complejos QRS. Estas máscaras de inicio y final permiten separar los complejos QRS y se presencia mejor en el código ipynb
 
 Complejo QRS en un intervalo de 1 segundo
 ![image](https://github.com/arianacarbajal/ISB_Grupo3/assets/56054823/0445c3d2-e26b-45e6-a4b5-60a0d00a6574)
