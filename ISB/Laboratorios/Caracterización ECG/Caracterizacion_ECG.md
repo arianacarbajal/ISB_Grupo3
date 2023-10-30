@@ -38,9 +38,9 @@ Para leer los datos obtenidos, primeramente hay que realizar la conversión de l
 
 ![Imagen1](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/65d9234a-9540-4612-a8a4-fb657fd45692)
 
-Imagen 1
+Imagen 1: Datos para la conversión de la señal a las unidades de voltaje correctas [1]
 
-En la imagen 2 se puede ver el código utilizado y como se adecuó la señal. Primeramente se abre el documento ecg2reposo.txt, se definr la frecuencia 
+En la imagen 2 se puede ver el código utilizado y como se adecuó la señal del archivo ecg2reposo.txt, obtenido con el BITalino.
 
 ![Imagen2](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/4add4cc3-69e9-4bb3-b44f-692dde9fef74)
 
@@ -100,7 +100,32 @@ Imagen 9: Respuesta en frecuecnia del filtro del filtro Butterworth pasa alto de
 
 Imagen 10: Señal ECG filtrada con Butterworth pasa altas
 
+El filtro pasa baja y pasa alta, nos permiten tener un filtro pasabanda para las frecuencias deseadas.
+
+## Realizar filtrado wavelet
+
+Para poder obtener una señal más limpia, se decidió utilizar un filtro wavelet ya que la descomposición en niveles de detalle que utiliza este tipo de filtro, permite una mejor detección de los cambios típicos de una señal ECG, con un umbral bajo para no perder información.
+
+![detallesECG](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/c1d9997c-32d9-48ef-bdbf-93b2ce7e1824)
+
+Imagen 11: Grafica de coeficientes de aproximación
+
+![ECGfiltwavelet](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/73991697-a562-4708-98db-15d0c10e71b5)
+
+Imagen 12: Comparación de señal antes y después del uso del filtro wavelet
+
 ## Realizar el filtrado derivativo
+
+Ahora se tiene el uso de un filtro derivativo el cual, debido a la naturaleza de los picos y sobre todo el R, nos permitirá obtener datos de la pendiente del complejo QRS y de esta forma, identificar el complejo. Este método solo, es útil mientras no se presenten anomalías que alteren la duración de las ondas ya que la pendiente no sería tan pronunciada y sería más complicado identificarla. 
+En la imagen 13 vemos la respuesta en frecuencia del filtro, en el cual vemos que se tiene uncomportamiento cercano al lineal a frecuencias bajas, por lo que es útil en las gráficas ECG y en la imagen 14, vemos la señal ya filtrada. 
+
+![freqderiv](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/73e10230-a99b-4e28-93b7-2d65453d0517)
+
+Imagen 13: respuesta en frecuencia del filtro derivativo
+
+![descarga](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/50df8f72-a8d1-437f-8866-ff69b81aa0da)
+
+Imagen 14: señal filtrada con el filtro derivativo
 
 
 ## Elevar al cuadrado la señal
@@ -140,4 +165,6 @@ Se establece un umbral para distinguir entre los picos R y el ruido en la señal
 
 
 ##
-
+## Bibliografía
+[1]https://support.pluxbiosignals.com/wp-content/uploads/2021/11/bitalino-revolution-user-manual.pdf
+[2]https://ieeexplore.ieee.org/document/4122029
