@@ -103,5 +103,41 @@ Imagen 10: Señal ECG filtrada con Butterworth pasa altas
 ## Realizar el filtrado derivativo
 
 
+## Elevar al cuadrado la señal
 
+Se eleva al cuadrado la señal para resaltar aún más las partes más prominentes de la señal, atenuar las partes menos significativas y eliminar los componentes negativos, gracias a esto se destaca aún más los picos y las partes de mayor amplitud en la señal.
+
+![image](https://github.com/arianacarbajal/ISB_Grupo3/assets/56054823/70066f14-2e3e-427f-a82f-ca0a0f542463)
+
+## Emplear el operador Moving Window Integration
+
+Se aplica un operador del tipo Moving Window Integration para suavizar la señal, reducir el ruido y destacar las áreas con mayor energía.
+
+y[n]=(1/N)(x[n−(N−1)]+x[n−(N−2)]+..+x[n])
+
+![image](https://github.com/arianacarbajal/ISB_Grupo3/assets/56054823/0b87456d-25ca-4d65-9533-0cc2f114687d)
+
+
+## Marcar los picos
+
+Se detectan los picos R en la señal ECG, que corresponden a la contracción del ventrículo para así identificar los puntos de máximo valor en la señal, que son fundamentales para calcular la frecuencia cardíaca y otros parámetros como segmentos de las ondas.
+
+![image](https://github.com/arianacarbajal/ISB_Grupo3/assets/56054823/4c9cd906-7020-405d-b064-f6043065a911)
+
+Se observa que el ruido de baja amplitud tambien se esta marcando, por lo que debemos aplicar un umbral para eliminarlos
+
+
+## Realizar el análisis de Threshold
+
+Se establece un umbral para distinguir entre los picos R y el ruido en la señal.
+
+![image](https://github.com/arianacarbajal/ISB_Grupo3/assets/56054823/8c5af961-30bf-4f1f-884f-15c92b56d44c)
+
+![image](https://github.com/arianacarbajal/ISB_Grupo3/assets/56054823/e8243d14-7209-49aa-bb36-2424a3178713)
+
+![image](https://github.com/arianacarbajal/ISB_Grupo3/assets/56054823/d2f3418b-9f8e-4d59-9fc2-10f5dfcd3140)
+
+
+
+##
 
