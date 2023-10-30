@@ -185,5 +185,6 @@ Complejo QRS en un intervalo de 10 segundo
 
 
 ## Bibliografía
-[1][1] BITalino, “Bitalino (R)Evolution User Manual - Plux Biosignals,” BITalino (r)evolution,(2020) https://support.pluxbiosignals.com/wp-content/uploads/2021/11/bitalino-revolution-user-manual.pdf (accessed Oct. 30, 2023). 
-[2][1] J. Pan and W. Tompkins, “A real-time QRS detection algorithm - IEEE Xplore,” IEEE,(1985) https://ieeexplore.ieee.org/document/4122029 (accessed Oct. 30, 2023). 
+[1] BITalino, “Bitalino (R)Evolution User Manual - Plux Biosignals,” BITalino (r)evolution,(2020) https://support.pluxbiosignals.com/wp-content/uploads/2021/11/bitalino-revolution-user-manual.pdf (accessed Oct. 30, 2023). 
+
+[2] J. Pan and W. Tompkins, “A real-time QRS detection algorithm - IEEE Xplore,” IEEE,(1985) https://ieeexplore.ieee.org/document/4122029 (accessed Oct. 30, 2023). 
