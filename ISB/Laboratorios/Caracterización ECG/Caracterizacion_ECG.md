@@ -48,6 +48,8 @@ En la imagen 2 se puede ver el código utilizado y como se adecuó la señal. Pr
 
 ## Análisis en frecuencia de la señal ECG
 
+Se realizó la transformada de fourier a la señal para poder obtener el espectro de frecuencias y detectar los ruidos. Podemos notar un evidente ruido en frecuencias altas, con picos marcados proveniente de la red eléctrica en Perú a 60Hz  y 120Hz. 
+![freqECG](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/35ddb531-56ec-4d4a-8d49-2c70608da439)
 
 ## Reducir los ruidos con filtro Notch 
 
