@@ -73,8 +73,18 @@ En la imagen 6 podemos ver la señal ECG después de haber filtrado las señal.
 
 Imagen 6
 
-## Filtrar la señal con un filtro pasa banda
+## Filtrar la señal con un filtro pasa baja
 
+Ahora se realiza un filtrado pasa baja para concentrarnos específicamente en el rango de frecuencias de un ecg y eliminar todos los ruidos de frecuencia alta, esto permite que las componentes de baja frecuencia relevantes, como las ondas P, QRS y T, pasen sin atenuación significativa. Se utilizó específicamente un filtro Butterworth de segundo orden con una frecuencia de corte de 11.0 Hz. Se escogió Buterworth por su respuesta de paso bajo suave y su fase lineal, lo que evita la distorsión en el dominio del tiempo; y es de segundo orden ya que proporciona una mayor capacidad de atenuación y permite un mayor control de la frecuencia de corte seleccionada.
+En la siguiente imagen 7 podemos ver la respuesta en frecuencia del filtro diseñado y en la imagen 8 vemos la señal filtrada, la cual se ve más limpia que la anterior que solo utilizaba filtros Notch
+
+![respFreq](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/c0bc0feb-8931-4b37-88f7-0269d05446f3)
+
+Imagen 7:respuesta en frecuencia del filtro Butterworth pasabaja de segundo orden
+
+![ECG_filtradoBAJAS](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/4f1e08f9-6f65-4520-9d4c-10f810b5fdaf)
+
+Imagen 8: Señal filtrada con filtro PasaBaja
 
 ## Filtrar la señal con un filtro pasa alto
 
