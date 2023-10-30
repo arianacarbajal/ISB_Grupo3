@@ -1,11 +1,19 @@
-# Laboratorio 4: Adquisición ECG Bitalino
+# Laboratorio 7: Filtrado y caracterización de señal ECG
 ## Tabla de contenidos:
 * [Objetivos](#objetivos)
 * [Materiales y equipos](#materiales-y-equipos)
 * [Entregables](#entregable)
-
-  * [Archivo de los datos de la señal ploteada](#archivos)
-  * [Ploteo de la señal original en Python.](#gráficos-en-python)
+  * [Leer el Dataset](#dataset)
+  * [Análisis en frecuencia de la señal ECG](#frecuencia)
+  * [Reducir los ruidos con filtro Notch ](#Notch)
+  * [Filtrar la señal con un filtro pasa baja](#Pasa_BAJA)
+  * [Filtrar la señal con un filtro pasa alto](#Pasa_alto)
+  * [Realizar filtrado wavelet](#filtrado_wavelet)
+  * [Realizar el filtrado derivativo](#filtrado_derivativo)
+  * [Elevar al cuadrado la señal](#cuadrado)
+  * [Emplear el operador Moving Window Integration](#moving_window_integration)
+  * [Marcar los picos](#marcado_picos)
+  * [Realizar el análisis de Threshold](#theshold)
 
 * [Bibliografía](#bibliografía)
 
@@ -44,11 +52,11 @@ En la imagen 2 se puede ver el código utilizado y como se adecuó la señal del
 
 ![Imagen2](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/4add4cc3-69e9-4bb3-b44f-692dde9fef74)
 
-Imagen 2
+Imagen 2: Codigo de la conversión de unidades de la señal
 
 ![señalecgOG](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/31c62ccb-6c84-4c39-a258-1c8fa899f954)
 
-Imagen 3
+Imagen 3: Grafica de la señal completa
 
 
 ## Análisis en frecuencia de la señal ECG
@@ -57,7 +65,7 @@ Se realizó la transformada de fourier a la señal para poder obtener el espectr
 
 ![freqECG](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/35ddb531-56ec-4d4a-8d49-2c70608da439)
 
-Imagen 4
+Imagen 4: espectro de frecuencias
 
 ## Reducir los ruidos con filtro Notch 
 
@@ -126,6 +134,7 @@ Imagen 13: respuesta en frecuencia del filtro derivativo
 ![descarga](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/50df8f72-a8d1-437f-8866-ff69b81aa0da)
 
 Imagen 14: señal filtrada con el filtro derivativo
+
 
 
 ## Elevar al cuadrado la señal
