@@ -1,4 +1,4 @@
-# Laboratorio 7: Filtrado y caracterización de señal ECG
+# Laboratorio 8: Filtrado y caracterización de señal ECG
 ## Tabla de contenidos:
 * [Objetivos](#objetivos)
 * [Materiales y equipos](#materiales-y-equipos)
