@@ -236,6 +236,8 @@ Protocolo empleado
 
 Procesamiento de señales
 
+Para el procesamiento de señales , se realizó un filtro rechazabanda para la frecuencia de 60 hz ( ruido debido a la alimentación eléctrica) y posteriormente un filtro pasabanda de 10 a 200 hz . Se obtuvo la señal en relación al tiempo y su espectro en frecuencia mediante la transformada de fourier. Los filtros utilizados son filtros FIR y se utilizó la ventana blackman , en ambos casos , debido a su mejor capacidad de atenuación. Por otro lado también se segmento la señal en intervalos de 1.5 minutos debido al cambio de potencia entre esos intervalos y se generó una gráfica de amplitud vs tiempo del RMS de la señal con la señal segmentada en cada intervalo, esto nos permitirá analizar la señal con respecto al threshold como se observo en la literatura. Por último , se obtuvieron características relevantes de las 3 señales adquiridas tales como media , RMS , desviación estándar , mínimo y máximo valor , área bajo la curva , potencia total , frecuencia mediana y frecuencia máxima.
+
 ![Imagen8](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/bf1a0178-f9d2-4b21-8213-ccf781fc671e)
 
 ![Imagen9](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/024a5c63-aa1f-4bd6-902c-57e6e75f8879)
