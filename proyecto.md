@@ -187,6 +187,61 @@ Modelo de Aprendizaje Automático:
 Se evaluarán los tipos de modelos de aprendizaje automático, tanto supervisados como no supervisados, para determinar cuál es más apropiado. La entrada del sistema serán las señales de EMG con sus características, y la salida será la recomendación de un ejercicio óptimo para prevenir lesiones musculares mediante el análisis de fatiga.Esta metodología proporciona un enfoque integral para el estudio de monitorización de fatiga muscular durante la rehabilitación con bicicleta estática. La combinación de técnicas de procesamiento de señales y aprendizaje automático permitirá un análisis detallado de la fatiga y la recomendación de ejercicios óptimos para mantener la salud muscular y prevenir lesiones.
 La elección de frecuencias de corte y características importantes a analizar se eligieron mediante el estado del arte, donde se adecuará según la necesidad específica de nuetro proyecto.
 
+### Adquisición de señales
+
+- Protocolo empleado:
+- Obtención de peso , talla e IMC de los participantes
+- Cuestionario de actividad física
+- Depilar la zona de colocación de electrodos
+- Estiramiento por 5 minutos
+- Colocación de electrodos
+- Ejercicio en bicicleta estática (10 minutos)
+- Se inició con un pedaleo de baja intensidad
+- Se realizó una prueba incremental , cada 1.5 minutos se aumentó la potencia generada hasta llegar a 
+  los 10 min
+ -Se observó la potencia generada en cada intervalo de 1.5 minutos y se tuvo un registro de estos 
+  valores  
+
+Datos de los participantes:
+
+![Imagen2](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/1485fc40-d43d-4713-afdf-798cb7059653)
+
+Cuestionario de Actividad Física IPAQ
+
+Obtención de peso , talla e IMC de los participantes
+Se evalúan tres características de la actividad física (AF): intensidad (leve, moderada o vigorosa), frecuencia (días por semana) y duración ( tiempo por día)
+Se registra en Mets (Metabolic Equivalent of Task o Unidades de Índice Metabólico) por minuto y semana.
+Se clasifica en 3 niveles de  actividad física
+
+![Imagen3](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/c1f2ed7f-2847-421b-bfbe-58ba49761b45)
+
+Resultados : Cuestionario de actividad física IPAQ
+
+![Imagen12](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/215dd4ae-9c10-4440-885b-a7cfd593dd01)
+
+![Imagen1](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/07c615d7-6d53-49c5-9343-0757e1979dff)
+
+Bicicleta Indoor Tour De France de Pro-Form
+
+![Imagen4](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/2dae3bd1-caaa-40e1-bdc6-b7cc67af0b36)
+
+Parámetros: Tiempo , distancia , Potencia en watts 
+
+Protocolo empleado
+
+![Imagen5](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/1115eb08-dbfc-492c-8a61-74386e34f75b)
+![Imagen6](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/e57d647d-219c-4f3a-9e0b-94f616fe1618)
+
+![Imagen7](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/7bb9d2e9-1365-43b8-a871-5c826d0cc721)
+
+Procesamiento de señales
+
+![Imagen8](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/bf1a0178-f9d2-4b21-8213-ccf781fc671e)
+
+![Imagen9](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/024a5c63-aa1f-4bd6-902c-57e6e75f8879)
+
+![Imagen10](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/da7d8fa9-06e8-4afe-91f5-30d8e941fbed)
+
 ### Integrantes del proyecto
 
 - Ariana Carbajal (colaborador) - ariana.carbajal@upch.pe 
