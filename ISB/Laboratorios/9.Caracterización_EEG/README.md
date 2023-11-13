@@ -123,24 +123,22 @@ t = np.arange(1, len(filtered_signal)+1)/Fs
 ```
 
 El segundo filtro empleado fue el filtro pasabanda , este se utilizó para adquirir las bandas delta, theta, alfa y beta .
-Nos basamos en el árticulo "Technological Basics of EEG Recording and Operation of Apparatus" para obtener las frecuencias de corte de las bandas deseadas .
+Nos basamos en el libro citado en BioSignals Notebook  “Advances in Applied Mathematics and Global Optimization,”  para obtener las frecuencias de corte de las bandas deseadas .
 
-![image](https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/38eec8de-3c0f-4a98-9d35-7e1da98945e9)
+En este libro se determina que  EEG sin procesar generalmente se describe  en términos de bandas de frecuencia: Delta (0,1-3 Hz), Theta (4-8 Hz), Alfa (8-12 Hz), Beta (13-30 Hz) y Gamma (por encima de 30 Hz).
 
-Imagen: Frecuencias de bandas delta, theta, alfa y beta [2]
-
-Con estas frecuencias pudimos realizar los 4 filtros pasabandas para extraer las ondas cerebrales de la señal EEG, aqui tambien se empleo ventana blackman debido a su mejor atenuación.
+Con estas frecuencias pudimos realizar los 5 filtros pasabandas para extraer las ondas cerebrales de la señal EEG, aqui tambien se empleo ventana blackman debido a su mejor atenuación.
 
 
 ![señalesfiltr](https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/62648f36-1738-4270-8497-0c7ba7f16b30)
 
-Imagen:Ondas cerebrales bandas delta, theta, alfa y beta a partir de señal EEG
+Imagen:Ondas cerebrales bandas delta, theta, alfa , beta y gamma a partir de señal EEG
 
 ![fftband](https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/3e97a461-0abc-430d-a4ef-12a9904c0b38)
 
-Imagen:FFT Ondas cerebrales bandas delta, theta, alfa y beta 
+Imagen:FFT Ondas cerebrales bandas delta, theta, alfa , beta  y gamma 
 
-Finalmente podemos observar como las señales han sido filtradas correctamente , se pudo segmentar la señal EEG en sus 4 bandas principales y esto también se puede comprobar en las gráficas de FFT en las cuales vemos como la señal de una banda corresponde a el intervalo de frecuencias dado , ya que podemos observar a las ondas delta de 0.5 a 4 Hz , ondas theta de 4 a 8 hZ , ondas alpha de 8 a 12 hz y por último las ondas beta de 12 a 35 Hz.
+Finalmente podemos observar como las señales han sido filtradas correctamente , se pudo segmentar la señal EEG en sus 5 bandas principales y esto también se puede comprobar en las gráficas de FFT en las cuales vemos como la señal de una banda corresponde a el intervalo de frecuencias dado , ya que podemos observar a las ondas delta de 0.1 a 3 Hz , ondas theta de 4 a 8 hZ , ondas alpha de 8 a 12 hz,las ondas beta de 12 a 30 Hz y las ondas gamma por encima de 30 hz .
 
 
 
@@ -252,7 +250,12 @@ Por otro lado podemos encontrar los archivos de la informacion de las señales p
 
 ‌[1]Why, “Why would one use a Hann or Bartlett window?,” Signal Processing Stack Exchange, Apr. 28, 2017. Available: https://dsp.stackexchange.com/questions/40598/why-would-one-use-a-hann-or-bartlett-window. [Accessed: Oct. 20, 2023]
 
-[2] P. A. Abhang, B. W. Gawali, and S. C. Mehrotra, “Technological Basics of EEG Recording and Operation of Apparatus,” Elsevier eBooks, pp. 19–50, Jan. 2016, doi: https://doi.org/10.1016/b978-0-12-804490-2.00002-6. Available: https://www.sciencedirect.com/topics/agricultural-and-biological-sciences/brain-waves. [Accessed: Oct. 20, 2023]
+
+
+[2]
+“Advances in Applied Mathematics and Global Optimization,” Google Books, 2023. https://books.google.pt/books?id=e-Ex6VHd1UEC&pg=PA111&dq=alpha+8-12+Hz&hl=en&sa=X&ved=0ahUKEwi_1tj098LhAhWy34UKHRMeA2oQ6AEIKDAA#v=onepage&q=alpha%208-12%20Hz&f=false (accessed Nov. 13, 2023).
+‌
 
 [3] Mamun, M., Al-Kadi, M., & Marufuzzaman, M. (2013). Effectiveness of Wavelet Denoising on Electroencephalogram Signals. Journal of Applied Research and Technology, 11(1), 156–160. doi:10.1016/s1665-6423(13)71524-4 
+
 
