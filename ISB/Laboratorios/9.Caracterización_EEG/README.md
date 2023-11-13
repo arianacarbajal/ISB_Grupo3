@@ -49,15 +49,15 @@ La señal se obtuvo utilizando el BITalino, por lo que se realizó la conversió
 
 ### Filtrado de señal EEG
 ### Filtrado de señal EEG FIR
-Se diseñaron dos tipos de filtros , como principal , se empleó un filtro pasabajo con una frecuencia de paso de 30 Hz , una frecuencia de stop de 40 Hz y un orden de 600. Se empleó la ventana blackman debido a su mejor atenuación en comparación a las otras ventanas hamming , hanning , barlett y triangular.La ventana blackman ofrece Blackman superior supresión de lóbulos laterales (amplitud máxima de -57 dB)y  capacidades efectivas de reducción de ruido  (error de aproximación de pico bajo de -74 dB).
-
+Se diseñaron dos tipos de filtros , como principal , se empleó un filtro pasabajo con una frecuencia de paso de 30 Hz , una frecuencia de stop de 40 Hz y un orden de 600. Se empleó la ventana hamming en base al paper "Digital filtering in EEGIERP analysis: Some
+technical and empirical comparisons" debido a su gran atenuación  y 
 ![RTGyj](https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/0a07969a-979f-4403-abbb-eea1c17d387b)
 
 Imagen: Características de ventanas[1]
 
 
 ‌
-Se situo a la frecuencia de corte en 0.07 aprox de frecuencia normalizada rad /pi  o 35 Hz ya que las señales EEG tienen frecuencias en este rango de 0 a 35 Hz son las frecuencias de interés referidas a las ondas beta, alpha , delta y theta. y filtrarlo a esa frecuencia también nos eliminaria el ruido en 60 Hz proveniente de la alimentación electrica que se muy pronunciado al calcular la FFT inicial.
+Se situo a la frecuencia de corte del rechazabanda en 58.8 Hz y 61 hz para eliminar el pico de 60 hz pero es un filtro con frecuencias seguidas debido a que no queremos perder información valiosa de la señal EEG .
 
 
 ![descarga (1)](https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/2f7ba046-0376-4c73-96c1-0c526e0e4ee2)
@@ -69,40 +69,48 @@ Imagen : Señal EEG bitalino al realizar abrir y cerrar de ojos
 Imagen:FFT de la señal inicial
 
 En la respuesta en frecuencia del filtro pasabajo podemos ver su comportamiento y como va a filtrar adecuadamente el ruido de 60 hz, y vemos como tiene una correcta atenuación para las frecuencias de paso y corte que hemos indicado . 
-![descarga (3)](https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/09c15a75-b7ad-404e-bab0-253d40ced044)
+
+![download (2)](https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/a0019f6a-68b8-4a6c-a96d-5bfc54345a91)
 
 Imagen: Respuesta en frecuencia del filtro en Hz
 
-![descarga (4)](https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/0885e2c2-5462-4f49-a77a-b9ea4197d597)
+![download (3)](https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/ff193126-6ac5-4dd9-b7d1-656c3665ae53)
+
 
 Imagen : Señal EEG bitalino al realizar abrir y cerrar de ojos filtrada
 
 
 En la FFT de la señal filtrada podemos observar que se ha reducido completamente el ruido de 60 hz ya que ya no vemos ese pico prominente
 
-![descarga (5)](https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/93ed75ae-8f3a-43f4-a11a-f516ead5fbe2)
+
+![download (4)](https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/65af0d53-150c-476e-8fac-ba213ae74342)
 
 Imagen:FFT de la señal filtrada 
 
 Observamos como para este filtro se requirio un orden de 600 , lo cual requiere bastante costo computacional , pero que atenuo correctamente el ruido deseado
-### Codigo utilizado para el filtro pasabajo FIR
+### Codigo utilizado para el filtro rechazabanda FIR
 ```
+# Creamos un filtro rechazabanda en 60 Hz
+# Definir frecuencias de corte para filtro rechazabanda (RUIDO DE 60 HZ)
+wp = 55  / (Fs / 2)
+ws = 58  / (Fs / 2)
+wc=(wp + ws) / 2
+print(wc)
+wp1 = 65  / (Fs / 2)
+ws1 = 62  / (Fs / 2)
+wc1=(wp1 + ws1) / 2
 
-# Definir frecuencia de corte del filtro pasabajo
-wp = 30  / (Fs / 2) # frecuencia de paso
-ws = 40  / (Fs / 2) # frecuencia de stop
-wc=(wp + ws) / 2 #frecuencia de corte
+print(wc1)
 
 dw= ws-wp
-
-lowpass_filter= firwin(numtaps=M, cutoff=wc,  window='hamming')
-
 # Definir el orden del filtro
-M =  int(np.floor(12 / dw))
+M =  int(np.floor(8 / dw))
 print(M)
 
+stopband_filter= firwin(numtaps=M, cutoff=[58.8/ (Fs / 2),61/ (Fs / 2)],  window='hamming')
 
-wHz, Y = fft_fun(lowpass_filter, Fs)
+
+wHz, Y = fft_fun(stopband_filter, Fs)
 
 plt.figure(figsize=(8, 6))
 
@@ -110,16 +118,34 @@ plt.plot(wHz, np.abs(Y), "r")
 plt.xlabel("Frequencia (Hz)")
 plt.ylabel("Amplitud")
 plt.title("Respuesta en frecuencia del filtro")
-plt.xlim(0, 60)
+plt.xlim(0,100)
 
 
 
-filtered_signal = lfilter(lowpass_filter, 1, eeg)
+filtered_signal = lfilter(stopband_filter, 1, eeg)
 
 wHz, filtered_signal_fft = fft_fun(filtered_signal, Fs)
 
 t = np.arange(1, len(filtered_signal)+1)/Fs
 
+
+
+plt.figure(figsize=(8, 6))
+plt.plot(t, filtered_signal, label="Señal filtrada")
+plt.title("Señal EEG filtrada")
+plt.xlabel("Tiempo (s)")
+plt.ylabel("Amplitud uV")
+plt.legend(loc="upper right")
+plt.grid(linestyle=":")
+
+
+#Grafica FFT EEG filtrada
+plt.figure(figsize=(8, 6))
+plt.plot(wHz, np.abs(filtered_signal_fft), "r")
+plt.xlabel("Frequencia (Hz)")
+plt.ylabel("Amplitud")
+plt.title("Respuesta en frecuencia señal EEG filtrada")
+plt.xlim(-100, 100)
 ```
 
 El segundo filtro empleado fue el filtro pasabanda , este se utilizó para adquirir las bandas delta, theta, alfa y beta .
