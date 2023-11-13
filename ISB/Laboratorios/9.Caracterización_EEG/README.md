@@ -235,6 +235,14 @@ Para la supresión de ruido, se utilizó la transformada wavelet con una configu
 
 ### Extracción de características de la señal
 
+Media: Se obtiene la media de la señal para poder un nivel general de la actividad cerebral.
+Desviación estandar: Se mide la dispersión de la señal para poder conocer la variabilidad de la señal
+Amplitud máxima de la señal: Indica la actividad de las neuronas pues a mayor amplitud, se observa mayor sincronización en la actividad cerebral.
+Frecuencia dominante: Nos permite conocer qué ondas se presentaron más durante la medición.
+Potencia: Nos otorga información de la cantidad total de energía de la señal.
+RMS: Nos da la amplitud promedio de la señal lo cual nos indica la fuerza general que tienen las ondas cerebrales.
+Obtenemos la magnitud total de la señal ante el estímulo específico del parpadeo.
+
 ![caract_eeg](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/0831f9fb-3232-4c1f-bfe7-ccd188300f04)
 
 
