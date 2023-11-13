@@ -272,6 +272,19 @@ Obtenemos la magnitud total de la señal ante el estímulo específico del parpa
 
 ![caract_eeg](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/0831f9fb-3232-4c1f-bfe7-ccd188300f04)
 
+**Ventanas: Hamming o Blackman:**
+Los autores del paper [5] recomiendan utilizar la ventana de Hamming para el filtrado tanto en el dominio del tiempo como en el dominio de la frecuencia. Esto se debe a que la ventana de Hamming es relativamente gradual entre las funciones de disminución ilustradas en la Figura 4, reduciendo los pesos en aproximadamente un 46 % a la mitad desde el centro de la serie de pesos hasta el peso más externo. Reduce, pero no elimina, la ondulación relacionada con el truncamiento y amplía la banda de transición del filtro, haciéndolo menos selectivo en todo el espectro de frecuencias. En comparación con la ventana de Blackman, la ventana de Hamming es menos grave y tiene efectos más moderados.
+
+**Respecto a la potencia:** [6]
+La potencia total es la cantidad total de energía contenida en la señal EEG. Además,es la integral de la densidad espectral de potencia (PSD) sobre todo el rango de frecuencias. Una mayor potencia total indica una mayor actividad cerebral global. Puede relacionarse con la intensidad de la actividad cerebral.
+
+En las bandas de frecuencias [6]
+Aumento en Delta: Puede indicar una mayor proporción de sueño profundo.
+Aumento en Theta: Puede relacionarse con estados de relajación o con procesos de memoria.
+Aumento en Alpha: Puede indicar un estado de relajación o atención sostenida.
+Aumento en Beta: Puede relacionarse con estados de alerta, procesos cognitivos, o actividad motora.
+Aumento en Gamma: Puede asociarse a procesos cognitivos superiores y procesamiento sensorial.
+
 
 ### Archivos 
 Por otro lado podemos encontrar los archivos de la informacion de las señales ploteadas 
@@ -295,4 +308,6 @@ Por otro lado podemos encontrar los archivos de la informacion de las señales p
 
 [4]“Digital filtering in EEG/ERP analysis: Some technical and empirical comparison”. Research Gate. Accedido el 12 de noviembre de 2023. [En línea]. Disponible: https://www.researchgate.net/publication/225269297_Digital_filtering_in_EEGERP_analysis_Some_technical_and_empirical_comparisons
 
+[5]“Digital filtering in EEG/ERP analysis: Some technical and empirical comparison”. Research Gate. Accedido el 12 de noviembre de 2023. [En línea]. Disponible: https://www.researchgate.net/publication/225269297_Digital_filtering_in_EEGERP_analysis_Some_technical_and_empirical_comparisons
 
+[6]“SISTEMA DE ADQUISICIÓN Y PROCESAMIENTO DE SEÑALES ELECTROENCEFALOGRAMA”. [En línea]. Disponible: https://www.researchgate.net/profile/Ofelia-Valdes-Rodriguez/publication/272941273_SISTEMA_DE_ADQUISICION_Y_PROCESAMIENTO_DE_SENALES_ELECTROENCEFALOGRAFICAS/links/54f342410cf24eb8794c2aa1/SISTEMA-DE-ADQUISICION-Y-PROCESAMIENTO-DE-SENALES-ELECTROENCEFALOGRAFICAS.pdf
