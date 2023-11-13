@@ -235,6 +235,10 @@ Para la supresión de ruido, se utilizó la transformada wavelet con una configu
 
 ![download](https://github.com/arianacarbajal/ISB_Grupo3/assets/56054823/94094678-c3e0-48a8-8216-564b49dc7767)
 
+### Extracción de características de la señal
+
+![caract_eeg](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/0831f9fb-3232-4c1f-bfe7-ccd188300f04)
+
 
 ### Archivos 
 Por otro lado podemos encontrar los archivos de la informacion de las señales ploteadas 
