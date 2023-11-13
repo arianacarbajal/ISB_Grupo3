@@ -50,7 +50,7 @@ La señal se obtuvo utilizando el BITalino, por lo que se realizó la conversió
 ### Filtrado de señal EEG
 ### Filtrado de señal EEG FIR
 Se diseñaron dos tipos de filtros , como principal , se empleó un filtro pasabajo con una frecuencia de paso de 30 Hz , una frecuencia de stop de 40 Hz y un orden de 600. Se empleó la ventana hamming en base al paper "Digital filtering in EEGIERP analysis: Some
-technical and empirical comparisons" debido a su gran atenuación  y 
+technical and empirical comparisons" debido a su gran atenuación y debido a que   la ventana de Hamming es relativamente gradual entre las funciones de disminución , reduciendo los pesos en aproximadamente un 46 % a la mitad desde el centro de la serie de pesos hasta el peso más externo. Reduce, pero no elimina, la ondulación relacionada con el truncamiento y amplía la banda de transición del filtro, haciéndolo menos selectivo en todo el espectro de frecuencias. En comparación con la ventana de Blackman, la ventana de Hamming es menos grave y tiene efectos más moderados, lo que es adecuado para esta aplicacion.[4]
 ![RTGyj](https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/0a07969a-979f-4403-abbb-eea1c17d387b)
 
 Imagen: Características de ventanas[1]
@@ -156,11 +156,12 @@ En este libro se determina que  EEG sin procesar generalmente se describe  en t�
 Con estas frecuencias pudimos realizar los 5 filtros pasabandas para extraer las ondas cerebrales de la señal EEG, aqui tambien se empleo ventana blackman debido a su mejor atenuación.
 
 
-![señalesfiltr](https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/62648f36-1738-4270-8497-0c7ba7f16b30)
+
+![bandas](https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/db42a495-ec08-4e85-82d6-f04898577e83)
 
 Imagen:Ondas cerebrales bandas delta, theta, alfa , beta y gamma a partir de señal EEG
+![fft bandas](https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/08dbb6b2-f8ff-4dc5-b291-b20b5439df58)
 
-![fftband](https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/3e97a461-0abc-430d-a4ef-12a9904c0b38)
 
 Imagen:FFT Ondas cerebrales bandas delta, theta, alfa , beta  y gamma 
 
@@ -291,5 +292,7 @@ Por otro lado podemos encontrar los archivos de la informacion de las señales p
 ‌
 
 [3] Mamun, M., Al-Kadi, M., & Marufuzzaman, M. (2013). Effectiveness of Wavelet Denoising on Electroencephalogram Signals. Journal of Applied Research and Technology, 11(1), 156–160. doi:10.1016/s1665-6423(13)71524-4 
+
+[4]“Digital filtering in EEG/ERP analysis: Some technical and empirical comparison”. Research Gate. Accedido el 12 de noviembre de 2023. [En línea]. Disponible: https://www.researchgate.net/publication/225269297_Digital_filtering_in_EEGERP_analysis_Some_technical_and_empirical_comparisons
 
 
