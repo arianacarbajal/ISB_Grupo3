@@ -161,7 +161,7 @@ Con estas frecuencias pudimos realizar los 5 filtros pasabandas para extraer las
 
 Imagen:Ondas cerebrales bandas delta, theta, alfa , beta y gamma a partir de señal EEG
 ![fft bandas](https://github.com/arianacarbajal/ISB_Grupo3/assets/56159840/08dbb6b2-f8ff-4dc5-b291-b20b5439df58)
-
+![download](https://github.com/arianacarbajal/ISB_Grupo3/assets/56054823/2b74286b-73f2-4da9-a3ba-32c714d3c551)
 
 Imagen:FFT Ondas cerebrales bandas delta, theta, alfa , beta  y gamma 
 
