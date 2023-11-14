@@ -259,6 +259,15 @@ Para la supresión de ruido, se utilizó la transformada wavelet con una configu
 
 ![download](https://github.com/arianacarbajal/ISB_Grupo3/assets/56054823/94094678-c3e0-48a8-8216-564b49dc7767)
 
+### Transformada wavelet continua (CWT)
+La CWT ofrece una resolución en frecuencia variable, permitiendo la identificación de patrones específicos en diferentes escalas temporales. En nuestro contexto durante la transición de ojos cerrados a ojos abiertos se podrá visualizar de mejor manera estas transiciones y los tiempos en los que ocurren, las configuraciones de la CWT fueron ajustadas a nuestro criterio y solo se buscara que los tiempos de las transiciones sean visibles y concuerden con los tiempos en la actividad (se abrieron y cerraron los ojos cada 5 segundos).
+
+![download](https://github.com/arianacarbajal/ISB_Grupo3/assets/56054823/b72ad509-e456-4678-95bd-82d5ee00bfe0)
+
+Imagen: Transformada wavelet continua 
+
+Se puede observar claramente estos tiempos de transición en la gráfica y también se observa una mayor potencia en el tiempo de 25 segundos
+
 ### Extracción de características de la señal
 
 Media: Se obtiene la media de la señal para poder un nivel general de la actividad cerebral.
