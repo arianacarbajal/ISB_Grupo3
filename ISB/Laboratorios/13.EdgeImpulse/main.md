@@ -5,10 +5,10 @@
 * [Entregables](#entregable)
  
   * [Obtencion de la grafica en RMS de la señal EMG en el tiempo analizado ](#emg)
-  * [Obtención de ventanas:Tiempo en que se cambia de potencia)
-  * [Dataset en Edge Impulse ](#ecg)
+  * [Obtención de ventanas:Tiempo en que se cambia de potencia)(#emg)
+  * [Dataset en Edge Impulse ](#emg)
   * [Creacion de las variables](#explicación-emg)
-  * [Creacion del spectral features  ](#eeg)
+  * [Creacion del spectral features  ](#emg)
   * [Análisis de la clasificación](#explicación-emg)
 
 
