@@ -39,6 +39,6 @@ Se determina que la clase 1 es correcta (No fatiga) y la clase 2 es incorrecta (
 
 ![Imagen15](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/ef429f47-683c-4206-897a-97779a3a8269)
 
-Por último , se puede generar un codigo en una libreraría (este caso arduino) para la creacion del machine learning que analiza estas 2 clases.
+Por último , se puede generar un codigo en una libreraría (este C++) para la creacion del machine learning que analiza estas 2 clases.
 
 ![Imagen16](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/669b660b-7f7d-4c5f-9f4b-4caf52d722f3)
