@@ -11,6 +11,11 @@
   * [Creacion del spectral features  ](#emg)
   * [Análisis de la clasificación](#explicación-emg)
 
+
+Se adquirió la señal de electromiografía (EMG) procedente del músculo vasto lateral. Esta señal se someterá a un análisis mediante RMS con el objetivo de calcular un umbral específico para separar fatiga muscular. Este umbral servirá como indicador, ya que una pendiente notablemente empinada en la señal RMS sugiere la presencia de fatiga muscular como se observa en la imagen. Con base en esta diferenciación, se procederá a separar las dos condiciones de la señal EMG: una correspondiente a la actividad muscular sin fatiga y otra que refleje la presencia de fatiga. 
+
+![image](https://github.com/arianacarbajal/ISB_Grupo3/assets/56054823/d6584db6-9d1e-4db0-aa6e-b9273c89a603)
+
 En primera instancia, pasamos el archivo Classification.CSV que se obtuve en el anterior código, y luego cortamos la señal cada 1minuto  con 30 segundos, esto de acuerdo a la clasificación antes realizada(Clase1: No fatiga, Clase2 :Fatiga). Un total de 11 minutos con 30 segundos y 2 archivos de 2 text y 6 archivos de training.  (Fs=1000 hz9
 
 
