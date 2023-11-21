@@ -31,6 +31,8 @@ Se aplica un analisis en wavelet de un db1.
 
 ![im4](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/687467f7-d1e4-4001-9989-04cbfe5f2faf)
 
+Se realiza la clasificacion entre clase 1 y clase 2 correctamente (una exactitud de 100% )
+
 ![Imagen14](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/471e5600-7ec4-443a-99df-6f0b0bb90481)
 
 ![Imagen15](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/ef429f47-683c-4206-897a-97779a3a8269)
