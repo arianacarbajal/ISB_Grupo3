@@ -35,6 +35,10 @@ Se realiza la clasificacion entre clase 1 y clase 2 correctamente (una exactitud
 
 ![Imagen14](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/471e5600-7ec4-443a-99df-6f0b0bb90481)
 
+Se determina que la clase 1 es correcta (No fatiga) y la clase 2 es incorrecta (Fatiga). Esto corresponde a lo hallado anteriormente ya que en la fatiga, lo recomendable es no seguir realizando ejercicio.
+
 ![Imagen15](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/ef429f47-683c-4206-897a-97779a3a8269)
+
+Por último , se puede generar un codigo en una libreraría (este caso arduino) para la creacion del machine learning que analiza estas 2 clases.
 
 ![Imagen16](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/669b660b-7f7d-4c5f-9f4b-4caf52d722f3)
