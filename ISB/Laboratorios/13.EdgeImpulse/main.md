@@ -11,7 +11,7 @@
   * [Creacion del spectral features  ](#emg)
   * [Análisis de la clasificación](#explicación-emg)
 
-En primera instancia, pasamos el archivo Classification.CSV que se obtuve en el anterior código, y luego cortamos la señal cada . m con 30 segundos, esto de acuerdo a la clasificación antes realizada(Clase1: No fatiga, Clase2 :Fatiga).
+En primera instancia, pasamos el archivo Classification.CSV que se obtuve en el anterior código, y luego cortamos la señal cada 1minuto  con 30 segundos, esto de acuerdo a la clasificación antes realizada(Clase1: No fatiga, Clase2 :Fatiga). Un total de 11 minutos con 30 segundos y 2 archivos de 2 text y 6 archivos de training. 
 
 
 ![im1](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/d2ae3593-5cf4-4405-909f-3fa8d5c00884)
