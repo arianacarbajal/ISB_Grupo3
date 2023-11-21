@@ -7,3 +7,8 @@
 
 ![im4](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/687467f7-d1e4-4001-9989-04cbfe5f2faf)
 
+![Imagen14](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/471e5600-7ec4-443a-99df-6f0b0bb90481)
+
+![Imagen15](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/ef429f47-683c-4206-897a-97779a3a8269)
+
+![Imagen16](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/669b660b-7f7d-4c5f-9f4b-4caf52d722f3)
