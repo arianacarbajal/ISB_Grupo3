@@ -54,4 +54,4 @@ Para mayor información sobre el equipo de investigación, revisar el [Entregabl
 
 Para mayor información sobre el código empleado , revisar el [Código Entregable 1][enlace-entregable1]
 
-[enlace-entregable1]:
+[enlace-entregable1]:https://github.com/arianacarbajal/ISB_Grupo3/tree/eedd6beeb8655bfa58397a819f8e53da771458a6/Software
