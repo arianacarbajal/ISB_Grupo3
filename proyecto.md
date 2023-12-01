@@ -154,7 +154,7 @@ El protocolo inició con un calentamiento con estiramientos durante 5 minutos . 
 
 Para garantizar la correcta adquisición de las  señales, se desarrolló un estuche protector de dimensiones 152.995 x 126.417 x 34.832 mm, para la protección del dispositivo BITalino, con especial atención a la potencial generación de sudor durante la actividad física. Además cuenta con  una banda de velcro, para proporcionar una sujeción segura en la pierna durante la medición.
 
-![Imagen5](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/b01efcaf-183d-40b6-9b69-a183296267e7)
+![Imagen5](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/e10812c6-9d2d-4c51-aeb8-88ff685bb6fc)
 
 Figura 5. Estuche protector del microcontrolador
 
