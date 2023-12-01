@@ -120,34 +120,55 @@ El artículo, titulado “Assessment of Muscles Fatigue Based on Surface EMG Sig
 Se seleccionó el músculo vasto lateral de la pierna (VL) como el foco central de este estudio debido a su destacado papel como generador principal de potencia durante la práctica del ciclismo [16]. Además se optó por utilizar aprendizaje automático debido a su capacidad inherente para analizar de forma precisa y eficiente las complejas señales de electromiografía de superficie (sEMG), identificando patrones de fatiga muscular. 
 
 Selección de Sujetos de Estudio
+
 El estudio incluyó  personas entre 18 y 40 años de edad que realicen actividad física regular y que no hayan realizado ejercicio intenso en los tres días previos a la prueba. Se excluirán personas con enfermedades cardiovasculares, neuromusculares o metabólicas diagnosticadas.
 
-El protocolo inició con la obtención de datos antropométricos  de los participantes tales como peso , talla y se hizo un cálculo de IMC. Posteriormente se solicitó a los participantes que completen el cuestionario de actividad física IPAQ ,  
+El protocolo inició con la obtención de datos antropométricos  de los participantes tales como peso , talla y se hizo un cálculo de IMC. Posteriormente se solicitó a los participantes que completen el cuestionario de actividad física IPAQ
+
+![Imagen1](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/c7ebe820-c460-43c2-8c4b-491ca9cc9668)
+
+Figura 1. Datos antropométricos  de los participantes
 
 Posteriormente , se solicitó a los participantes completar el Cuestionario Internacional de Actividad Física (IPAQ por sus siglas en inglés), ampliamente utilizado para la evaluación estandarizada de los niveles de actividad física. El IPAQ permite la cuantificación de tres dimensiones principales: intensidad categorizada como leve, moderada o vigorosa según valores estandarizados de equivalente metabólico de la tarea (MET por sus siglas en inglés) por minuto; frecuencia definida como número de días por semana; y duración correspondiente al tiempo en minutos por día. A partir de esta información, y utilizando los puntajes MET-minuto/semana, se clasificó a los participantes en tres niveles de actividad física de acuerdo a cortes previamente establecidos: bajo, moderado y alto. Los resultados del IPAQ facilitaron la caracterización de la condición física basal de los participantes y su incorporación en los análisis posteriores.
+
+![Imagen2](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/9747eb98-2225-4284-8391-716b54c3b2a9)
+
+Figura 2: Resultados del cuestionario de actividad física IPAQ de los participantes 
 
 Adquisición de Señales EMG
 
 La preparación del equipo y materiales incluyó la utilización de la bicicleta estática Indoor Tour de France de Proform, electrodos desechables de alta adherencia de Ag/AgCl, gel conductor y módulo Bitalino.
 
+![Imagen3](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/f97e4931-8560-49d6-8ef1-43993b71f348)
+
+Figura 3: Bicicleta Indoor Tour De France de Pro-Form
+
 Los electrodos de superficie para EMG se ubicaron en los músculos vasto medial y lateral del cuádriceps, con un electrodo de referencia en el tendón rotuliano.
 
+![Imagen4](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/b01efcaf-183d-40b6-9b69-a183296267e7)
 
 Figura 3.Colocación de electrodos
 
-El protocolo inició con un calentamiento con estiramientos durante 5 minutos . Posteriormente se procedió a  la colocación de electrodos y la limpieza de la piel con alcohol , asegurando que la piel se encuentre libre de vello para evitar la interferencia con la adherencia de los electrodos. Luego de posicionar correctamente los electrodos se inició con el ejercicio .Se llevó a cabo un ejercicio incremental de 10 minutos de duración en una bicicleta estática. La visualización en tiempo real de la potencia generada durante el ejercicio en la pantalla de la bicicleta fue crucial dada la naturaleza progresiva del ejercicio, permitiendo observar los cambios graduales en este parámetro. Si bien la potencia no se modifica directamente en la bicicleta, ésta se ajustaba por el desempeño del participante al aumentarla cada 90 segundos. Simultáneamente, las señales electromiográficas (EMG) fueron registradas de manera sincronizada utilizando la plataforma Open Signals.
 
-![3-Figure1-1](https://github.com/arianacarbajal/ISB_Grupo3/assets/56054823/454571d0-a274-4b04-b8ae-c066b16d6417)
+El protocolo inició con un calentamiento con estiramientos durante 5 minutos . Posteriormente se procedió a  la colocación de electrodos y la limpieza de la piel con alcohol , asegurando que la piel se encuentre libre de vello para evitar la interferencia con la adherencia de los electrodos. Luego de posicionar correctamente los electrodos se inició con el ejercicio .Se llevó a cabo un ejercicio incremental de 10 minutos de duración en una bicicleta estática. La visualización en tiempo real de la potencia generada durante el ejercicio en la pantalla de la bicicleta fue crucial dada la naturaleza progresiva del ejercicio, permitiendo observar los cambios graduales en este parámetro. Si bien la potencia no se modifica directamente en la bicicleta, ésta se ajustaba por el desempeño del participante al aumentarla cada 90 segundos. Simultáneamente, las señales electromiográficas (EMG) fueron registradas de manera sincronizada utilizando la plataforma Open Signals.
 
 Para garantizar la correcta adquisición de las  señales, se desarrolló un estuche protector de dimensiones 152.995 x 126.417 x 34.832 mm, para la protección del dispositivo BITalino, con especial atención a la potencial generación de sudor durante la actividad física. Además cuenta con  una banda de velcro, para proporcionar una sujeción segura en la pierna durante la medición.
 
+![Imagen4](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/b01efcaf-183d-40b6-9b69-a183296267e7)
+
+Figura 5. Estuche protector del microcontrolador
+
 Preprocesamiento de Señales EMG
 Una vez obtenidas las señales, con frecuencia de muestreo de 1000 Hz.), se emplearon filtros digitales para optimizar la señal electromiográfica (EMG). Se diseñó un filtro rechaza banda FIR con el propósito de eliminar eficazmente el ruido eléctrico a 60 Hz, común en entornos eléctricos. La frecuencia de corte se estableció en 60 Hz, con un ancho de banda estrecho de 3 Hz. Adicionalmente, se implementó un filtro pasabanda FIR que destacó la banda de interés para el análisis de la señal EMG. Este filtro se ajustó con frecuencias de corte de 6 a 500 Hz, abarcando el rango típico de las señales EMG, que oscilan entre +/- 5000 microvoltios y presentan contenido de frecuencia entre 6 y 500 Hz. El diseño de este filtro aseguró la retención de información relevante mientras elimina frecuencias no deseadas.
+
+![Captura de pantalla 2023-12-01 080604](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/7b2bd389-503b-466f-a6cf-c4bcbecfc96f)
 
 Etiquetado y creación del dataset
 En la investigación, adoptamos un enfoque referenciado en prácticas previas donde proponen segmentar la señal electromiográfica (EMG) para analizar la actividad muscular en intervalos específicos, para cuantificar la actividad en cada segmento, se aplicó la técnica del Root Mean Square (RMS), proporcionando una medida representativa de la magnitud de la señal, se implementó un filtro de mediana a la nueva señal constituida por RMS para suavizar resaltar las características relevantes asociadas con la fatiga muscular, se llevó a cabo una clasificación de la señal electromiográfica (EMG) en dos clases distintas: "fatiga" y "no fatiga", la señal EMG fue dividida en segmentos de 8 segundos, lo que facilitó un análisis de la evolución temporal de la actividad muscular. 
 Se aplicó estrategias similares propuestas en la literatura para la determinación del umbral de fatiga (PWCFT). La identificación del PWCFT se basó en observar la carga más baja que generaba una pendiente positiva significativa en la relación amplitud sEMG/tiempo. [10]
 Para identificar los puntos de cambio significativos en la evolución del RMS, se utilizó la biblioteca de Python denominada "ruptures". Esta herramienta permitió la detección automatizada de transiciones relevantes en la señal, fundamentales para la posterior clasificación en las categorías de "fatiga" y "no fatiga". La elección de esta biblioteca se basó en su capacidad para detectar cambios bruscos.
+
+![Imagen6](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/11feb6a2-faaf-4137-a470-907646e8165d)
 
 Figura 7. Señal de RMS clasificada mediante un punto de cambio.(mV vs segundos)
 
@@ -171,6 +192,7 @@ Tras el entrenamiento, se procedió a la evaluación del modelo en el conjunto d
 
 Después de separar las señales adquiridas en dos grupos, entrenamiento y testeo, se pudo analizar el modelo de Machine learning utilizado, el cual logró alcanzar un 90% de precisión , consiguiendo un 90% de sensibilidad y otros 90% de especificidad, mostrándonos un rendimiento adecuado.
 
+![Imagen7](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/161f23b7-a108-476f-a9d7-deb87cfe2bb4)
 
 Figura 8. Reporte de valoración del rendimiento del modelo
 
@@ -178,11 +200,12 @@ Verificando esto, podemos realizar un análisis estadístico de las señales cla
 Primeramente, se verifica la normalidad de las señales con la prueba Shapiro-Wilk.
 
 
-![3-Figure1-1](https://github.com/arianacarbajal/ISB_Grupo3/assets/56054823/454571d0-a274-4b04-b8ae-c066b16d6417)
+![Captura de pantalla 2023-12-01 080942](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/f79a6548-52f2-4b7f-b907-2227359b40ce)
 
 Debido a la naturaleza oscilatoria de una señal emg y la falta de normalidad en esta, se decidió utilizar la prueba no paramétrica Wilcoxon.
 
 
+![Imagen8](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/8860c9b6-f2dd-4928-90f2-9136e1b84fc1)
 
 Figura 10. Prueba Wilcoxon
 
@@ -202,40 +225,6 @@ En la prueba no paramétrica de  Wilcoxon, se anuló la hipótesis nula lo que d
 Posterior a todo lo expuesto, se concluye que en  logró un modelo de machine learning  que nos permite determinar el umbral de  fatiga muscular al analizar señales electromiográficas en el miembro inferior de una población no deportista, por medio de un test incremental de potencia realizado en una  bicicleta estática . Este proyecto puede ampliarse  a la diferenciación de una población deportista a otra que no , a diferenciacion por sexo, nacionalidad o pacientes con enfermedades que puedan afectar su rendimiento físico y por consiguiente, su valor de umbral de fatiga.
 
 
-
-
-
-![Imagen2](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/1485fc40-d43d-4713-afdf-798cb7059653)
-
-
-
-![Imagen3](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/c1f2ed7f-2847-421b-bfbe-58ba49761b45)
-
-Resultados : Cuestionario de actividad física IPAQ
-
-![Imagen12](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/215dd4ae-9c10-4440-885b-a7cfd593dd01)
-
-![Imagen1](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/07c615d7-6d53-49c5-9343-0757e1979dff)
-
-Bicicleta Indoor Tour De France de Pro-Form
-
-![Imagen4](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/2dae3bd1-caaa-40e1-bdc6-b7cc67af0b36)
-
-Parámetros: Tiempo , distancia , Potencia en watts 
-
-Protocolo empleado
-
-![Imagen5](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/1115eb08-dbfc-492c-8a61-74386e34f75b)
-![Imagen6](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/e57d647d-219c-4f3a-9e0b-94f616fe1618)
-
-![Imagen7](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/7bb9d2e9-1365-43b8-a871-5c826d0cc721)
-
-
-![Imagen8](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/bf1a0178-f9d2-4b21-8213-ccf781fc671e)
-
-![Imagen9](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/024a5c63-aa1f-4bd6-902c-57e6e75f8879)
-
-![Imagen10](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/da7d8fa9-06e8-4afe-91f5-30d8e941fbed)
 
 ### Integrantes del proyecto
 
