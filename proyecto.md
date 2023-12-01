@@ -16,57 +16,22 @@
 
 ### Introducción
 
-La fatiga muscular es una disminución de la fuerza máxima y una respuesta muscular más lenta.  La fatiga puede tener un origen central, al reducir el rendimiento cognitivo o disminuir la excitación de las motoneuronas.Las fatigas en las  contracciones musculares van acompañadas de descargas reducidas de las motoneuronas.
+La fatiga se utiliza comúnmente para describir  aumento de la dificultad real o percibida para realizar una actividad física.En otras palabras, es la  incapacidad de mantener un nivel requerido de fuerza muscular, por ende,ocasiona que la persona detenga  o disminuya el esfuerzo físico  que está realizando. La fatiga depende de varios factores  entre las que se encuentran las relacionadas con el ejercicio (tipo de ejercicio, velocidad, duración de la contracción muscular,etc) y/o factores relacionados con el individuo en actividad (reservas energéticas, sexo, edad, condición física, estado emocional, niveles de estrés, entre otros ).
+En actividad física máxima , la fatiga proviene de una disminución neuromuscular en la producción de fuerza ocasionadas por diferentes fenómenos fisiológicos .Estos fenómenos  se diferencian por tipo de fatiga: periférica y central. [1]
 
+La fatiga periférica se caracteriza por la reducción de la fuerza a nivel de las fibras musculares, principalmente en el entorno en el que se encuentran. Este fenómeno puede afectar diversos aspectos, como el acoplamiento excitación-contracción, la disponibilidad de sustratos metabólicos, las condiciones intracelulares, el flujo sanguíneo muscular y las propiedades intrínsecas del aparato contráctil. Estos factores contribuyen a la compleja manifestación de la fatiga periférica, influenciando la capacidad del músculo para generar fuerza eficientemente. [1]
 
-La fatiga periférica, es donde la disminución de la fuerza ocurre a nivel de las fibras musculares principalmente o el medio en el cual se encuentran . Puede interferir con el acople excitación contracción, la disponibilidad de sustratos metabólicos, el medio intracelular, el flujo sanguíneo muscular y las propiedades intrínsecas del aparato contráctil [1]
+Por otro lado ,la fatiga central se manifiesta como una reducción en la frecuencia de descargas de las unidades motoras inicialmente reclutadas para la generación de fuerza. Este fenómeno puede tener ocurrir a diversos niveles, incluyendo la corteza motora, motoneuronas, vías piramidales y metaborreceptores. Entre los mecanismos asociados a la fatiga central, se destaca principalmente el bloqueo de la conducción de potenciales de acción  en los sitios de unión que mencionamos anteriormente, lo que ocasiona  en una pérdida de activación de las fibras musculares.Respecto a los  avances en la comprensión de estos procesos, la importancia precisa de la fatiga central sigue siendo objeto de investigación hasta la fecha.[1] 
 
-Mecanismos fisiológicos que ocasionan la fatiga muscular son los siguientes: [1]
+Nosotros nos enfocaremos en la fatiga periférica , la cual se puede generar antes o durante la rehabilitación del deportista si no se tiene un monitoreo adecuado de su rendimiento.
 
+En el deportista;el ejercicio intenso que realizan debido a sus mismas rutinas de su respectivo deporte (fútbol,natación y ciclismo ) le  generan daño muscular ,por lo que se limita su  rendimiento al  disminuir la fuerza, la velocidad o pico de potencia de los músculos . Por ende, es indispensable conocer  qué medios de recuperación muscular disponen .
 
-1)Alteraciones que ocurren durante la propagación del potencial de acción a lo largo del sarcolema con disminución en la sensibilidad de receptores post sinápticos a la acetilcolina, y al calcio en sarcolema y RS3 .Esto ocasiona una  disminución de la velocidad de conducción de los potenciales de acción a lo largo del sarcolema, así como en malfuncionamiento de la capacidad contráctil propia de la fibra muscular.
+Los métodos de rehabilitación para deportistas  se separan entre el tipo de ejercicio que se requiera realizar: aeróbico o anaeróbico.[2]El ejercicio aeróbico se refiere a la actividad física en la cual la ingesta de oxígeno se encuentra en equilibrio . Estos ejercicios se caracterizan por ser de baja intensidad y prolongada duración, típicamente entre 30 y 60 minutos, durante los cuales se queman tanto hidratos de carbono como grasas para la obtención de energía. Por otra parte, el  ejercicio anaeróbico se determina por la intensidad del esfuerzo y la duración del mismo , siendo de alta intensidad pero de corta duración, comúnmente  de 30 a 120 segundos. En este tipo de actividad, se busca utilizar una cantidad significativa de energía en un breve lapso de tiempo. [2]
 
-2)La acumulación de lactato e hidrogeniones (H+), lo que genera una variación en el cociente respiratorio
+Respecto a la rehabilitación , el ejercicio aeróbico utiliza  bandas sin fin, bicicleta estática y elíptica . Mientras que en los ejercicios anaeróbicos, se utilizan  bandas motorizadas y bicicletas estáticas.Este último tipo de ejercicio debe presentar mayor velocidad  que el primero , debido a que presenta una alta intensidad de trabajo y un  corto tiempo de duración en la rehabilitación.  [2]
 
-
-3)Modificaciones a nivel de la fibra muscular propiamente, la más importante,es el aumento del fosfato inorgánico (Pi) en el sarcoplasma proveniente de: la hidrólisis de la fosfocreatina en creatina y Pi durante el ejercicio y de la hidrolisis de ATP
-
-4)La acumulación de iones de magnesio que limitan la liberación de Ca2+ desde el RS y la depleción de las reservas de glucógeno en la fibra muscular.
-
-
-
-**¿Qué es la bicicleta estática?**
-
-Es un nuevo tipo de bicicleta menos convencional(comparado a la bicicleta que todos conocemos ), apodado ‘estática’ pues simula la acción de una bicicleta convencional, pero sin producirse el desplazamiento. 
-Esto es debido a que lo que se busca es el desgaste energético, no el movimiento; es decir realizar el esfuerzo provocado por el pedaleo de una bici con fines deportivos. Sin embargo, dentro de esta subclase aparecen nuevas ramificaciones [2]: 
-
--Convencionales: Las de uso doméstico aunque también se pueden encontrar en instalaciones deportivas. Siguen una estructura básica pero tienen gran variedad de funcionalidades. 
-
--Spinning: Esta bicicleta aunque posee ruedas no se produce el desplazamiento, destaca por su uso diverso y por la gran variedad de resistencias al pedaleo.Lo utilizan deportistas de alto rendimiento.
-
--Elípticas: El ejercicio se realiza de pie gracias a esta ya que posee dos pedales sobre los que se marchan y dos barras verticales que ayudan a la realización el ejercicio.
-
- -De alta resistencia o crossfit: Estas destacan por sus materiales de elaboración pues son resistentes a la oxidación y el desgaste mecánico pues están pensadas para ejercicio de alta intensidad.
-
-
-
-
-El uso de bicicleta estática (ergómetro de ciclo) se utiliza en rehabilitación de deportistas  tanto en lesiones que perjudiquen el análisis de fatiga muscular (como amputaciones, lesiones musculo-tendinosas) o en lesiones que no afecten esta medición como esguinces, contusiones o traumatismos  en la rodilla (**generalmente en jugadores de fútbol**). [3]
-
-
-
-**¿Cómo podríamos unir el análisis por sEMG  de fatiga muscular con la rehabilitación con bicicleta estática en deportistas?** [4]
-
-En este artículo, determinamos como el cicloergómetro(bicicleta estática ) en ciclos de ejercicios  nos permite  hallar  un parámetro llamado PWCFT,  que permite clasificar si  el músculo/s  analizados (p.j vasto medial) presenta fatiga.
-
- En el artículo, propusieron un umbral de fatiga neuromuscular basado en la actividad EMG, definido como la “Capacidad Física de Trabajo en el Umbral de Fatiga” (PWCFT), a través de un test especifico en cicloergómetro.
-
- En su versión original, la determinación del umbral PWCFT se hacía examinando las curvas EMG-tiempo obtenidas de 4 series de trabajo realizadas en 4 niveles de potencia distintos. Los autores de este método identificaban el umbral PWCFT determinando el mayor nivel potencia (carga) que el ciclista podía mantener en un periodo de 2 minutos sin que la señal EMG se incrementara drásticamente . En su versión original, el método de deVries adolecía de una gran desventaja al tratarse de un test discontinuo que exige al ciclista varias visitas al laboratorio para realizar los análisis . Luego, , este grupo  realizaron un refinamiento de su método que le permitió extraer el umbral PWC mediante la realización de un solo test incremental.
-
-
-
-
-Las señales de EMG se obtienen mediante electrodos colocados en la pierna dominante sobre el músculo VL(vasto lateral ) a un 1/3 de la distancia entre el extremo lateral de la rótula y la proyección del hueso ilíaco. . Durante cada etapa (25w/min) de la prueba incremental, se registran varios segmentos consecutivos de EMG (cada segmento coincidiendo con el intervalo en el que el músculo está activo en una pedalada). Normalmente, los primeros 10-15 segundos de cada etapa de 1 minuto se descartan para el análisis, ya que durante este periodo inicial el ciclista realiza ajustes posturales para adaptarse a la nueva potencia. Para cada nivel de potencia del test, la amplitud sEMG de cada uno de los segmentos se calcula y representada en función del tiempo. Así mismo, se identifica la carga de trabajo (potencia) más baja que genera una pendiente significativa positiva en la relación amplitud sEMG/tiempo y también la carga de trabajo (potencia) más alta que genera una pendiente positiva no significativa en la relación amplitud sEMG/tiempo. El PWCFT se determina haciendo el promedio de las dos potencias arriba mencionadas
+Como lo indicado anteriormente, es importante monitorear el rendimiento de la rehabilitación  a fin de evitar lesiones como la fatiga muscular .Para esto, se utiliza la electromiografía de superficie(sEMG) .El sEMG es el análisis de una señal eléctrica generada por la actividad muscular durante la contracción y relajación muscular  mediante electrodos  .Esta  permite obtener información sobre la producción de fuerza en el músculo esquelético que se encuentra  vinculada a mecanismos contráctiles.Gracias a su naturaleza no invasiva y por su amplia utilización en áreas como la ergonomía y biomecánica ocupacional, es recomendable utilizar este método para monitorear el rendimiento del deportista y estimar una posible fatiga.[2]
 
 
 
@@ -150,68 +115,98 @@ El artículo, titulado “Assessment of Muscles Fatigue Based on Surface EMG Sig
 
 ### Propuesta de solución
 <div class=text-justify>
- 
-Se seleccionó el músculo vasto lateral de la pierna (VL) como el foco central de este estudio debido a su destacado papel como generador principal de potencia durante la práctica del ciclismo [16]. Por consiguiente, proponemos el  desarrollo de un Modelo de Aprendizaje Automático para la Monitorización de la Fatiga Muscular en el Músculo Vasto Lateral durante la Rehabilitación con Bicicleta Estática mediante señales de electromiografía de superficie (sEMG). Esta elección se respalda en la capacidad inherente del aprendizaje automático para analizar de forma precisa y eficiente las complejas señales de sEMG, identificar patrones de fatiga muscular y proporcionar retroalimentación en tiempo real. Nuestra propuesta tiene como objetivo optimizar los protocolos de rehabilitación y prevenir lesiones musculares en el contexto de pacientes que utilizan la bicicleta estática como parte de su proceso de recuperación, lo que, indudablemente, contribuirá al bienestar y al rendimiento de este grupo.
- 
-</div>
+ Ante la presente problemática, la propuesta de solución consiste en desarrollar un sistema de monitorización de fatiga muscular basado en sensores sEMG para optimizar la rehabilitación y prevenir lesiones de sobre exigencia muscular durante la realización de ejercicios en bicicleta estática.
 
-### Metodología del proyecto
-Criterios de Inclusión:
-Edad: Personas de 18 a 40 años.
-Actividad física: Individuos con actividad física regular.
-Reposo previo al estudio: No haber realizado ejercicio intenso en los tres días previos a la prueba.
-Criterios de Exclusión:
-Personas con enfermedades cardiovasculares, neuromusculares y metabólicas no serán incluidas en el estudio.
+Se seleccionó el músculo vasto lateral de la pierna (VL) como el foco central de este estudio debido a su destacado papel como generador principal de potencia durante la práctica del ciclismo [16]. Además se optó por utilizar aprendizaje automático debido a su capacidad inherente para analizar de forma precisa y eficiente las complejas señales de electromiografía de superficie (sEMG), identificando patrones de fatiga muscular. 
 
-Preparación de la Piel para la Adquisición de Señal:
-Depilar el exceso de vello en la zona.
-Limpiar la zona con alcohol u otro desinfectante adecuado.
-Aplicar gel conductivo en la zona para mejorar la conductividad eléctrica de los electrodos.
-Utilizar electrodos de alta adherencia asegurar una buena conexión y minimizar
+Selección de Sujetos de Estudio
+El estudio incluyó  personas entre 18 y 40 años de edad que realicen actividad física regular y que no hayan realizado ejercicio intenso en los tres días previos a la prueba. Se excluirán personas con enfermedades cardiovasculares, neuromusculares o metabólicas diagnosticadas.
 
-Posición de Electrodos:
-La posición de los electrodos se seleccionará de acuerdo con el consenso SENIAM, una norma europea llamada "Surface ElectroMyoGraphy for the Non-Invasive Assessment of Muscles." Esto garantiza una colocación estandarizada y precisa para la adquisición de señales de EMG.
+El protocolo inició con la obtención de datos antropométricos  de los participantes tales como peso , talla y se hizo un cálculo de IMC. Posteriormente se solicitó a los participantes que completen el cuestionario de actividad física IPAQ ,  
+
+Posteriormente , se solicitó a los participantes completar el Cuestionario Internacional de Actividad Física (IPAQ por sus siglas en inglés), ampliamente utilizado para la evaluación estandarizada de los niveles de actividad física. El IPAQ permite la cuantificación de tres dimensiones principales: intensidad categorizada como leve, moderada o vigorosa según valores estandarizados de equivalente metabólico de la tarea (MET por sus siglas en inglés) por minuto; frecuencia definida como número de días por semana; y duración correspondiente al tiempo en minutos por día. A partir de esta información, y utilizando los puntajes MET-minuto/semana, se clasificó a los participantes en tres niveles de actividad física de acuerdo a cortes previamente establecidos: bajo, moderado y alto. Los resultados del IPAQ facilitaron la caracterización de la condición física basal de los participantes y su incorporación en los análisis posteriores.
+
+Adquisición de Señales EMG
+
+La preparación del equipo y materiales incluyó la utilización de la bicicleta estática Indoor Tour de France de Proform, electrodos desechables de alta adherencia de Ag/AgCl, gel conductor y módulo Bitalino.
+
+Los electrodos de superficie para EMG se ubicaron en los músculos vasto medial y lateral del cuádriceps, con un electrodo de referencia en el tendón rotuliano.
+
+
+Figura 3.Colocación de electrodos
+
+El protocolo inició con un calentamiento con estiramientos durante 5 minutos . Posteriormente se procedió a  la colocación de electrodos y la limpieza de la piel con alcohol , asegurando que la piel se encuentre libre de vello para evitar la interferencia con la adherencia de los electrodos. Luego de posicionar correctamente los electrodos se inició con el ejercicio .Se llevó a cabo un ejercicio incremental de 10 minutos de duración en una bicicleta estática. La visualización en tiempo real de la potencia generada durante el ejercicio en la pantalla de la bicicleta fue crucial dada la naturaleza progresiva del ejercicio, permitiendo observar los cambios graduales en este parámetro. Si bien la potencia no se modifica directamente en la bicicleta, ésta se ajustaba por el desempeño del participante al aumentarla cada 90 segundos. Simultáneamente, las señales electromiográficas (EMG) fueron registradas de manera sincronizada utilizando la plataforma Open Signals.
 
 ![3-Figure1-1](https://github.com/arianacarbajal/ISB_Grupo3/assets/56054823/454571d0-a274-4b04-b8ae-c066b16d6417)
 
-Procesamiento de Señal en Python:
-La señal se procesará en un entorno Python utilizando filtros pasa baja y alta, así como la transformada wavelet para eliminar el ruido y resaltar características relevantes.
+Para garantizar la correcta adquisición de las  señales, se desarrolló un estuche protector de dimensiones 152.995 x 126.417 x 34.832 mm, para la protección del dispositivo BITalino, con especial atención a la potencial generación de sudor durante la actividad física. Además cuenta con  una banda de velcro, para proporcionar una sujeción segura en la pierna durante la medición.
 
-Análisis de la Señal:
-Se analizará la amplitud y la frecuencia de las señales de EMG a lo largo del tiempo para detectar cambios que indiquen fatiga muscular. Se considerarán características como la frecuencia mediana, frecuencia media, amplitud RMS y coeficientes de Wavelet.
+Preprocesamiento de Señales EMG
+Una vez obtenidas las señales, con frecuencia de muestreo de 1000 Hz.), se emplearon filtros digitales para optimizar la señal electromiográfica (EMG). Se diseñó un filtro rechaza banda FIR con el propósito de eliminar eficazmente el ruido eléctrico a 60 Hz, común en entornos eléctricos. La frecuencia de corte se estableció en 60 Hz, con un ancho de banda estrecho de 3 Hz. Adicionalmente, se implementó un filtro pasabanda FIR que destacó la banda de interés para el análisis de la señal EMG. Este filtro se ajustó con frecuencias de corte de 6 a 500 Hz, abarcando el rango típico de las señales EMG, que oscilan entre +/- 5000 microvoltios y presentan contenido de frecuencia entre 6 y 500 Hz. El diseño de este filtro aseguró la retención de información relevante mientras elimina frecuencias no deseadas.
 
-Monitoreo de la Fatiga Muscular:
-Se utilizará el espectro de potencia para seguir la evolución hacia frecuencias más bajas a medida que el músculo se fatiga. Esto permitirá el monitoreo de la fatiga en tiempo real durante el ejercicio.
+Etiquetado y creación del dataset
+En la investigación, adoptamos un enfoque referenciado en prácticas previas donde proponen segmentar la señal electromiográfica (EMG) para analizar la actividad muscular en intervalos específicos, para cuantificar la actividad en cada segmento, se aplicó la técnica del Root Mean Square (RMS), proporcionando una medida representativa de la magnitud de la señal, se implementó un filtro de mediana a la nueva señal constituida por RMS para suavizar resaltar las características relevantes asociadas con la fatiga muscular, se llevó a cabo una clasificación de la señal electromiográfica (EMG) en dos clases distintas: "fatiga" y "no fatiga", la señal EMG fue dividida en segmentos de 8 segundos, lo que facilitó un análisis de la evolución temporal de la actividad muscular. 
+Se aplicó estrategias similares propuestas en la literatura para la determinación del umbral de fatiga (PWCFT). La identificación del PWCFT se basó en observar la carga más baja que generaba una pendiente positiva significativa en la relación amplitud sEMG/tiempo. [10]
+Para identificar los puntos de cambio significativos en la evolución del RMS, se utilizó la biblioteca de Python denominada "ruptures". Esta herramienta permitió la detección automatizada de transiciones relevantes en la señal, fundamentales para la posterior clasificación en las categorías de "fatiga" y "no fatiga". La elección de esta biblioteca se basó en su capacidad para detectar cambios bruscos.
 
-Modelo de Aprendizaje Automático:
-Se evaluarán los tipos de modelos de aprendizaje automático, tanto supervisados como no supervisados, para determinar cuál es más apropiado. La entrada del sistema serán las señales de EMG con sus características, y la salida será la recomendación de un ejercicio óptimo para prevenir lesiones musculares mediante el análisis de fatiga.Esta metodología proporciona un enfoque integral para el estudio de monitorización de fatiga muscular durante la rehabilitación con bicicleta estática. La combinación de técnicas de procesamiento de señales y aprendizaje automático permitirá un análisis detallado de la fatiga y la recomendación de ejercicios óptimos para mantener la salud muscular y prevenir lesiones.
-La elección de frecuencias de corte y características importantes a analizar se eligieron mediante el estado del arte, donde se adecuará según la necesidad específica de nuetro proyecto.
+Figura 7. Señal de RMS clasificada mediante un punto de cambio.(mV vs segundos)
 
-### Adquisición de señales
+Extracción y Selección de Características
 
-- Protocolo empleado:
-- Obtención de peso , talla e IMC de los participantes
-- Cuestionario de actividad física
-- Depilar la zona de colocación de electrodos
-- Estiramiento por 5 minutos
-- Colocación de electrodos
-- Ejercicio en bicicleta estática (10 minutos)
-- Se inició con un pedaleo de baja intensidad
-- Se realizó una prueba incremental , cada 1.5 minutos se aumentó la potencia generada hasta llegar a 
-  los 10 min
- -Se observó la potencia generada en cada intervalo de 1.5 minutos y se tuvo un registro de estos 
-  valores  
+Antes de llevar a cabo la extracción de características, se realizó un proceso de normalización de la media de los datos, dado que se identificaron irregularidades debido a factores externos.
+En el proceso de extracción de características, se calcularon diversos parámetros con el objetivo de capturar la información relevante para clasificar fatiga en la señal EMG. Entre los parámetros calculados se incluyen la Raíz Media Cuadrática (RMS), la media, la desviación estándar y la amplitud de cada ventana temporal. 
+Siguiendo las recomendaciones de la literatura, se incorporaron características derivadas de la transformada de wavelet como parte integral del análisis de fatiga muscular. Se aplicó la transformada de wavelet con 5 niveles, utilizando la función madre "db8". Es relevante destacar que se llevó a cabo un análisis estadístico enfocado en los dos primeros niveles de la transformada para extraer características significativas. Este enfoque se alinea con la importancia atribuida a los coeficientes de wavelet como indicadores clave para el análisis de la fatiga muscular, proporcionando una representación detallada de la señal en diferentes niveles de resolución. [11]
+Las características obtenidas, tanto a partir de los parámetros estadísticos de las ventanas como de la transformada de wavelet, se extrajeron para ambos estados, "fatiga" y "no fatiga". 
 
-Datos de los participantes:
+Desarrollo de Modelo de Aprendizaje Automático
+
+Durante la fase de desarrollo del modelo de aprendizaje automático, se llevó a cabo un paso de normalización de datos para homogeneizar las características extraídas de las señales electromiográficas (EMG). Esta medida se implementó debido a que algunas señales presentan disparidades en la cantidad de datos, asegurando así una entrada uniforme y equitativa para el modelo. Seguidamente, se introdujo un modelo clasificador de tipo RandomForest. El conjunto de datos se dividió en conjuntos de entrenamiento (80%) y prueba (20%), y las características se normalizaron mediante Standard Scaler para garantizar un rendimiento óptimo del modelo.
+
+Tras el entrenamiento, se procedió a la evaluación del modelo en el conjunto de prueba, obteniendo una precisión del modelo adecuado y aceptable.
+
+ 
+</div>
+
+  RESULTADOS
+Después de separar las señales adquiridas en dos grupos, entrenamiento y testeo, se pudo analizar el modelo de Machine learning utilizado, el cual logró alcanzar un 90% de precisión , consiguiendo un 90% de sensibilidad y otros 90% de especificidad, mostrándonos un rendimiento adecuado.
+
+
+Figura 8. Reporte de valoración del rendimiento del modelo
+
+Verificando esto, podemos realizar un análisis estadístico de las señales clasificadas para poder observar si se presentan diferencias significativas antes y después del umbral hallado por el modelo y así corroborar que este haya hecho una detección correcta.
+Primeramente, se verifica la normalidad de las señales con la prueba Shapiro-Wilk.
+
+
+![3-Figure1-1](https://github.com/arianacarbajal/ISB_Grupo3/assets/56054823/454571d0-a274-4b04-b8ae-c066b16d6417)
+
+Debido a la naturaleza oscilatoria de una señal emg y la falta de normalidad en esta, se decidió utilizar la prueba no paramétrica Wilcoxon.
+
+
+
+Figura 10. Prueba Wilcoxon
+
+
+Por último se realizó la prueba de Wilcoxon para evaluar las diferencias entre la clase 1( antes de la fatiga ) y la clase 2 ( después de la fatiga .En la prueba podemos observar que se obtiene un p>0.05(0.79).
+
+V. CONCLUSIONES
+
+Se determina que la obtención , filtrado y segmentación  de la señal  EMG en el miembro inferior como el filtro de mediana para el suavizado de la señal,ha sido la adecuada para el análisis de nuestro proyecto, permitiéndonos encontrar resultados fiables .
+
+Se obtuvo valores trascendentales en la extracción de características  de Raíz Media Cuadrática (RMS), la media, la desviación estándar y la amplitud de cada ventana temporal(8 segundos).Esto se ve verificado en el modelo estadístico realizado posteriormente, donde analiza las características de la señal antes y después del umbral de fatiga.
+
+El modelo de Machine Learning RandomForest utilizado es eficaz, ya que se obtiene una precisión y especificidad de 90% ,demostrando un rendimiento adecuado. 
+
+En la prueba no paramétrica de  Wilcoxon, se anuló la hipótesis nula lo que determina que si existe una diferencia significativa entre las señales pre-fatiga y post-fatiga. Esto corrobora la correcta identificación del inicio de la fatiga muscular. 
+
+Posterior a todo lo expuesto, se concluye que en  logró un modelo de machine learning  que nos permite determinar el umbral de  fatiga muscular al analizar señales electromiográficas en el miembro inferior de una población no deportista, por medio de un test incremental de potencia realizado en una  bicicleta estática . Este proyecto puede ampliarse  a la diferenciación de una población deportista a otra que no , a diferenciacion por sexo, nacionalidad o pacientes con enfermedades que puedan afectar su rendimiento físico y por consiguiente, su valor de umbral de fatiga.
+
+
+
+
 
 ![Imagen2](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/1485fc40-d43d-4713-afdf-798cb7059653)
 
-Cuestionario de Actividad Física IPAQ
 
-Obtención de peso , talla e IMC de los participantes
-Se evalúan tres características de la actividad física (AF): intensidad (leve, moderada o vigorosa), frecuencia (días por semana) y duración ( tiempo por día)
-Se registra en Mets (Metabolic Equivalent of Task o Unidades de Índice Metabólico) por minuto y semana.
-Se clasifica en 3 niveles de  actividad física
 
 ![Imagen3](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/c1f2ed7f-2847-421b-bfbe-58ba49761b45)
 
@@ -234,9 +229,6 @@ Protocolo empleado
 
 ![Imagen7](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/7bb9d2e9-1365-43b8-a871-5c826d0cc721)
 
-Procesamiento de señales
-
-Para el procesamiento de señales , se realizó un filtro rechazabanda para la frecuencia de 60 hz ( ruido debido a la alimentación eléctrica) y posteriormente un filtro pasabanda de 10 a 200 hz . Se obtuvo la señal en relación al tiempo y su espectro en frecuencia mediante la transformada de fourier. Los filtros utilizados son filtros FIR y se utilizó la ventana blackman , en ambos casos , debido a su mejor capacidad de atenuación. Por otro lado también se segmento la señal en intervalos de 1.5 minutos debido al cambio de potencia entre esos intervalos y se generó una gráfica de amplitud vs tiempo del RMS de la señal con la señal segmentada en cada intervalo, esto nos permitirá analizar la señal con respecto al threshold como se observo en la literatura. Por último , se obtuvieron características relevantes de las 3 señales adquiridas tales como media , RMS , desviación estándar , mínimo y máximo valor , área bajo la curva , potencia total , frecuencia mediana y frecuencia máxima.
 
 ![Imagen8](https://github.com/arianacarbajal/ISB_Grupo3/assets/89601813/bf1a0178-f9d2-4b21-8213-ccf781fc671e)
 
@@ -252,42 +244,14 @@ Para el procesamiento de señales , se realizó un filtro rechazabanda para la f
 - Eduardo André Cuti Riveros (colaborador) -  eduardo.cuti@upch.pe 
 
 ### Bibliografía
-[1]“Mecanismos fisiológicos de la fatiga neuromuscular”. Medigraphic - Literatura Biomédica. Accedido el 20 de octubre de 2023. [En línea]. Disponible: https://www.medigraphic.com/cgi-bin/new/resumenI.cgi?IDARTICULO=66431
-
-[2]Rodríguez Ortega, Arturo. “Diseño de un nuevo modelo de bicicleta estática para uso comercial en una empresa multinacional con SAP ERP”. RiuNet repositorio UPV. Accedido el 20 de octubre de 2023. [En línea]. Disponible: https://riunet.upv.es/handle/10251/147867
-
-
-[3]“Eficacia del ejercicio muscular concéntrico y excéntrico en deportistas aficionados con tendinopatias rotulianas en el centro de rehabilitación ASOFISIO”. DSpace Principal. Accedido el 20 de octubre de 2023. [En línea]. Disponible: http://repositorio.puce.edu.ec/handle/22000/8912
-
-
-[4]UVaDOC Principal. Accedido el 20 de octubre de 2023. [En línea]. Disponible: https://uvadoc.uva.es/bitstream/handle/10324/57784/Actividad-electromiografica-EMG-durante-el-pedaleo.pdf?sequence=1&amp;isAllowed=y
-
-
-[5] D. Pérez, “Epidemiología de la lesión deportiva,” Universidad Politécnica de Madrid,2015. https://oa.upm.es/36508/1/TFG_DANIEL_PEREZ_DEL_POZO.pdf (accessed Oct. 2023).
-
-[6] L. Gao et al., “Biomechanical effects of exercise fatigue on the lower limbs of men during the forward lunge,” Frontiers, 2023. https://www.frontiersin.org/articles/10.3389/fphys.2023.1182833/full (accessed Oct. 2023). 
-
-[7] J. A. Pernas, “Lesiones Musculares con y sin daño anatómico ,” VIl Jornadas Nacionales de Fisioterapia en el Deporte, 1999. 
-https://ruc.udc.es/dspace/bitstream/handle/2183/10903/CC%2051%20art%204.pdf (accessed Oct. 19, 2023). 
-
-[8] R. D´Onofrio, M. Padasala, A. Bhatt, and L. Febbrari, “The return to sport after muscular injury of the hamstring. A systemic Review,” The return to sport after muscular injury of the Hamstring. A systematic review, 2019. https://www.researchgate.net/profile/Rosario-Donofrio-2/publication/332621616_The_return_to_sport_after_muscular_injury_of_the_Hamstring_A_Systemic_Review/links/5cc068e092851c8d2202d543/The-return-to-sport-after-muscular-injury-of-the-Hamstring-A-Systemic-Review.pdf (accessed Oct. 20, 2023). 
-
-[9] F. Daussin, A. Combes, V. Bougault, and J. Dekerle, “European Journal of Sports Medicine x 8 TH EUROPEAN SPORTS MEDICINE CONGRESS OF EFSMA EUROPEAN FEDERATION OF SPORTS MEDICINE ASSOCIATIONS AND 6 TH JOINT MEETING SFMES AND SFTS FRENCH SOCIETY OF EXERCISE AND SPORTS MEDICINE FRENCH SOCIETY OF SPORTS TRAUMATOLOGY,” Conference: 8TH EUROPEAN SPORTS MEDICINE CONGRESS OF EFSMA EUROPEAN FEDERATION OF SPORTS MEDICINE ASSOCIATIONS, 2013. 
-https://www.researchgate.net/publication/297698831_European_Journal_of_Sports_Medicine_x_8_TH_EUROPEAN_SPORTS_MEDICINE_CONGRESS_OF_EFSMA_EUROPEAN_FEDERATION_OF_SPORTS_MEDICINE_ASSOCIATIONS_AND_6_TH_JOINT_MEETING_SFMES_AND_SFTS_FRENCH_SOCIETY_OF_EXERCI (accessed Oct, 2023). 
-
-[10] V. Bourguigne, “Alteraciones posturales y lesiones en ciclistas amateurs - core,” Universidad Fasta,2012.  https://core.ac.uk/download/pdf/49224101.pdf (accessed Oct. 20, 2023). 
-
-
-[11]J. Wang, S. Sun, and Y. Sun, “A Muscle Fatigue Classification Model Based on LSTM and Improved Wavelet Packet Threshold,” Sensors, vol. 21, no. 19, pp. 6369–6369, Sep. 2021, doi: https://doi.org/10.3390/s21196369.
-
-[12] V. P. Singh, D. Kumar, B. Polus, and S. F. Fraser, “Strategies to identify changes in SEMG due to muscle fatigue during cycling,” Journal of Medical Engineering & Technology, vol. 31, no. 2, pp. 144–151, Jan. 2007, doi: https://doi.org/10.1080/03091900500444281.
-
-[13] Ibán Latasa, A. Córdova, G. Quintana-Ortí, A. Lavilla-Oiz, J. Navallas, and J. Rodríguez-Falces, “Evaluation of the Electromyography Test for the Analysis of the Aerobic-Anaerobic Transition in Elite Cyclists during Incremental Exercise,” Applied sciences, vol. 9, no. 3, pp. 589–589, Feb. 2019, doi: https://doi.org/10.3390/app9030589.
-
-[14] H. A. Yousif et al., “Assessment of Muscles Fatigue Based on Surface EMG Signals Using Machine Learning and Statistical Approaches: A Review,” IOP conference series, vol. 705, no. 1, pp. 012010–012010, Nov. 2019, doi: https://doi.org/10.1088/1757-899x/705/1/012010.
-
-‌[15] L. Wang et al., “A Comparative Study of EMG Indices in Muscle Fatigue Evaluation Based on Grey Relational Analysis during All-Out Cycling Exercise,” BioMed Research International, vol. 2018, pp. 1–8, Jan. 2018, doi: https://doi.org/10.1155/2018/9341215. 
-
-[16] S. Bercier et al., “The vastus lateralis neuromuscular activity during all-out cycling exercise,” Journal of Electromyography and Kinesiology, vol. 19, no. 5, pp. 922–930, Oct. 2009, doi: https://doi.org/10.1016/j.jelekin.2008.03.012.
-‌
- 
+[1] “Mecanismos fisiológicos de la fatiga neuromuscular”. Medigraphic - Literatura Biomédica. Accedido el 20 de octubre de 2023. [En línea]. Disponible: https://www.medigraphic.com/cgi-bin/new/resumenI.cgi?IDARTICULO=66431. 
+[2]“Evaluación de métodos para el monitoreo del nivel de fatiga basado en variables cinemáticas y fisiológicas durante entrenamiento en banda sin fin”. Repositorio Institucional EdocUR ::Repositorio Institucional EdocUR - Universidad del Rosario - Colombia. Accedido el 29 de noviembre de 2023. [En línea]. Disponible: https://repository.urosario.edu.co/server/api/core/bitstreams/76942e04-21a2-4c2f-84bc-f03fef12373b/content
+[3] D. Pérez, “Epidemiología de la lesión deportiva,” Universidad Politécnica de Madrid,2015.  Accedido el 20 de octubre de 2023. [En línea]. Disponible: https://oa.upm.es/36508/1/TFG_DANIEL_PEREZ_DEL_POZO.pdf
+[4] L. Gao et al., “Biomechanical effects of exercise fatigue on the lower limbs of men during the forward lunge,” Frontiers, 2023. Accedido el 29 de noviembre de 2023. [En línea]. Disponible: https://www.frontiersin.org/articles/10.3389/fphys.2023.1182833/full.
+[5] J. A. Pernas, “Lesiones Musculares con y sin daño anatómico ,” VIl Jornadas Nacionales de Fisioterapia en el Deporte, 1999. Accedido el 20 de octubre de 2023. [En línea]. Disponible: https://ruc.udc.es/dspace/bitstream/handle/2183/10903/CC%2051%20art%204.pdf
+[6] R. D´Onofrio, M. Padasala, A. Bhatt, and L. Febbrari, “The return to sport after muscular injury of the hamstring. A systemic Review,” The return to sport after muscular injury of the Hamstring. A systematic review, 2019.  Accedido el 20 de octubre de 2023. [En línea]. Disponible: https://www.researchgate.net/profile/Rosario-Donofrio-2/publication/332621616_The_return_to_sport_after_muscular_injury_of_the_Hamstring_A_Systemic_Review/links/5cc068e092851c8d2202d543/The-return-to-sport-after-muscular-injury-of-the-Hamstring-A-Systemic-Review.pdf 
+[7] F. Daussin, A. Combes, V. Bougault, and J. Dekerle, “European Journal of Sports Medicine x 8 TH EUROPEAN SPORTS MEDICINE CONGRESS OF EFSMA EUROPEAN FEDERATION OF SPORTS MEDICINE ASSOCIATIONS AND 6 TH JOINT MEETING SFMES AND SFTS FRENCH SOCIETY OF EXERCISE AND SPORTS MEDICINE FRENCH SOCIETY OF SPORTS TRAUMATOLOGY,” Conference: 8TH EUROPEAN SPORTS MEDICINE CONGRESS OF EFSMA EUROPEAN FEDERATION OF SPORTS MEDICINE ASSOCIATIONS, 2013.  Accedido el 20 de octubre de 2023. [En línea]. Disponible: https://www.researchgate.net/publication/297698831_European_Journal_of_Sports_Medicine_x_8_TH_EUROPEAN_SPORTS_MEDICINE_CONGRESS_OF_EFSMA_EUROPEAN_FEDERATION_OF_SPORTS_MEDICINE_ASSOCIATIONS_AND_6_TH_JOINT_MEETING_SFMES_AND_SFTS_FRENCH_SOCIETY_OF_EXERCI.
+[8] V. Bourguigne, “Alteraciones posturales y lesiones en ciclistas amateurs - core,” Universidad Fasta,2012.  Accedido el 20 de octubre de 2023. [En línea]. Disponible:  https://core.ac.uk/download/pdf/49224101.pdf
+[9]S. Bercier et al., “The vastus lateralis neuromuscular activity during all-out cycling exercise,” Journal of Electromyography and Kinesiology, vol. 19, no. 5, pp. 922–930, Oct. 2009, doi: https://doi.org/10.1016/j.jelekin.2008.03.012. ‌
+[10]A. Córdova, I. Nuin, D. Fernández-Lázaro, I. Latasa y J. Rodríguez-Falces, "Actividad electromiográfica (EMG) durante el pedaleo, su utilidad en el diagnóstico de la fatiga en ciclistas", presentado en [nombre de la conferencia], año 2017.
+[11] Elamvazuthi, I., Ling, G. A., Nurhanim, K. A. R. K., Vasant, P., & Parasuraman, S. (2013). Surface electromyography (sEMG) feature extraction based on Daubechies wavelets. 2013 IEEE 8th Conference on Industrial Electronics and Applications (ICIEA). doi:10.1109/iciea.2013.6566603
