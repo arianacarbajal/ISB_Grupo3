@@ -1,65 +1,43 @@
-# ISB_Grupo3
-Bienvenidos al repositorio  del Grupo 3 del curso Introducción a señales biomédicas
-
-Proyecto: Analizando señales de un electromiograma (EMG)
 
 
-## Tabla de contenido
-
-- [¿Qué es una bioseñal?](#Qué_es_una_bioseñal).
-- [Materiales del curso](#Materiales).
-- [Objetivo del curso](#Objetivo_del_curso).
-- [Contenido del curso](#Contenido_del_curso).
-- [Integrantes del proyecto](#Integrantes_del_proyecto).
-- [Foto grupal](#Foto_grupal).
-- [Temática del proyecto](#Temática_del_proyecto).
-- [Justificación del proyecto](#Justificación_del_proyecto).
-- [Metodología del proyecto](#Metodología).
-- [Docentes del curso](#Docentes_del_curso).
-- [Bibliografía](#Bibliografía).
-
-### ¿Qué es una bioseñal?
-
-El término Bioseñal se aplica a todos los tipos de señales que pueden ser medidas y controladas continuamente en los seres biológicos y se refiere tanto a bioseñales eléctricas como no eléctricas. Entre las  bioseñales eléctricas más conocidas se tienen a los electroencefalogramas (EEG), magnetoencefalogramas (MEG) y electrocardiogramas(ECG). [1]
-
-### Objetivo del curso
-
-Este curso desarrollará los conocimientos necesarios para el tratamiento de señalesprovenientes de dispositivos médicos. Se abordaran temas como: el estudio de los sensores, la tecnología de adquisición, los procesos clínicos en los que se dan y protocolos que se usan para compartir la información entre los diferentes equipos que brindan señales.
-
-### Contenido del curso
-El curso consta de 3 unidades principales
- - Unidad 1: Introducción y adquisición de señales EMG , ECG Y EEG.
- - Unidad 2: Procesamiento y de señales EMG , ECG Y EEG.
- - Unidad 3: Introducción a la informática biomédica
-
-### Materiales del curso
-| Material  | Descripción | Imagen |
-| ------------- | ------------- |------------- |
-| Arduino Nano 33 IoT  | Es una placa específicamente diseñada para aplicaciones IoT y se basa en un potente procesador SAMD21 a 48Mhz con 256 Kb de memoria Flash para el programa y 32 Kb de memoria SRAM.  |<image src ="Imagen/arduino-nano-33-iot.webp">  |
-| Fluke ProSim 4  | Es un simulador de paciente que imita los signos vitales del paciente como la presion arterial , frecuencia cardiáca y la respiración , para ayudar en el entrenamiento y prueba de equipos medicos   |<image src ="Imagen/prosim4f.png"> |
-| BITalino  |  Este es el kit de herramientas para  crear prototipos y aplicaciones utilizando sensores fisiológicos para obtener señales biomédicos como ECG y EMG   |<image src ="Imagen/descarga.jfif"> |
-
-### Temática del proyecto
-
-El proyecto tiene como objetivo adquirir, procesar y analizar  señales EMG de antebrazo para simular movimientos en una  prótesis  electrónica y funcional de bajo costo para un paciente con amputación transradial debido a accidentes mayoritariamente laborales
-
-### Justificación del proyecto
-
-La OMS declara  que al año se realizan más de 1 millón de amputaciones, a su vez, según el INR, las amputaciones de miembros superiores representan el 14% de los casos, con mayor incidencia en países de medios a bajos ingresos y en personas jóvenes de alrededor  de 34 años.[2]
-
-Se han identificado obstáculos en el avance de las prótesis controladas por señales EMG para amputaciones como en los casos presentados . La optimización de la usabilidad y la funcionalidad, el aseguramiento de una alta fiabilidad de la señal  y la obtención de una respuesta rápida de la prótesis son desafíos fundamentales que podrían abordarse mediante posibles soluciones. Enfocarse en estos aspectos permitirá el desarrollo de prótesis más eficaces y accesibles, con el potencial de mejorar significativamente la calidad de vida de los usuarios. [3]
-Por ello  la importancia del proyecto ya que busca lograr una captura precisa de las señales EMG el cual es un aspecto esencial para crear prótesis eficientes y funcionales que marquen una diferencia en el desarrollo de soluciones innovadoras. [4]
+# Development of a Machine Learning Model for Muscle Fatigue Monitoring in the Lateral Vastus Muscle during Static Bicycle Rehabilitation using sEMG: Optimization of Rehabilitation Routines and Prevention of Muscle Injuries
 
 
+## Resumen 
 
-### Metodología del proyecto
-1. Adquisición de la señal electromiográfica del antebrazo
-2. Procesamiento de señal en Phyton
-3. Aplicación de filtros digitales a la señal
-4. Análisis de la señal para simular movimientos en la prótesis. 
-5.  Obtención de resultados preliminares.
-6.  Documentación de la investigación.
+Este estudio propone un sistema en tiempo real de monitoreo de fatiga muscular basado en sensores de electromiografía de superficie (sEMG) y aprendizaje automático para optimizar la rehabilitación y prevenir lesiones musculares por sobreesfuerzo durante ejercicios en bicicleta estática. El sistema se centra específicamente en el músculo vasto lateral por su importante rol en la generación de fuerza durante el pedaleo.
 
+Se desarrolló un modelo de clasificación RandomForest que logró una precisión de 90% en la detección de estados de fatiga y no fatiga muscular durante una prueba incremental de 10 minutos en bicicleta estática. 
+
+Los resultados de la prueba estadística de Wilcoxon confirmaron diferencias significativas en las características de la señal EMG antes y después del umbral de detección de fatiga hallado por el modelo, validando su capacidad para identificar correctamente el inicio de la fatiga.
+
+## Motivación
+
+La falta de monitoreo adecuado de la fatiga muscular durante ejercicios de rehabilitación puede ocasionar sobreesfuerzo, retraso en la recuperación e incluso nuevas lesiones. Por ello, es vital desarrollar sistemas confiables de detección de fatiga en tiempo real para optimizar las rutinas de rehabilitación.
+
+La elección de enfocarse en el ejercicio de bicicleta estática se basó en que es un método idóneo de rehabilitación de lesiones de miembros inferiores, al permitir modular la posición para trabajar grupos musculares específicos. Además, involucra la activación de músculos propensos a lesiones como el vasto lateral, crucial en la generación de fuerza durante el pedaleo.
+
+## Metodología
+
+Se utilizaron electrodos de superficie para adquirir señales EMG del músculo vasto lateral durante una prueba incremental de 10 minutos en bicicleta estática. Las señales fueron preprocesadas con filtrado digital y segmentación.
+
+Se extrajeron características estadísticas y basadas en transformada wavelet para entrenar un modelo RandomForest de clasificación entre estados de fatiga y no fatiga. El conjunto de datos fue dividido 80/20 en entrenamiento y prueba previa normalización de características.
+
+## Principales hallazgos
+
+- El modelo RandomForest alcanzó 90% de precisión en la clasificación de estados de fatiga muscular a partir de las señales sEMG registradas.
+
+- Los coeficientes de wavelet de niveles iniciales demostraron ser indicadores clave de fatiga.
+
+- La prueba de Wilcoxon confirmó diferencias estadísticamente significativas en las características extraídas antes y después del umbral de detección de fatiga.
+
+- El sistema propuesto es prometedor para la implementación en entornos reales de rehabilitación y la optimización de protocolos.
+
+## Conclusiones
+
+El modelo de aprendizaje automático desarrollado permite detectar confiablemente el inicio de la fatiga muscular durante ejercicios de rehabilitación en bicicleta estática a partir del análisis de señales sEMG. Esto facilitaría el monitoreo en tiempo real para ajustar oportunamente las cargas de trabajo y prevenir sobreesfuerzo y complicaciones.
+
+Se sentaron bases para investigaciones orientadas a evaluar el impacto de este tipo de sistemas de monitoreo inteligente de fatiga muscular en los resultados a mediano y largo plazo de programas de rehabilitación física.
 
 ### Integrantes del proyecto
 
@@ -68,21 +46,12 @@ Por ello  la importancia del proyecto ya que busca lograr una captura precisa de
 - Gianfranco Fabian Feria Maquera (colaborador) - gianfranco.feria@upch.pe 
 - Eduardo André Cuti Riveros (colaborador) -  eduardo.cuti@upch.pe 
 
-### Foto grupal
 
-<image src ="Imagen/fotogrupal.jpeg"> 
+Para mayor información sobre el equipo de investigación, revisar el [Entregable 1][enlace-entregable1]
 
-### Docentes del curso
-- Umbert Lewis De La Cruz
-- Moisés Meza
-- José Alonso Cáceres
-- Julissa Venancio
+[enlace-entregable1]: https://github.com/arianacarbajal/ISB_Grupo3/blob/3df8663a70e21ea88d1cc997fa5a18c9b391c73e/ISB/Laboratorios/1.Sobre%20nosotros.md
 
-### Bibliografía
-[1] Procesamiento y Clasificación de Bioseñales con Inteligencia Computacional. (s.f.). SMIA. http://smia.mx/comia/2017/index.php?option=com_content&amp;view=article&amp;id=12&amp;Itemid=127
 
-[2] Resolución directoral, 132-2021-SA-DG-INR, Ministerio de Salud - Instituto Nacional de Rehabilitación, Lima, 2021. Accedido el 18 de agosto de 2023. [En línea]. Disponible: https://www.inr.gob.pe/transparencia/transparencia%20inr/resoluciones/2021/RD%20132-2021-SA-DG-INR.pdf
- 
-[3] Unanyan, N. N., & Belov, A. A. (2021). “Design of upper limb prosthesis using real-time motion detection method based on EMG signal processing”. Biomedical Signal Processing and Control, 70, 103062. doi:10.1016/j.bspc.2021.103062 
+Para mayor información sobre el código empleado , revisar el [Código Entregable 1][enlace-entregable1]
 
-[4] Bi, L., Feleke, A. >Genetu, & Guan, C. (2019). A review on EMG-based motor intention prediction of continuous human upper limb motion for human-robot collaboration. Biomedical Signal Processing and Control, 51, 113–127. doi:10.1016/j.bspc.2019.02.011 
+[enlace-entregable1]:
