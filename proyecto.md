@@ -10,7 +10,7 @@
 - [Problemática](#Problemática).
 - [Estado del arte](#estado).
 - [Propuesta de solución](#propuesta).
-- [Metodología del proyecto](#Metodología).
+- [Resultados](#Resultados).
 - [Integrantes del proyecto](#Integrantes_del_proyecto).
 - [Bibliografía](#Bibliografía).
 
