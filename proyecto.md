@@ -167,7 +167,8 @@ Tras el entrenamiento, se procedió a la evaluación del modelo en el conjunto d
  
 </div>
 
-  RESULTADOS
+### RESULTADOS
+
 Después de separar las señales adquiridas en dos grupos, entrenamiento y testeo, se pudo analizar el modelo de Machine learning utilizado, el cual logró alcanzar un 90% de precisión , consiguiendo un 90% de sensibilidad y otros 90% de especificidad, mostrándonos un rendimiento adecuado.
 
 
